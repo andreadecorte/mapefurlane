@@ -1,0 +1,52 @@
+name: Generate map and publish updates
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      # Fix timestamps
+      - name: Restore timestamps
+        uses: chetan/git-restore-mtime-action@v2
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install osmium-tool
+      - name: Build and install tilemaker to get latest version
+        run: | 
+          sudo apt-get install build-essential libboost-dev libboost-filesystem-dev libboost-iostreams-dev libboost-program-options-dev libboost-system-dev liblua5.1-0-dev libprotobuf-dev libshp-dev libsqlite3-dev protobuf-compiler rapidjson-dev
+          git clone -b v2.3.0 --depth 1 https://github.com/systemed/tilemaker.git /tmp/tilemaker
+          cd /tmp/tilemaker
+          make
+          sudo make install
+          cd -
+      - name: Generate map
+        run: ./extract.sh
+      - name: Upload changed files to test path
+        if: github.event.pull_request.merged == true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.test_dir }}
+          dry-run: true
+          exclude: |
+            **/.git*
+            **/.git*/**
+      - name: Upload changed files to standard path
+        if: github.event.pull_request.merged == false
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.prod_dir }}
+          dry-run: true
+          exclude: |
+            **/.git*
+            **/.git*/**

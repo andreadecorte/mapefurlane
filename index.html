@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fur">
+
+<head>
+    <meta charset="utf-8" />
+	<meta name="description" content="Une mape libare dute in marilenghe. Basade su OpenStreetMap cui toponims par furlan standard e te variante locâl" />
+    <title>Mape furlane</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
+	<script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script>
+	<link
+	rel="stylesheet"
+	href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css"
+	type="text/css"
+	/>
+
+	<!-- <style type="text/css"> -->
+	  <!-- #map{ -->
+			<!-- display:block; -->
+    		<!-- /*set the width and height to 100% of the screen*/ -->
+			<!-- width:96%; -->
+			<!-- height:90%; -->
+			<!-- min-height: 90%; -->
+			<!-- /*this will center the div*/ -->
+			<!-- margin-left: auto;  -->
+			<!-- margin-right: auto; -->
+		<!-- } -->
+		<!-- html, body { height: 100%; width: 100%; margin: 0; } -->
+		<!-- li { -->
+			<!-- font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif"; -->
+			<!-- font-size: 12px; -->
+		<!-- } -->
+	<!-- </style> -->
+	<style>
+	html, body { height: 100%; width: 100%; margin: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%;
+			height:100%;
+
+			<!-- /*this will center the div*/ -->
+		 margin-left: auto; 
+		 margin-right: auto;
+			}
+	</style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+        var map = new maplibregl.Map({
+            container: 'map',
+            style: 'friul.json',
+            center: [13.23, 46.06],
+			maxBounds: [12.2443,45.5427,13.9561,46.6718],
+            zoom: 8
+        });
+        map.addControl(new maplibregl.NavigationControl());
+		map.addControl(new maplibregl.AttributionControl({
+			customAttribution: '© <a href="https://openmaptiles.org">OpenMapTiles</a> © <a href="https://www.openstreetmap.org/copyright">Colaboradôrs di OpenStreetMap</a><strong>'
+		}));
+		map.addControl(new maplibregl.FullscreenControl({container: document.querySelector('body')}));
+		map.addControl(new maplibregl.ScaleControl({}));
+		
+		var geocoder_api = {
+			forwardGeocode: async (config) => {
+				const features = [];
+				try {
+					let request =
+						'https://nominatim.openstreetmap.org/search?q=' +
+						config.query +
+						'&format=geojson&accept-language=fur&viewbox=12.2443%2C45.5427%2C13.9561%2C46.6718&bounded=1';
+					const myHeaders = new Headers({
+					  "User-Agent": "mapefurlane.eu",
+					});
+					const response = await fetch(request, { headers: myHeaders});
+					const geojson = await response.json();
+					for (let feature of geojson.features) {
+						let center = [
+							feature.bbox[0] +
+								(feature.bbox[2] - feature.bbox[0]) / 2,
+							feature.bbox[1] +
+								(feature.bbox[3] - feature.bbox[1]) / 2
+						];
+						let point = {
+							type: 'Feature',
+							geometry: {
+								type: 'Point',
+								coordinates: center
+							},
+							place_name: feature.properties.display_name,
+							properties: feature.properties,
+							text: feature.properties.display_name,
+							place_type: ['place'],
+							center: center
+						};
+						features.push(point);
+					}
+				} catch (e) {
+					console.error(`Failed to forward Geocode with error: ${e}`);
+				}
+
+				return {
+					features: features
+				};
+			}
+		};
+		map.addControl(
+			new MaplibreGeocoder(geocoder_api, {
+				maplibregl: maplibregl,
+				placeholder: "Cîr",
+				collapsed: true,
+				limit: 6,
+				countries: "IT",
+				language: "fur",
+				flyTo: ({zoom: 14}),
+			})
+		);
+		var url = 'https://raw.githubusercontent.com/andreadecorte/parsemypsa/master/test-requirements.txt';
+fetch(url)
+    .then(response => {
+		    if (!response.ok) {
+      throw new Error(`HTTP error: ${response.status}`);
+    }
+        console.log(response.text());
+    });
+    </script>
+</body>
+
+</html>
