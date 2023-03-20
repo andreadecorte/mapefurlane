@@ -1,0 +1,123 @@
+name: Generate map and publish content
+on: push
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      # Fix timestamps
+      - name: Restore timestamps
+        uses: chetan/git-restore-mtime-action@v2
+      - name: Patch paths when doing a Pull Request
+        if: github.event.pull_request.merged == false
+        env:
+          TEST_DIR: ${{ secrets.test_dir }}
+        run: | 
+          directory=$(echo $TEST_DIR | cut -d '/' -f 2)
+          sed -i "s|v2|$directory|" metadata.json
+          sed -i "s/main/$GITHUB_REF_NAME/" index.html
+      - name: Patch map last update
+        run: | 
+          MAPDATE=`cat MAPDATE.txt`
+          MAPDATE2=$(date -d $MAPDATE +'%d/%m/%Y')
+          echo $MAPDATE2
+          sed -i "s|Dâts: 0|Dâts: $MAPDATE2|" index.html
+      - name: Upload changed files to test path
+        if: github.event.pull_request.merged == false
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.test_dir }}
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/coastline/**
+            **/resources/**
+            generate.sh
+            LICENSE
+            **/.git*/**
+            friul.mbtiles
+      - name: Upload changed files to standard path
+        if: github.event.pull_request.merged == true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.prod_dir }}
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/coastline/**
+            **/resources/**
+            generate.sh
+            LICENSE
+            **/.git*/**
+            friul.mbtiles
+  map-data-needs-refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.check.outputs.result }}
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Check if we need to run
+        id: check
+        run: |
+          diff MAPDATE.txt <(curl -s https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/MAPDATE.txt) && res=0 || res=1
+          echo "result=$res" >> $GITHUB_OUTPUT
+  map-data:
+    runs-on: ubuntu-latest
+    needs: map-data-needs-refresh
+    if: ${{ needs.map-data-needs-refresh.outputs.result != 0 }}
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install osmium-tool
+      - name: Build and install tilemaker to get latest version
+        run: | 
+          sudo apt-get install build-essential libboost-dev libboost-filesystem-dev libboost-iostreams-dev libboost-program-options-dev libboost-system-dev liblua5.1-0-dev libprotobuf-dev libshp-dev libsqlite3-dev protobuf-compiler rapidjson-dev
+          git clone -b v2.3.0 --depth 1 https://github.com/systemed/tilemaker.git /tmp/tilemaker
+          cd /tmp/tilemaker
+          make
+          sudo make install
+          cd -
+      - name: Generate map data
+        run: ./generate.sh
+      - name: Upload changed files to test path
+        if: github.event.pull_request.merged == false
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.test_dir }}
+          state-name: ".ftp-deploy-sync-state-map.json"
+          dry-run: false
+          exclude: |
+            **/!(friul.mbtiles)
+      - name: Upload changed files to standard path
+        if: github.event.pull_request.merged == true
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.prod_dir }}
+          state-name: ".ftp-deploy-sync-state-map.json"
+          dry-run: false
+          exclude: |
+            **/!(friul.mbtiles)
