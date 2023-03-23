@@ -21,7 +21,7 @@ jobs:
         run: | 
           directory=$(echo $TEST_DIR | cut -d '/' -f 2)
           sed -i "s|v2|$directory|" metadata.json
-          sed -i "s/main/$GITHUB_REF_NAME/" index.html
+          sed -i "s|main|$GITHUB_REF_NAME|" index.html
       - name: Patch map last update
         run: | 
           MAPDATE=`cat MAPDATE.txt`
