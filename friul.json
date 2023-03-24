@@ -1821,9 +1821,9 @@
           ["get", "loc_name:fur"],
           {"font-scale": 0.8}
         ],
-        "text-font": ["Roboto Regular"],
+        "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 5,
-        "text-size": {"base": 6, "stops": [[10, 12], [15, 22]]}
+        "text-size": {"base": 3, "stops": [[12, 10], [15, 14]]}
       },
       "paint": {
         "text-color": "#666",
