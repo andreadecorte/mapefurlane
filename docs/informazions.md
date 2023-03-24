@@ -43,5 +43,5 @@ La v2 e je vignude fûr tal mês di Març dal 2023.
 
 ## Leams utii
 
-* https://www.arlef.it/documents/toponomastiche-denominazions-uficials-in-lenghe-furlane/Denominazions_uficials_in_lenghe_furlane.pdf
+* https://arlef.it/app/uploads/documenti/DPReg_Toponimi_ALLEGATO.pdf
 * http://www.toponomasticafriulana.it
