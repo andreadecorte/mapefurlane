@@ -1,12 +1,17 @@
-# Cemût che e je fate
-Cheste mape che si pues viodi lì di [mapefurlane.eu](https://www.mapefurlane.eu) e je basade sui dâts di [OpenStreetMap](https://www.openstreetmap.org), un progjet pe creazion di une mape libare dal mont. Su la base di chescj dâts e je stated metude in pins une visualizazion che mete in evidence dôs etichetis (o tags) par ogni gjenar di risorse:
+# mapefurlane.eu
 
- name:fur
- loc_name:fur
+## Cemût che e je fate
+
+Cheste mape che si pues viodi lì di [mapefurlane.eu](https://www.mapefurlane.eu) e je basade sui dâts di [OpenStreetMap](https://www.openstreetmap.org), un progjet pe creazion di une mape libare dal mont. Su la base di chescj dâts e je state metude in pins une visualizazion che mete in evidence dôs etichetis (o tags) par ogni gjenar di risorse:
+
+```
+name:fur
+loc_name:fur
+```
 
 Il prin al corispuint al **nom te lenghe furlane in version standard**. Il secont al **nom inte version locâl** (se al è difarent di chê uficiâl). Un esempli al è *Gurize/Guriza*.
 
-## Tecnicamentri
+### Tecnicamentri
 
 Une spiegazion par inglês e je disponibile tal [README](../README.md).
 
@@ -16,27 +21,27 @@ I dâts a vegnin discjamâts di [geofabrik.de](https://www.geofabrik.de/) che a 
 
 Dut il procès apene descrit al è automatic doprant un workflow GitHub che si pues cjatâ [culì](../.github/workflows/generate-and-publish.yaml).
 
-## Inzornaments
+### Inzornaments
 
 La date dai inzornaments dai dâts de mape e je disponibile in bas a diestre de mape. La sorzint e je un file [su chest depuesit GitHub](../MAPDATE.txt). Inzornâ chest file al invie il procès di gjenerazion e publicazion dai risultâts.
 
-# Vino finît?
+## Vino finît?
 
 A livel di nons dai paîs, ducj i comuns e i paîs plui grancj a varessin di jessi par furlan; al è ancje un bon numar di monts, flum e lâts. Di cualchi bande si rive ancje a nivel di viis (provait a cirî San Vît de Tor!).
 
 In plui di chest, a mancjin ancjemò un grum di monts, roiuts, paisuts, nons des stradis, scuelis... no si à mai finît!
 
-# Cemût fasio a dâ une man?
+## Cemût fasio a dâ une man?
 
-Il mût plui facil par judâ al è chel di regjistrâsi su [OpenStreetMap](https://www.openstreetmap.org) (si pues notâ come il sît al sedi par furlan se si dopre un sgarfadôr furlanizât come Firefox). Une volte culì al conven cjalâ la documentazion par scomençâ. Par mapâ si pues doprâ o l'imprest sul sît che si clame ID o se no un program separât come JOSM. Se o viodìn puescj, stradis o cualsisei carateristiche gjeografiche, o podin zontâ une etichete name:fur e ancje loc_name:fur se al covente. Altris risorsis e pagjinis di jutori si cjatin sul sît (https://www.openstreetmap.org/help).
+Il mût plui facil par judâ al è chel di regjistrâsi su [OpenStreetMap](https://www.openstreetmap.org) (si pues notâ come il sît al sedi par furlan se si dopre un sgarfadôr furlanizât come Firefox). Une volte culì al conven cjalâ la documentazion par scomençâ. Par mapâ si pues doprâ o l'imprest sul sît che si clame ID o se no un program separât come JOSM. Se o viodìn puescj, stradis o cualsisei carateristiche gjeografiche, o podin zontâ une etichete *name:fur* e ancje *loc_name:fur* se al covente. Altris risorsis e pagjinis di jutori si cjatin sul sît (https://www.openstreetmap.org/help).
 
-# Storie
+## Storie
 
 Mapefurlane.eu e nas ae fin dal 2011. La prime version si pues ancjemò cjatâ [culì](https://www.mapefurlane.eu/v1). Lis difarencis a son technichis e a livel di inzornament, che in chê volte al jere fûr par fûr manuâl.
 
 La v2 e je vignude fûr tal mês di Març dal 2023.
 
-# Leams utii
+## Leams utii
 
 * https://www.arlef.it/documents/toponomastiche-denominazions-uficials-in-lenghe-furlane/Denominazions_uficials_in_lenghe_furlane.pdf
 * http://www.toponomasticafriulana.it
