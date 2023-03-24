@@ -33,7 +33,7 @@ In plui di chest, a mancjin ancjemò un grum di monts, roiuts, paisuts, nons des
 
 ## Cemût fasio a dâ une man?
 
-Il mût plui facil par judâ al è chel di regjistrâsi su [OpenStreetMap](https://www.openstreetmap.org) (si pues notâ come il sît al sedi par furlan se si dopre un sgarfadôr furlanizât come Firefox). Une volte culì al conven cjalâ la documentazion par scomençâ. Par mapâ si pues doprâ o l'imprest sul sît che si clame ID o se no un program separât come JOSM. Se o viodìn puescj, stradis o cualsisei carateristiche gjeografiche, o podin zontâ une etichete *name:fur* e ancje *loc_name:fur* se al covente. Altris risorsis e pagjinis di jutori si cjatin sul sît (https://www.openstreetmap.org/help).
+Il mût plui facil par judâ al è chel di regjistrâsi su [OpenStreetMap](https://www.openstreetmap.org) (si pues notâ come il sît al sedi par furlan se si dopre un sgarfadôr furlanizât come Firefox). Une volte culì al conven cjalâ la documentazion par scomençâ. Par mapâ si pues doprâ o l'imprest sul sît che si clame ID o se no un program separât come JOSM. Se o viodìn puescj, stradis o cualsisei carateristiche gjeografiche, o podin zontâ une etichete *name:fur* e ancje *loc_name:fur* se al covente. Altris risorsis e pagjinis di jutori si cjatin sul sît di [OpenStreetMap](https://www.openstreetmap.org/help).
 
 ## Storie
 
