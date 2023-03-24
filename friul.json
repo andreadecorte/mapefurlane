@@ -8,15 +8,15 @@
   },
   "sources": {
     "openmaptiles": {
-	  "type": "vector",
-	  "url": "metadata.json"
+      "type": "vector",
+      "url": "metadata.json"
     }
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
   "glyphs": "https://cdn.jsdelivr.net/gh/kylebarron/openmaptiles-fonts/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
-      "id": "background", 
+      "id": "background",
       "type": "background",
       "paint": {"background-color": "rgb(239,239,239)"}
     },
@@ -1310,13 +1310,15 @@
       "source-layer": "waterway",
       "filter": ["all", ["==", "$type", "LineString"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  " ",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          " ",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Regular"],
         "text-max-width": 5,
         "text-size": 12,
@@ -1335,13 +1337,15 @@
       "source-layer": "water_name",
       "filter": ["==", "$type", "Point"],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Regular"],
         "text-max-width": 5,
         "text-size": 12
@@ -1362,13 +1366,15 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "top",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
@@ -1396,13 +1402,15 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "top",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
@@ -1430,13 +1438,15 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "top",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0, 0.6],
@@ -1458,13 +1468,15 @@
       "layout": {
         "icon-image": "{class}_11",
         "text-anchor": "left",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 9,
         "text-offset": [0.9, 0],
@@ -1486,13 +1498,15 @@
       "layout": {
         "symbol-placement": "line",
         "text-anchor": "center",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "  ",
-		  {"font-scale": 0.8 },
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "  ",
+          {"font-scale": 0.8},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Regular"],
         "text-offset": [0, 0.15],
         "text-size": {"base": 1, "stops": [[13, 12], [14, 13]]}
@@ -1542,13 +1556,15 @@
         ]
       ],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-letter-spacing": 0.1,
         "text-max-width": 9,
@@ -1568,13 +1584,15 @@
       "source-layer": "place",
       "filter": ["all", ["==", "class", "village"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.1 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1.1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Regular"],
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[10, 12], [15, 22]]}
@@ -1594,13 +1612,15 @@
       "layout": {
         "icon-image": {"base": 1, "stops": [[0, "dot_9"], [8, ""]]},
         "text-anchor": "bottom",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.1 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1.1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Regular"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -1622,13 +1642,15 @@
       "layout": {
         "icon-image": {"base": 1, "stops": [[0, "dot_9"], [8, ""]]},
         "text-anchor": "bottom",
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.1 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1.1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Medium"],
         "text-max-width": 8,
         "text-offset": [0, 0],
@@ -1650,13 +1672,15 @@
       "maxzoom": 6,
       "filter": ["all", ["==", "class", "state"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-size": {"stops": [[4, 11], [6, 15]]},
         "text-transform": "uppercase"
@@ -1674,13 +1698,15 @@
       "source-layer": "place",
       "filter": ["all", [">=", "rank", 3], ["==", "class", "country"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[3, 11], [7, 17]]},
@@ -1700,13 +1726,15 @@
       "source-layer": "place",
       "filter": ["all", ["==", "rank", 2], ["==", "class", "country"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[2, 11], [5, 17]]},
@@ -1726,13 +1754,15 @@
       "source-layer": "place",
       "filter": ["all", ["==", "rank", 1], ["==", "class", "country"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-max-width": 6.25,
         "text-size": {"stops": [[1, 11], [4, 17]]},
@@ -1753,13 +1783,15 @@
       "maxzoom": 1,
       "filter": ["all", ["==", "class", "continent"]],
       "layout": {
-        "text-field": ["format",
-		  ["get","name:latin"],
-		  {"font-scale": 1.0 },
-		  "\n",
-		  {},
-		  ["get","loc_name:fur"],
-		  {"font-scale": 0.8 }],
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
         "text-font": ["Roboto Condensed Italic"],
         "text-size": 13,
         "text-transform": "uppercase",
@@ -1769,6 +1801,34 @@
         "text-color": "#633",
         "text-halo-color": "rgba(255,255,255,0.7)",
         "text-halo-width": 1
+      }
+    },
+    {
+      "id": "mountain",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "mountain_peak",
+      "minzoom": 13,
+      "maxzoom": 20,
+      "layout": {
+        "icon-image": "mountain_11",
+        "text-field": [
+          "format",
+          ["get", "name:latin"],
+          {"font-scale": 1.1},
+          "\n",
+          {},
+          ["get", "loc_name:fur"],
+          {"font-scale": 0.8}
+        ],
+        "text-font": ["Roboto Condensed Italic"],
+        "text-max-width": 5,
+        "text-size": {"base": 3, "stops": [[12, 10], [15, 14]]}
+      },
+      "paint": {
+        "text-color": "#666",
+        "text-halo-color": "rgba(255,255,255,0.8)",
+        "text-halo-width": 1.2
       }
     }
   ],
