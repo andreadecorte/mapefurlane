@@ -21,6 +21,10 @@ I dâts a vegnin discjamâts di [geofabrik.de](https://www.geofabrik.de/) che a 
 
 Dut il procès apene descrit al è automatic doprant un workflow GitHub che si pues cjatâ [culì](../.github/workflows/generate-and-publish.yaml).
 
+### Ricercje
+
+La ricercje e basade su [Nominatim](https://nominatim.openstreetmap.org/ui/search.html).
+
 ### Inzornaments
 
 La date dai inzornaments dai dâts de mape e je disponibile in bas a diestre de mape. La sorzint e je un file [su chest depuesit GitHub](../MAPDATE.txt). Inzornâ chest file al invie il procès di gjenerazion e publicazion dai risultâts.

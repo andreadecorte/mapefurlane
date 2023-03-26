@@ -133,10 +133,12 @@ majorRoadValues = Set { "motorway", "trunk", "primary" }
 mainRoadValues  = Set { "secondary", "motorway_link", "trunk_link", "primary_link", "secondary_link" }
 midRoadValues   = Set { "tertiary", "tertiary_link" }
 minorRoadValues = Set { "unclassified", "residential", "road", "living_street" }
-trackValues     = Set { "cycleway", "byway", "bridleway", "track" }
-pathValues      = Set { "footway", "path", "steps", "pedestrian" }
+trackValues     = Set { "track" }
+pathValues      = Set { "footway", "cycleway", "bridleway", "path", "steps", "pedestrian" }
 linkValues      = Set { "motorway_link", "trunk_link", "primary_link", "secondary_link", "tertiary_link" }
 constructionValues = Set { "primary", "secondary", "tertiary", "motorway", "service", "trunk", "track" }
+pavedValues     = Set { "paved", "asphalt", "cobblestone", "concrete", "concrete:lanes", "concrete:plates", "metal", "paving_stones", "sett", "unhewn_cobblestone", "wood" }
+unpavedValues   = Set { "unpaved", "compacted", "dirt", "earth", "fine_gravel", "grass", "grass_paver", "gravel", "gravel_turf", "ground", "ice", "mud", "pebblestone", "salt", "sand", "snow", "woodchips" }
 
 aerowayBuildings= Set { "terminal", "gate", "tower" }
 landuseKeys     = Set { "school", "university", "kindergarten", "college", "library", "hospital",
@@ -285,7 +287,7 @@ function way_function(way)
 	-- Roads ('transportation' and 'transportation_name', plus 'transportation_name_detail')
 	if highway~="" then
 		local access = way:Find("access")
-		if access=="private" or access=="no" then return end
+		local surface = way:Find("surface")
 
 		local h = highway
 		local minzoom = 99
@@ -332,6 +334,9 @@ function way_function(way)
 			way:Attribute("class", h)
 			SetBrunnelAttributes(way)
 			if ramp then way:AttributeNumeric("ramp",1) end
+			if access=="private" or access=="no" then way:Attribute("access", "no") end
+			if pavedValues[surface] then way:Attribute("surface", "paved") end
+			if unpavedValues[surface] then way:Attribute("surface", "unpaved") end
 
 			-- Service
 			if highway == "service" and service ~="" then way:Attribute("service", service) end
