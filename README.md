@@ -29,7 +29,15 @@ The whole generation process is automated through a GitHub Workflow available in
 2. cutting it with osmium
 3. generating vector tiles with tilemaker
 4. publishing vector tiles
-5. publishing static files (visualization is done through MapLibre JS)
+5. publishing static files
+
+## Visualization
+
+Frontend is [MapLibre GL JS](https://maplibre.org/maplibre-gl-js-docs) with Nominatim as geocoder.
+
+The style is available [here](friul.json) and it's based on [OSM Liberty](https://maputnik.github.io/osm-liberty/) with some customizations:
+* names
+* mountain peaks
 
 ## Contributing
 
