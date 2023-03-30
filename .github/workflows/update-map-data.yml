@@ -24,5 +24,3 @@ jobs:
         with:
           commit_message: Update map data to latest extract
           file_pattern: 'MAPDATE.txt'
-          branch: test-commit
-          create_branch: true
