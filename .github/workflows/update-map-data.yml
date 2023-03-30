@@ -1,0 +1,28 @@
+name: Update map data
+on:
+  workflow_dispatch:
+
+jobs:
+  bump-map-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+      
+      - name: Patch map date file
+        run: |
+          YESTERDAY=$(date +'%y%m%d' -d'yesterday')
+          original_filename="nord-est-${YESTERDAY}.osm.pbf"
+          # Fails if file not found
+          curl --output /dev/null --silent --head --fail "https://download.geofabrik.de/europe/italy/${original_filename}"
+          echo $YESTERDAY > MAPDATE.txt
+
+      - name: Commit map date file to the repository
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update map data to latest extract
+          file_pattern: 'MAPDATE.txt'
+          branch: test-commit
+          create_branch: true
