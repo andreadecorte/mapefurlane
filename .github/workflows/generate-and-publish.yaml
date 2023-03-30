@@ -1,7 +1,10 @@
 name: Generate map and publish content
 on:
   pull_request:
-    types: [opened, reopened, synchronize, closed]
+    types: [opened, reopened, synchronize]
+  push:
+    branches:
+      - 'main'
 
 jobs:
   site:
@@ -15,7 +18,7 @@ jobs:
       - name: Restore timestamps
         uses: chetan/git-restore-mtime-action@v2
       - name: Patch paths when doing a Pull Request
-        if: github.event.pull_request.merged == false
+        if: github.event_name == 'pull_request'
         env:
           TEST_DIR: ${{ secrets.test_dir }}
         run: | 
@@ -29,7 +32,7 @@ jobs:
           echo $MAPDATE2
           sed -i "s|Dâts: 0|Dâts: $MAPDATE2|" index.html
       - name: Upload changed files to test path
-        if: github.event.pull_request.merged == false
+        if: github.event_name == 'pull_request'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp_server }}
@@ -47,7 +50,7 @@ jobs:
             **/.git*/**
             friul.mbtiles
       - name: Upload changed files to standard path
-        if: github.event.pull_request.merged == true
+        if: github.event_name == 'push'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp_server }}
@@ -72,7 +75,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Check if we need to run in a PR
-        if: github.event.pull_request.merged == false
+        if: github.event_name == 'pull_request'
         id: check
         run: |
           diff MAPDATE.txt <(curl -s https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/MAPDATE.txt) && res=0 || res=1
@@ -81,7 +84,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: map-data-needs-refresh
     # Always run when merging
-    if: ${{ (github.event.pull_request.merged == true) || (needs.map-data-needs-refresh.outputs.result != 0) }}
+    if: ${{ (github.event_name == 'push') || (needs.map-data-needs-refresh.outputs.result != 0) }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
@@ -100,7 +103,7 @@ jobs:
       - name: Generate map data
         run: ./generate.sh
       - name: Upload changed files to test path
-        if: github.event.pull_request.merged == false
+        if: github.event_name == 'pull_request'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp_server }}
@@ -113,7 +116,7 @@ jobs:
           exclude: |
             **/!(friul.mbtiles)
       - name: Upload changed files to standard path
-        if: github.event.pull_request.merged == true
+        if: github.event_name == 'push'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp_server }}
