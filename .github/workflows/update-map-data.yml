@@ -1,6 +1,8 @@
 name: Update map data
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '42 6 * * *'
 
 jobs:
   bump-map-data:
