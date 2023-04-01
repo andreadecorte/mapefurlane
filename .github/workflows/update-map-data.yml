@@ -17,6 +17,7 @@ jobs:
         run: |
           YESTERDAY=$(date +'%y%m%d' -d'yesterday')
           original_filename="nord-est-${YESTERDAY}.osm.pbf"
+          echo "downloading ${original_filename}"
           # Fails if file not found
           curl --output /dev/null --silent --head --fail "https://download.geofabrik.de/europe/italy/${original_filename}"
           echo $YESTERDAY > MAPDATE.txt
