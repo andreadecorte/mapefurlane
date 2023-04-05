@@ -588,6 +588,8 @@ function SetNameAttributes(obj)
 			loc_name = obj:Find("loc_name:"..preferred_language)
 			if loc_name~="" and loc_name~=iname then
 				--iname = iname.." ("..loc_name..")"
+				-- replace ; with / for nicer display of alternatives
+				loc_name = loc_name:gsub(";", "/")
 				obj:Attribute("loc_name:"..preferred_language, loc_name)
 			end
 		end
