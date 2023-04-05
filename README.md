@@ -18,11 +18,23 @@ This rendering uses two tags:
 
 Those are rendered on the map with the second one in a smaller font, if it exists.
 
+See also the [documentation](https://wiki.openstreetmap.org/wiki/Key:name:fur) on the OpenStreetMap wiki.
+
 ## Updates
 
 The goal is to have regular updates Data updates are fully automated and they are triggered by a change in the [MAPDATE file](MAPDATE.txt). At merge, data will be generated and published.
 
 ## Technical stack
+
+```mermaid
+flowchart TD
+    A[Start] -- Get Italy Nord-Est extract from geofabrik.de --> B[Nord-Est data]
+    B -- cut with osmium --> C[Friuli region]
+    C -- process with tilemaker and slightly custom process config --> D[vector data in mbtiles format]
+    D -- serve with tileserver-php --> F
+    G[custom OpenTilesMap style] -- style --> F
+    F[MapLibre GL JS] <--> E[mapefurlane.eu]
+```
 
 The whole generation process is automated through a GitHub Workflow available in this repository. The steps are described below.
 1. getting extracts from geofabrik.de
