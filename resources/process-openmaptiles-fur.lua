@@ -498,7 +498,8 @@ function way_function(way)
 		if way:Holds("name") and natural=="water" and water ~= "basin" and water ~= "wastewater" then
 			way:LayerAsCentroid("water_name_detail")
 			SetNameAttributes(way)
-			SetMinZoomByArea(way)
+			if water=="lagoon" then way:MinZoom(9)
+			else SetMinZoomByArea(way) end
 			way:Attribute("class", class)
 		end
 
@@ -534,8 +535,8 @@ function way_function(way)
 
 	-- Parks
 	-- **** name?
-	if     boundary=="national_park" or boundary=="protected_area" then way:LayerAsCentroid("park"); way:Attribute("class",boundary); SetNameAttributes(way)
-	elseif leisure=="nature_reserve" then way:LayerAsCentroid("park"); way:Attribute("class",leisure); SetNameAttributes(way) end
+	if     boundary=="national_park" or boundary=="protected_area" then way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way)
+	elseif leisure=="nature_reserve" then way:Layer("park",true); way:Attribute("class",leisure); SetNameAttributes(way) end
 
 	-- POIs ('poi' and 'poi_detail')
 	local rank, class, subclass = GetPOIRank(way)
