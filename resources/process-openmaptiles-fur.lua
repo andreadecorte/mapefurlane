@@ -536,11 +536,9 @@ function way_function(way)
 	-- Parks
 	-- **** name?
 	if     boundary=="national_park" or boundary=="protected_area" then
-		way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way)
-		if way:Holds("protect_class") then way:AttributeNumeric("rank", protect_class) end
+		way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way); WriteParkRank(way)
 	elseif leisure=="nature_reserve" then
-		way:Layer("park",true); way:Attribute("class",leisure); SetNameAttributes(way) 
-		if way:Holds("protect_class") then way:AttributeNumeric("rank", protect_class) end
+		way:Layer("park",true); way:Attribute("class",leisure); SetNameAttributes(way); WriteParkRank(way)
 	end
 
 	-- POIs ('poi' and 'poi_detail')
@@ -581,6 +579,13 @@ function WritePOI(obj,class,subclass,rank)
 	obj:AttributeNumeric("rank", rank)
 	obj:Attribute("class", class)
 	obj:Attribute("subclass", subclass)
+end
+
+function WriteParkRank(obj)
+	local protect_class = obj:Find("protect_class")
+	if protect_class~="" then
+		obj:Attribute("rank", protect_class)
+	end
 end
 
 -- Set name attributes on any object
