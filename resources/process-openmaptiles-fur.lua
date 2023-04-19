@@ -535,8 +535,13 @@ function way_function(way)
 
 	-- Parks
 	-- **** name?
-	if     boundary=="national_park" or boundary=="protected_area" then way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way)
-	elseif leisure=="nature_reserve" then way:Layer("park",true); way:Attribute("class",leisure); SetNameAttributes(way) end
+	if     boundary=="national_park" or boundary=="protected_area" then
+		way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way)
+		if way:Holds("protect_class") then way:AttributeNumeric("rank", protect_class) end
+	elseif leisure=="nature_reserve" then
+		way:Layer("park",true); way:Attribute("class",leisure); SetNameAttributes(way) 
+		if way:Holds("protect_class") then way:AttributeNumeric("rank", protect_class) end
+	end
 
 	-- POIs ('poi' and 'poi_detail')
 	local rank, class, subclass = GetPOIRank(way)
