@@ -25,7 +25,7 @@
 
 		"aeroway":           { "minzoom": 11, "maxzoom": 14 },
 		"aerodrome_label":   { "minzoom": 10, "maxzoom": 14 },
-		"park":              { "minzoom": 9, "maxzoom": 14, "combine_polygons_below": 13 },
+		"park":              { "minzoom": 9, "maxzoom": 14, "combine_polygons_below": 14 },
 		"landuse":           { "minzoom":  4, "maxzoom": 14, "simplify_below": 13, "simplify_level": 0.0003, "simplify_ratio": 2 },
 		"urban_areas":       { "minzoom":  4, "maxzoom":  8, "source": "landcover/ne_10m_urban_areas/ne_10m_urban_areas.shp", "source_columns": ["featurecla"], "simplify_below": 7, "simplify_level": 0.0003, "simplify_ratio": 2, "write_to": "landuse" },
 		"landcover":         { "minzoom":  0, "maxzoom": 14, "simplify_below": 13, "simplify_level": 0.0003, "simplify_ratio": 2 },
