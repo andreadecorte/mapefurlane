@@ -536,9 +536,9 @@ function way_function(way)
 	-- Parks
 	-- **** name?
 	if     boundary=="national_park" or boundary=="protected_area" then
-		way:LayerAsCentroid("park"); way:Attribute("class",boundary); SetNameAttributes(way); WriteParkRank(way)
+		way:Layer("park", true); way:Attribute("class",boundary); SetNameAttributes(way); WriteParkRank(way)
 	elseif leisure=="nature_reserve" then
-		way:LayerAsCentroid("park"); way:Attribute("class",leisure); SetNameAttributes(way); WriteParkRank(way)
+		way:Layer("park", true); way:Attribute("class",leisure); SetNameAttributes(way); WriteParkRank(way)
 	end
 
 	-- POIs ('poi' and 'poi_detail')
