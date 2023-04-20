@@ -498,7 +498,8 @@ function way_function(way)
 		if way:Holds("name") and natural=="water" and water ~= "basin" and water ~= "wastewater" then
 			way:LayerAsCentroid("water_name_detail")
 			SetNameAttributes(way)
-			SetMinZoomByArea(way)
+			if water=="lagoon" then way:MinZoom(9)
+			else SetMinZoomByArea(way) end
 			way:Attribute("class", class)
 		end
 
@@ -534,8 +535,11 @@ function way_function(way)
 
 	-- Parks
 	-- **** name?
-	if     boundary=="national_park" then way:Layer("park",true); way:Attribute("class",boundary); SetNameAttributes(way)
-	elseif leisure=="nature_reserve" then way:Layer("park",true); way:Attribute("class",leisure ); SetNameAttributes(way) end
+	if     boundary=="national_park" or boundary=="protected_area" then
+		way:Layer("park", true); way:Attribute("class",boundary); SetNameAttributes(way); WriteParkRank(way)
+	elseif leisure=="nature_reserve" then
+		way:Layer("park", true); way:Attribute("class",leisure); SetNameAttributes(way); WriteParkRank(way)
+	end
 
 	-- POIs ('poi' and 'poi_detail')
 	local rank, class, subclass = GetPOIRank(way)
@@ -575,6 +579,13 @@ function WritePOI(obj,class,subclass,rank)
 	obj:AttributeNumeric("rank", rank)
 	obj:Attribute("class", class)
 	obj:Attribute("subclass", subclass)
+end
+
+function WriteParkRank(obj)
+	local protect_class = obj:Find("protect_class")
+	if protect_class~="" then
+		obj:Attribute("rank", protect_class)
+	end
 end
 
 -- Set name attributes on any object
