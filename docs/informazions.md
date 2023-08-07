@@ -2,7 +2,7 @@
 
 ## Cemût che e je fate
 
-Cheste mape che si pues viodi lì di [mapefurlane.eu](https://www.mapefurlane.eu) e je basade sui dâts di [OpenStreetMap](https://www.openstreetmap.org), un progjet pe creazion di une mape libare dal mont. Su la base di chescj dâts e je state metude in pins une visualizazion che mete in evidence dôs etichetis (o tags) par ogni gjenar di risorse:
+Cheste mape che si pues viodi lì di [mapefurlane.eu](https://www.mapefurlane.eu) e je basade sui dâts di [OpenStreetMap](https://www.openstreetmap.org), un progjet pe creazion di une mape libare dal mont. Su la base di chescj dâts e je state metude in pîts une visualizazion che met in evidence dôs etichetis (o tags) par ogni gjenar di risorse:
 
 ```
 name:fur
@@ -19,11 +19,11 @@ Dut ce che al covente par gjenerâ la mape al è chi dentri.
 
 I dâts a vegnin discjamâts di [geofabrik.de](https://www.geofabrik.de/) che a met a disposizion estrats di OpenStreetMap dividûts par regjons e inzornâts ogni dì. Chescj dâts a vegnin po taiâts e netâts doprant doi imprescj opensource, osmium e tilemaker. Produsìn cussì un file che al conten i dâts vetoriâi che nus coventin e che a cuvierzin il Friûl e alc ator. Chescj dâts e un stîl di visualizazion a son passâts a MapLibre JS che al è un imprest di visualizazion che nus permet di gjenerâ la mape finâl che si pues gjoldi lì di [mapefurlane.eu](https://www.mapefurlane.eu).
 
-Dut il procès apene descrit al è automatic doprant un workflow GitHub che si pues cjatâ [culì](../.github/workflows/generate-and-publish.yaml).
+Dut il procès apene descrit al è automatic e al dopre un workflow GitHub che si pues cjatâ [culì](../.github/workflows/generate-and-publish.yaml).
 
 ### Ricercje
 
-La ricercje e basade su [Nominatim](https://nominatim.openstreetmap.org/ui/search.html).
+La ricercje e basade su [Nominatim](https://nominatim.openstreetmap.org/ui/search.html) e je localizade, ven a stâi cui nons par furlan.
 
 ### Inzornaments
 
@@ -44,6 +44,10 @@ Il mût plui facil par judâ al è chel di regjistrâsi su [OpenStreetMap](https
 Mapefurlane.eu e nas ae fin dal 2011. La prime version si pues ancjemò cjatâ [culì](https://www.mapefurlane.eu/v1). Lis difarencis a son technichis e a livel di inzornament, che in chê volte al jere fûr par fûr manuâl.
 
 La v2 e je vignude fûr tal mês di Març dal 2023.
+
+## Altris progjets
+
+[Americana](https://zelonewolf.github.io/openstreetmap-americana/#map=8.65/46.1367/13.2534&language=fur) al è un progjet gjeneric che al pues ancje mostrâ une mape par furlan, ancje se mancul complete (par cumò a mancjin lis stradis par furlan par esempli.
 
 ## Leams utii
 
