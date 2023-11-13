@@ -197,6 +197,8 @@ poiClasses      = { townhall="town_hall", public_building="town_hall", courthous
 					bag="clothing_store", clothes="clothing_store",
 					swimming_area="swimming", swimming="swimming",
 					castle="castle", ruins="castle" }
+-- POI classes where class is the matching value and subclass is the value of a separate key
+poiSubClasses = { information="information", place_of_worship="religion", pitch="sport" }
 poiClassRanks   = { hospital=1, railway=2, bus=3, attraction=4, harbor=5, college=6,
 					school=7, stadium=8, zoo=9, town_hall=10, campsite=11, cemetery=12,
 					park=13, library=14, police=15, post=16, golf=17, shop=18, grocery=19,
@@ -247,6 +249,8 @@ function way_function(way)
 	if landuse == "meadow" and way:Find("meadow")=="agricultural" then landuse="farmland" end
 
 	-- Boundaries within relations
+	-- note that we process administrative boundaries as properties on ways, rather than as single relation geometries,
+	--  because otherwise we get multiple renderings where boundaries are coterminous
 	local admin_level = 11
 	local isBoundary = false
 	while true do
@@ -261,7 +265,7 @@ function way_function(way)
 		admin_level = math.min(admin_level, tonumber(way:Find("admin_level")) or 11)
 		isBoundary = true
 	end
-	
+
 	-- Administrative boundaries
 	-- https://openmaptiles.org/schema/#boundary
 	if isBoundary and not (way:Find("maritime")=="yes") then
@@ -337,6 +341,10 @@ function way_function(way)
 			if access=="private" or access=="no" then way:Attribute("access", "no") end
 			if pavedValues[surface] then way:Attribute("surface", "paved") end
 			if unpavedValues[surface] then way:Attribute("surface", "unpaved") end
+			if way:Holds("bicycle") then way:Attribute("bicycle", way:Find("bicycle")) end
+			if way:Holds("foot") then way:Attribute("foot", way:Find("foot")) end
+			if way:Holds("horse") then way:Attribute("horse", way:Find("horse")) end
+			if way:Holds("mtb:scale") then way:Attribute("mtb_scale", way:Find("mtb:scale")) end
 
 			-- Service
 			if highway == "service" and service ~="" then way:Attribute("service", service) end
@@ -575,6 +583,15 @@ function WritePOI(obj,class,subclass,rank)
 	obj:AttributeNumeric("rank", rank)
 	obj:Attribute("class", class)
 	obj:Attribute("subclass", subclass)
+	-- layer defaults to 0
+	obj:AttributeNumeric("layer", tonumber(obj:Find("layer")) or 0)
+	-- indoor defaults to false
+	obj:AttributeBoolean("indoor", (obj:Find("indoor") == "yes"))
+	-- level has no default
+	local level = tonumber(obj:Find("level"))
+	if level then
+		obj:AttributeNumeric("level", level)
+	end
 end
 
 -- Set name attributes on any object
@@ -651,6 +668,11 @@ function GetPOIRank(obj)
 			v = obj:Find(k)	-- k/v are the OSM tag pair
 			class = poiClasses[v] or k
 			rank  = poiClassRanks[class] or 25
+			subclassKey = poiSubClasses[v]
+			if subclassKey then
+				class = v
+				v = obj:Find(subclassKey)
+			end
 			return rank, class, v
 		end
 	end
