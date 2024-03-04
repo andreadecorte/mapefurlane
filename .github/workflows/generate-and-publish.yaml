@@ -33,7 +33,7 @@ jobs:
           sed -i "s|Dâts: 0|Dâts: $MAPDATE2|" index.html
       - name: Upload changed files to test path
         if: github.event_name == 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -51,7 +51,7 @@ jobs:
             friul.mbtiles
       - name: Upload changed files to standard path
         if: github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -104,7 +104,7 @@ jobs:
         run: ./generate.sh
       - name: Upload changed files to test path
         if: github.event_name == 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -117,7 +117,7 @@ jobs:
             **/!(friul.mbtiles)
       - name: Upload changed files to standard path
         if: github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
