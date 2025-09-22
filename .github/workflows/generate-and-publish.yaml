@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       # Fix timestamps
@@ -73,7 +73,7 @@ jobs:
       result: ${{ steps.check.outputs.result }}
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Check if we need to run in a PR
         if: github.event_name == 'pull_request'
         id: check
@@ -87,7 +87,7 @@ jobs:
     if: ${{ (github.event_name == 'push') || (needs.map-data-needs-refresh.outputs.result != 0) }}
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install tools
         run: |
           sudo apt-get update
