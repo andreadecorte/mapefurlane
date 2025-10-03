@@ -31,8 +31,28 @@ jobs:
           MAPDATE2=$(date -d $MAPDATE +'%d/%m/%Y')
           echo $MAPDATE2
           sed -i "s|Dâts: 0|Dâts: $MAPDATE2|" index.html
-      - name: Upload changed files to test path
+      - name: Upload changed files to test path - try1
+        id: uploadPR1
         if: github.event_name == 'pull_request'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        continue-on-error: true
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.test_dir }}
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/coastline/**
+            **/resources/**
+            generate.sh
+            LICENSE
+            **/.git*/**
+            friul.mbtiles
+      - name: Upload changed files to test path - try2
+        if: github.event_name == 'pull_request' && failure() && steps.uploadPR1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.ftp_server }}
