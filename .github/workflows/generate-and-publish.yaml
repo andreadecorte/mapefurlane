@@ -52,6 +52,7 @@ jobs:
             **/.git*/**
             friul.mbtiles
       - name: Sleep for 1 minute
+        if: github.event_name == 'pull_request' && steps.uploadPR1.outcome == 'failure'
         run: sleep 60s
         shell: bash
       - name: Upload changed files to test path - try2
@@ -93,6 +94,7 @@ jobs:
             **/.git*/**
             friul.mbtiles
       - name: Sleep for 1 minute
+        if: github.event_name == 'push' && steps.uploadProd1.outcome == 'failure'
         run: sleep 60s
         shell: bash
       - name: Upload changed files to standard path - try2
