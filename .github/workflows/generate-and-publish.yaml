@@ -31,8 +31,32 @@ jobs:
           MAPDATE2=$(date -d $MAPDATE +'%d/%m/%Y')
           echo $MAPDATE2
           sed -i "s|Dâts: 0|Dâts: $MAPDATE2|" index.html
-      - name: Upload changed files to test path
+      - name: Upload changed files to test path - try1
+        id: uploadPR1
         if: github.event_name == 'pull_request'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        continue-on-error: true
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.test_dir }}
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/coastline/**
+            **/resources/**
+            generate.sh
+            LICENSE
+            **/.git*/**
+            friul.mbtiles
+      - name: Sleep for 1 minute
+        if: github.event_name == 'pull_request' && steps.uploadPR1.outcome == 'failure'
+        run: sleep 60s
+        shell: bash
+      - name: Upload changed files to test path - try2
+        if: github.event_name == 'pull_request' && steps.uploadPR1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.ftp_server }}
@@ -49,8 +73,32 @@ jobs:
             LICENSE
             **/.git*/**
             friul.mbtiles
-      - name: Upload changed files to standard path
+      - name: Upload changed files to standard path - try1
+        id: uploadProd1
         if: github.event_name == 'push'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        continue-on-error: true
+        with:
+          server: ${{ secrets.ftp_server }}
+          protocol: "ftps"
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          server-dir: ${{ secrets.prod_dir }}
+          dry-run: false
+          exclude: |
+            **/.git*
+            **/coastline/**
+            **/resources/**
+            generate.sh
+            LICENSE
+            **/.git*/**
+            friul.mbtiles
+      - name: Sleep for 1 minute
+        if: github.event_name == 'push' && steps.uploadProd1.outcome == 'failure'
+        run: sleep 60s
+        shell: bash
+      - name: Upload changed files to standard path - try2
+        if: github.event_name == 'push' && steps.uploadProd1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.ftp_server }}
