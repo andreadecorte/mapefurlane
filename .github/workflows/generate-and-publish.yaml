@@ -52,7 +52,7 @@ jobs:
             **/.git*/**
             friul.mbtiles
       - name: Upload changed files to test path - try2
-        if: github.event_name == 'pull_request' && failure() && steps.uploadPR1.outcome == 'failure'
+        if: github.event_name == 'pull_request' && steps.uploadPR1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.ftp_server }}
@@ -90,7 +90,7 @@ jobs:
             **/.git*/**
             friul.mbtiles
       - name: Upload changed files to standard path - try2
-        if: github.event_name == 'push' && failure() && steps.uploadProd1.outcome == 'failure'
+        if: github.event_name == 'push' && steps.uploadProd1.outcome == 'failure'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.ftp_server }}
