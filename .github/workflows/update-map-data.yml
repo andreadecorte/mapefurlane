@@ -24,7 +24,7 @@ jobs:
           echo $YESTERDAY > MAPDATE.txt
 
       - name: Commit map date file to the repository
-        uses: stefanzweifel/git-auto-commit-action@v6
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update map data to latest extract
           file_pattern: 'MAPDATE.txt'
