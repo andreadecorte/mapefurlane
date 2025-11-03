@@ -54,11 +54,11 @@ The style is available [here](friul.json) and it's based on [OSM Liberty](https:
 
 ## Related projects
 
-[Americana](https://zelonewolf.github.io/openstreetmap-americana/#map=8.65/46.1367/13.2534&language=fur) is a general purpose rendering also based on vector tiles that can shown localized labels, including in Friulian.
-It offers a better visualization and level of polish; compared to Mape Furlane, it lacks a few things:
+[Americana](https://americanamap.org/#map=8.65/46.1367/13.2534&language=fur) is a general purpose rendering also based on vector tiles that can shown localized labels, including in Friulian.
+It offers a better visualization and level of polish, beyond of course a global coverage; compared to Mape Furlane, it lacks a few things:
 * local Friulian variants
-* search is not localized [(issue)](https://github.com/ZeLonewolf/openstreetmap-americana/issues/862)
-* road names not localized [(issue)](https://github.com/ZeLonewolf/openstreetmap-americana/issues/618)
+* search is not localized [(issue)](https://github.com/osm-americana/openstreetmap-americana/issues/862)
+* language fur not selectable from the UI, only through query parameter [(issue)](https://github.com/osm-americana/openstreetmap-americana/issues/836)
 
 ## Contributing
 
