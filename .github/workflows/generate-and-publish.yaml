@@ -8,7 +8,8 @@ on:
 
 jobs:
   site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    needs: map-data
     steps:
       - name: Check out repository code
         uses: actions/checkout@v5
@@ -47,7 +48,7 @@ jobs:
             **/.git*
             **/coastline/**
             **/resources/**
-            generate.sh
+            **/scripts/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -69,7 +70,7 @@ jobs:
             **/.git*
             **/coastline/**
             **/resources/**
-            generate.sh
+            **/scripts/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -89,7 +90,7 @@ jobs:
             **/.git*
             **/coastline/**
             **/resources/**
-            generate.sh
+            **/scripts/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -111,12 +112,12 @@ jobs:
             **/.git*
             **/coastline/**
             **/resources/**
-            generate.sh
+            **/scripts/**
             LICENSE
             **/.git*/**
             friul.mbtiles
   map-data-needs-refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       result: ${{ steps.check.outputs.result }}
     steps:
@@ -129,7 +130,7 @@ jobs:
           diff MAPDATE.txt <(curl -s https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/MAPDATE.txt) && res=0 || res=1
           echo "result=$res" >> $GITHUB_OUTPUT
   map-data:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: map-data-needs-refresh
     # Always run when merging
     if: ${{ (github.event_name == 'push') || (needs.map-data-needs-refresh.outputs.result != 0) }}
@@ -139,17 +140,9 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install osmium-tool
-      - name: Build and install tilemaker to get latest version
-        run: | 
-          sudo apt-get install build-essential libboost-dev libboost-filesystem-dev libboost-iostreams-dev libboost-program-options-dev libboost-system-dev liblua5.1-0-dev libprotobuf-dev libshp-dev libsqlite3-dev protobuf-compiler rapidjson-dev
-          git clone -b v2.4.0 --depth 1 https://github.com/systemed/tilemaker.git /tmp/tilemaker
-          cd /tmp/tilemaker
-          make
-          sudo make install
-          cd -
+          sudo apt-get install osmium-tool tilemaker
       - name: Generate map data
-        run: ./generate.sh
+        run: ./scripts/generate.sh
       - name: Upload changed files to test path
         if: github.event_name == 'pull_request'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
