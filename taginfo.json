@@ -1,0 +1,29 @@
+{
+  "data_format": 1,
+  "data_url": "https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/taginfo.json",
+  "data_updated": "20260102T214340",
+  "project": {
+    "name": "Mape furlane",
+    "description": "A map which renders names in Friulian language (standard and local variants) for Friuli region",
+    "project_url": "https://www.mapefurlane.eu",
+    "doc_url": "https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/README.md",
+    "icon_url": "https://www.mapefurlane.eu/favicon.ico",
+    "contact_name": "Andrea Decorte",
+    "contact_email": "adecorte+taginfo@gmail.com"
+  },
+  "tags": [
+    {
+      "key": "name:fur",
+      "description": "Name in Friulian language (standard). Used as name tag.",
+	  "doc_url": "https://raw.githubusercontent.com/andreadecorte/mapefurlane/main/README.md"
+    },
+    {
+      "key": "loc_name:fur",
+	  "description": "Name in Friulian language (local variant). If defined, rendered in smaller size after name:fur"
+    },
+    {
+      "key": "name",
+	  "description": "Fallback name. Used only if name:fur doesn't exist for the object."
+    }
+  ]
+}
