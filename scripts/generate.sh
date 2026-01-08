@@ -20,7 +20,7 @@ unzip -j ${coastline_filename}.zip "${coastline_filename}/water_polygons.shp" "$
 tilemaker --input ${cropped_filename} --output ${output_filename} --process resources/process-openmaptiles-fur.lua --config resources/config-openmaptiles.json --bbox ${bbox}
 
 # Clean up temporary stuff
-rm ${original_filename} ${cropped_filename} ${coastline_filename}.zip
+rm ${original_filename} ${coastline_filename}.zip
 ls -altr
 if [ ! -f "$output_filename" ]
 then
