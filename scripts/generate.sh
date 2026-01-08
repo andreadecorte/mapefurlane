@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 MAPDATE=$(cat MAPDATE.txt)
 bbox="12.308317,45.576808,13.923307,46.654392"
