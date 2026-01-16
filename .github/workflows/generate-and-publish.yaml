@@ -49,6 +49,7 @@ jobs:
             **/coastline/**
             **/resources/**
             **/scripts/**
+            **/static/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -71,6 +72,7 @@ jobs:
             **/coastline/**
             **/resources/**
             **/scripts/**
+            **/static/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -91,6 +93,7 @@ jobs:
             **/coastline/**
             **/resources/**
             **/scripts/**
+            **/static/**
             LICENSE
             **/.git*/**
             friul.mbtiles
@@ -113,6 +116,7 @@ jobs:
             **/coastline/**
             **/resources/**
             **/scripts/**
+            **/static/**
             LICENSE
             **/.git*/**
             friul.mbtiles
