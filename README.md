@@ -52,6 +52,12 @@ The style is available [here](friul.json) and it's based on [OSM Liberty](https:
 * mountain peaks
 * airports
 
+### Stats computation
+
+Stats are created at each new extract. PBF is loaded in a in-memory [DuckDB](https://duckdb.org/) than queried to produce csv files. Latest one is visible on [static/stats folder](static/stats/existing-latest.csv).
+
+There is also a basic visualization with filtering and ordering published on [GitHub pages](https://andreadecorte.github.io/mapefurlane/).
+
 ## Related projects
 
 [Americana](https://americanamap.org/#map=8.65/46.1367/13.2534&language=fur) is a general purpose rendering also based on vector tiles that can shown localized labels, including in Friulian.
