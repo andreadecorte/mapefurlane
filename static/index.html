@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fur">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Toponims par furlan</title>
+    <meta name="author" content="Andrea Decorte">
+    <meta content="Liste di toponims par furlan">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.datatables.net/2.3.6/css/dataTables.dataTables.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main class="row">
+            <div class="col">
+                <h1>Toponims dal Friûl e ator ator</h1>
+
+                <p>Liste di toponims par furlan (standard e variant locâl), talian, sloven e todesc. Al cuvierç il Friûl storic e un pôc ator. A son includûts dome nons di puescj e paîs, no stradis, edificis e altris gjenars di ponts.</p>
+
+                <p>Ducj i dâts a sont vierts e a vegnin fûr dal progjet <a href="https://www.openstreetmap.org" target='_blank'>OpenStreetMap</a> e a son inzornâts une volte ogni dì. I toponims par furlan standard e locâi a son ancje visibii lì de <a
+                        href="https://www.mapefurlane.eu" target='_blank'>Mape furlane</a></p>
+
+                <p>Altris informazions disponibilis lì di <a href="https://github.com/andreadecorte/mapefurlane" target='_blank'>https://github.com/andreadecorte/mapefurlane</a></p>
+
+                <p>Par viodi une liste di toponims (ancjemò) cence un nom par furlan lì di OpenStreetMap, va <a href="https://github.com/andreadecorte/mapefurlane/blob/main/static/stats/missing-latest.txt" target='_blank'>culì</a></p>
+
+                <div id="table-container"></div>
+            </div>
+        </main>
+        <footer class="row">
+            <div class="col">
+                <hr>
+                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">Fat sù partint di CSV to HTML Table </a> di
+                    <a href="http://derekeder.com">Derek Eder</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+    <script src="site_resources/js/jquery.csv.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.6/js/dataTables.bootstrap4.min.js"></script>
+    <script src="site_resources/js/csv_to_html_table.js"></script>
+
+    <script>
+        function format_link(link, type) {
+            if (link)
+                return "<a href='https://www.openstreetmap.org/" + type + '/' + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
+
+        CsvToHtmlTable.init({
+            csv_path: "stats/existing-latest.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false,
+                order: {
+                    idx: 1,
+                    dir: 'asc'
+                },
+                language: {
+                    decimal: ',',
+                    thousands: '.',
+                    search: 'Cjate un toponim:',
+                    info: 'Daûr a mostrâ di _START_ a _END_ suntun totâl di _TOTAL_ elements',
+                    infoEmpty: 'Daûr a mostrâ 0 di 0 suntun totâl di 0 elements',
+                    infoFiltered: '(filtrâts di _MAX_ elements in dut)',
+                    zeroRecords: 'Nissun risultât',
+                }
+            },
+            custom_formatting: [
+                [0, format_link]
+            ]
+        });
+    </script>
+</body>
+
+</html>
