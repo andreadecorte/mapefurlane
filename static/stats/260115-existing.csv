@@ -35,8 +35,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1432204549,Avon,,Avon,,,isolated_dwelling,node
 357361007,Azide,,Azzida,Ažla,,village,node
 2218266383,Açanel,,Azzanello,,,hamlet,node
-1613529304,Bagnare,,Bagnara,,,village,node
 12863355101,Bagnare,,Bagnara | Rojale,,,hamlet,node
+1613529304,Bagnare,,Bagnara,,,village,node
 66503159,Bagnarie,,Bagnaria Arsa,,,village,node
 495951186,Bagnarole,Bagnarola,Bagnarola,,,village,node
 9250138679,Baito,,Baito,,,locality,node
@@ -46,8 +46,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 7325060525,Banda Crauì,,Banda Crauì,,,neighbourhood,node
 7325060524,Banda Uanis,,Banda Uanis,,,neighbourhood,node
 1469157453,Banduts,,Banduzzo,,,hamlet,node
-3857779658,Bant,,Località Bant,,,isolated_dwelling,node
 9027822526,Bant,,Bando,,,hamlet,node
+3857779658,Bant,,Località Bant,,,isolated_dwelling,node
 524659455,Bant,,Bando,,,village,node
 498732265,Banìe,,Bannia,,,village,node
 1723358661,Baracêt,,Barazzetto,,,village,node
@@ -59,8 +59,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 12398753023,Barêt,,Baredo,,,hamlet,node
 749251917,Basandiele,,Basaldella,,,village,node
 835975108,Basangjele,Basangjela,Basaldella,,,village,node
-1312361680,Baselie,,Borgo Baselia,,,hamlet,node
 769200454,Baselie,Baselia,Baseglia,,,village,node
+1312361680,Baselie,,Borgo Baselia,,,hamlet,node
 66503108,Basilian,,Basiliano,,,village,node
 12992155930,Basua,,Basoia,,,hamlet,node
 1487612818,Basêt,,Basedo,,,hamlet,node
@@ -83,8 +83,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66503193,Bertiûl,,Bertiolo,,,village,node
 9250138698,Bertolès,,Bertolès,,,locality,node
 5530610330,Betanie,,Betania,,,village,node
-625582690,Bevaçane,Bevassana,Bevazzana,,,village,node
 3876052146,Bevaçane,Bevassana,Bevazzana,,,village,node
+625582690,Bevaçane,Bevassana,Bevazzana,,,village,node
 308051319,Beveron,,Biverone,,,hamlet,node
 814664285,Bevorcjans,,Bevorchians / Bevorcjans,,,village,node
 4332672775,Bevorcjas,,Bevorcjas,,,locality,node
@@ -94,9 +94,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1109300717,Bicinins Disore,,Bicinicco di Sopra,,,locality,node
 1109300664,Bicinins Disot,,Bicinicco di Sotto,,,locality,node
 1448898994,Bielezoie,,Bellazoia / Bielezoie,,,hamlet,node
-1596672290,Bielvedê,,Belvedere,,,hamlet,node
-2405139538,Bielvedê,,Belvedere / Bielvedê di Marsure,,,isolated_dwelling,node
 1645521461,Bielvedê,,Belvedere / Bielvedê,,,hamlet,node
+2405139538,Bielvedê,,Belvedere / Bielvedê di Marsure,,,isolated_dwelling,node
+1596672290,Bielvedê,,Belvedere,,,hamlet,node
 1531030049,Biligne,Biligna,Beligna / Biligne,,,isolated_dwelling,node
 2125656201,Biliris,,Billerio,,,village,node
 1585357011,Bistrigne,,Bistrigna,,,village,node
@@ -124,8 +124,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 7660222331,Borc Cjastelut,,Borgo Cjastelut,,,hamlet,node
 1799101527,Borc Cocean,,Borgo Coceano,,,isolated_dwelling,node
 1440918957,Borc Cudili,,Borgo Cudili,,,hamlet,node
-1665927207,Borc Cueste,,Costa,,,hamlet,node
 2456477469,Borc Cueste,,Borgo Costa,,,isolated_dwelling,node
+1665927207,Borc Cueste,,Costa,,,hamlet,node
 13353630647,Borc Curminie,,Borgo Curminie,,,hamlet,node
 2301688026,Borc Dagnola,,Borgo Dagnola,,,hamlet,node
 2912011888,Borc Degan,,Borgo Degano,,,hamlet,node
@@ -185,8 +185,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1279045606,Borc Scuble,,Borgo Scubla,,,hamlet,node
 2073160436,Borc Selva,,Borgata Selva,,,locality,node
 9392030243,Borc Sliç,,Borgo San Leonardo,,,isolated_dwelling,node
-2125686522,Borc Socret,,Borgo Cretto di sopra / Socret Disore,,,isolated_dwelling,node
 3151224056,Borc Socret,,Borgo Cretto di sotto / Socret,,,isolated_dwelling,node
+2125686522,Borc Socret,,Borgo Cretto di sopra / Socret Disore,,,isolated_dwelling,node
 2012309547,Borc Sorecjistiel,,Borgo Sopracastello,,,neighbourhood,node
 2012273456,Borc Sotagâr,,Borgo Sottoagaro,,,neighbourhood,node
 2073158563,Borc Staligjal,,Borgata Staligial,,,isolated_dwelling,node
@@ -263,14 +263,14 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 5295739821,Bosc di Zouf,,Bosco di Zof,,,locality,node
 5327126075,Bosc sôra Colareit,,Bosco Sopra Colaret,,,locality,node
 5282107145,Bosc Çuchiet,,Bosco Zucchiet,,,locality,node
+1645521472,Boscat,,Boscat,,,hamlet,node
 3875037629,Boscat,,Località Boscat,,,isolated_dwelling,node
 5867618342,Boscat,,Boscat,,,isolated_dwelling,node
-1645521472,Boscat,,Boscat,,,hamlet,node
 6283474906,Boscut,,Boscut,,,locality,node
-6283474888,Bracie,,Bracie,,,locality,node
 6283474886,Bracie,,Roncjade,,,locality,node
-863052673,Braide,Braida,Braida / Braide,,,hamlet,node
+6283474888,Bracie,,Bracie,,,locality,node
 1297033850,Braide,Braida,Braida,,,hamlet,node
+863052673,Braide,Braida,Braida / Braide,,,hamlet,node
 11778659443,Braide Botari,,Braida Bottari,,,hamlet,node
 925547925,Braide Gnove,,Braida Nuova,,,locality,node
 925547895,Braide dal Troi,,Braide dal Troi,,,locality,node
@@ -338,13 +338,13 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 2600126729,Casere Lavardeit,,Casera Lavardet,,,locality,node
 2597262455,Casere Liane,,Casera Liana,,,locality,node
 506688362,Cassean,,Cassegliano,,,hamlet,node
-1062135615,Cassine Rinaldi,,Cascina Rinaldi,,,hamlet,way
 2147511395,Cassine Rinaldi,,Cascina Rinaldi,,,hamlet,node
+1062135615,Cassine Rinaldi,,Cascina Rinaldi,,,hamlet,way
 5730950633,Cave di Selz,,Selz,Selce,,suburb,node
 782566018,Cedarcjis,Cedarcjes,Cedarchis,,,hamlet,node
+863043376,Celant,,Celante di Vito d'Asio / Celant,,,hamlet,node
 863047332,Celant,,Celante di Clauzetto / Celant,,,hamlet,node
 863047928,Celant,,Celante di Castelnovo,,,hamlet,node
-863043376,Celant,,Celante di Vito d'Asio / Celant,,,hamlet,node
 1297033838,Cele,Cela,Cella,,,hamlet,node
 1331375273,Cele,Siela,Cella / Siela,,,hamlet,node
 1447524366,Celin Disore,,Cellino di Sopra,,,hamlet,node
@@ -411,18 +411,18 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 962950272,Cjampiûl,,Campiolo,,,hamlet,node
 6612897097,Cjampiûl Alt,,Campiolo Alto,,,hamlet,node
 2381259551,Cjamplovul,,Campivolo,,,locality,node
+6283474939,Cjamplunc,,Cjamplunc,,,locality,node
 12992889332,Cjamplunc,,Campolongo,,,hamlet,node
 66503084,Cjamplunc,,Campolongo al Torre,,,village,node
-6283474939,Cjamplunc,,Cjamplunc,,,locality,node
 524378019,Cjamplungùt,,Campolonghetto,,,village,node
 12997351880,Cjampolâr,,Campolaro,,,hamlet,node
-865278037,Cjampon,,Campone,,,hamlet,node
 3898016457,Cjampon,,Chiampon,,,isolated_dwelling,node
+865278037,Cjampon,,Campone,,,hamlet,node
 6283474381,Cjampons,,Cjampons,,,locality,node
 2619662234,Cjamput Disore,,Casera Chiampiut di sopra,,,locality,node
 1694414329,Cjamuel,,Campomolle,,,village,node
-12992889333,Cjanalut,,Canalutto,,,isolated_dwelling,node
 786900534,Cjanalut,,Canalutto,Skrila,,hamlet,node
+12992889333,Cjanalut,,Canalutto,,,isolated_dwelling,node
 3846444583,Cjandalis,,Chiandalis,,,isolated_dwelling,node
 1461469234,Cjandelin,,Chiandelin,,,hamlet,node
 300849936,Cjaneule,,Canebola,Čenebola,,village,node
@@ -441,16 +441,16 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 824796292,Cjanùs,,Canussio,,,village,node
 5046909611,Cjapitul,,Capitolo,,,neighbourhood,node
 12662954663,Cjaranda,,Chiaranda,,,locality,node
-9444662950,Cjarande,,Chiaranda,,,locality,node
 1468395938,Cjarande,,Chiaranda / Cjarande,,,hamlet,node
+9444662950,Cjarande,,Chiaranda,,,locality,node
 2473446443,Cjarandin,,Chiarandin,,,isolated_dwelling,node
 3293181128,Cjarandis,,Chiarandis,,,locality,node
 357333246,Cjararie,Cjararia,Carraria,,,hamlet,node
 1019720314,Cjaresà,,Chiarisacco,,,hamlet,node
 735043104,Cjargnà,,Cargnacco,,,village,node
 66503185,Cjarlins,,Carlino,,,village,node
-6291177668,Cjarmacis,,Chiarmacis,,,hamlet,node
 524647182,Cjarmacis,,Chiarmacis,,,hamlet,node
+6291177668,Cjarmacis,,Chiarmacis,,,hamlet,node
 735036655,Cjarpenêt,,Carpeneto,,,village,node
 796694199,Cjarpât,,Carpacco,,,village,node
 6283474940,Cjarseit,,Cjarseit,,,locality,node
@@ -469,8 +469,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66502954,Cjasarse,Cjasarsa,Casarsa della Delizia,,,village,node
 12419951565,Cjase Banduts,,Case Banduzzo,,,isolated_dwelling,node
 2517567448,Cjase Battistella,,Casa Battistella,,,locality,node
-9916760727,Cjase Blancje,,Casabianca,,,hamlet,node
 11453667683,Cjase Blancje,,Casa Bianca,,,locality,node
+9916760727,Cjase Blancje,,Casabianca,,,hamlet,node
 1286098272,Cjase Blancje,Cjasa Blancja,Casa Bianca / Cjase Blancje,,,isolated_dwelling,node
 3389134704,Cjase Bodigoi,,Casa Bodigoi,,,isolated_dwelling,node
 12863355109,Cjase Bot,,Casa Bot,,,locality,node
@@ -486,8 +486,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 12282484040,Cjase Tosini,,Casa Tosini,,,hamlet,node
 2509525001,Cjase Variola,,Casa Variola,,,locality,node
 12546632245,Cjaseblancje,Cjasablancja,Casa Bianca,,,isolated_dwelling,node
-297519019,Cjasegnove,,Casanova,,,village,node
 1288944416,Cjasegnove,Cjasagnova,Casanova,,,hamlet,node
+297519019,Cjasegnove,,Casanova,,,village,node
 12471002432,Cjasegnove,,Casanova,,,quarter,node
 1165439231,Cjaselis,,Caselle,,,hamlet,node
 513802757,Cjasemate,Cjasamata,Casamatta,,,hamlet,node
@@ -533,8 +533,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1451904406,Cjassiis,Cjassies,Chiassis,,,hamlet,node
 66503187,Cjassà,,Cassacco / Cjassà,,,village,node
 2001271275,Cjastelîr di Varian,,Castelliere di Variano,,,isolated_dwelling,node
-5279679790,Cjastenêt,,Chiasteneto,,,locality,node
 4859406252,Cjastenêt,,Ciastenet,,,locality,node
+5279679790,Cjastenêt,,Chiasteneto,,,locality,node
 498737132,Cjasteons,,Castions,,,village,node
 524377407,Cjasteons di Muris,,Castions delle Mura,,,village,node
 4570786013,Cjasteons di Strade,,Castions di Strada,,,village,node
@@ -754,10 +754,10 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 2961733053,Cuel di Malesêt,Cuel di Malesjeit,Cuel di Melescheit,,,locality,node
 1465067625,Cuelalt,,Collalto / Cuelalt,,,village,node
 5309243780,Cuesta Plana,,Costa Plana,,,locality,node
-2448604313,Cueste,,Costa,,,neighbourhood,node
-1461469237,Cueste,,Costa,,,hamlet,node
-1770234335,Cueste,Cuosta,Costa,,,village,node
 871089568,Cueste,Cuesta,Costa / Cueste,,,hamlet,node
+1770234335,Cueste,Cuosta,Costa,,,village,node
+1461469237,Cueste,,Costa,,,hamlet,node
+2448604313,Cueste,,Costa,,,neighbourhood,node
 3299476482,Cueste Cjasarie,,Costa Chiasarie,,,locality,node
 2610660165,Cueste Lungje,,Stavoli di Costalunga,,,locality,node
 6283475038,Cueste Minôr,,Cueste Minôr,,,locality,node
@@ -832,8 +832,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1411386308,Dentramp,,Entrampo,,,hamlet,node
 781924864,Desemon Disore,Desemon Disora,Esemon di Sopra,,,hamlet,node
 2440168850,Desemon Disot,,Esemon di Sotto,,,hamlet,node
-1463877034,Deveà,,Borgo Deveacco,,,hamlet,node
 1322406043,Deveà,,Aveacco,,,hamlet,node
+1463877034,Deveà,,Borgo Deveacco,,,hamlet,node
 9250138673,Devour lu Maliot,,Devour lu Maliot,,,locality,node
 779148569,Dieç,,Illegio / Dieç,,,hamlet,node
 66503202,Dignan,,Dignano,,,village,node
@@ -936,8 +936,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 12398753024,Fornâs,,Fornaci,,,hamlet,node
 6167868350,Fornâs di Mieç,,Fornaci di Mezzo,,,isolated_dwelling,node
 3894087879,Fornâs di Torse,,Fornaci di Torsa,,,locality,node
-8626467960,Fossa Vecia,,Fossa Vecchia,,,hamlet,node
 1416518941,Fossa Vecia,,Fossa Vecchia,,,locality,node
+8626467960,Fossa Vecia,,Fossa Vecchia,,,hamlet,node
 506699662,Fossalon,,Fossalon di Grado,,,hamlet,node
 64778803,Fossalte,Fossalta,Fossalta di Portogruaro,,,village,node
 8155330297,Fossâi,,Fossai,,,locality,node
@@ -947,9 +947,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 3891329224,Fraide,,Fraida,,,isolated_dwelling,node
 785731389,Frassenêt,Frasseniet,Frassenetto,,,hamlet,node
 3344801638,Frate,,Fratta / Frate,,,neighbourhood,node
+2262017917,Frate,Frata,Fratta / Frate,,,hamlet,node
 304619943,Frate,Frata,Fratta,,,hamlet,node
 5749197907,Frate,,Fratta,,,village,node
-2262017917,Frate,Frata,Fratta / Frate,,,hamlet,node
 1502197765,Fratine,,Frattina,,,hamlet,node
 66502986,Frisanc,,Frisanco,,,village,node
 1781917320,Friûl Vignesie Julie,,Friuli Venezia Giulia,Furlanija - Julijska krajina,Friaul-Julisch Venetien,state,node
@@ -966,8 +966,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 492041979,Gardiscjute,Gardiscjuta,Gardisciuta,Gradiškuta,,hamlet,node
 6283474382,Gee,,Gee,,,locality,node
 1438389091,Ghiran,,Ghirano,,,village,node
-1613569401,Gjai,,Giai,,,village,node
 769200456,Gjai,,Gaio,,,village,node
+1613569401,Gjai,,Giai,,,village,node
 562923552,Gjais,,Giais,,,village,node
 735153270,Gjalarian,,Galleriano,,,village,node
 6283474892,Gjalcicon,,Gjalcicon,,,locality,node
@@ -983,8 +983,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 472608886,Gnive,,Gniva,Njiva,,village,node
 1675786,Gnove Gurize,,Nuova Gorizia,Nova Gorica,Neu-Görz,municipality,relation
 1461469190,Gobolani,,Località Ca' Bolani,,,hamlet,node
-1423843224,Godie,,Godia / Godie,,,village,node
 2347943111,Godie,,Casali Godia,,,neighbourhood,node
+1423843224,Godie,,Godia / Godie,,,village,node
 66503234,Gonârs,,Gonars,,,village,node
 5277205287,Gorgaç,Gorgath,Gorgazzo / Gorgath,,,hamlet,node
 1460518440,Grac,,Gracco / grac,,,hamlet,node
@@ -1004,8 +1004,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 824997489,Gridiscjute,,Gradiscutta,,,village,node
 6283474923,Grignep,,Grignep,,,locality,node
 789608410,Grimac,,Grimacco,Garmak,,village,node
-1037727666,Grions,,Grions del Torre,,,village,node
 859292319,Grions,,Grions,,,village,node
+1037727666,Grions,,Grions del Torre,,,village,node
 912286179,Gris,Gris,Grizzo,,,village,node
 2121782316,Grupignan,,Grupignano,,,hamlet,node
 64778789,Gruâr,,Gruaro,,,village,node
@@ -1085,11 +1085,11 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 6283474961,Lavaçârias,,Lavaçârias,,,locality,node
 13134896301,Lavie,,Lavia,,,locality,node
 1123580585,Lavie,,Lavia / Lavie,,,hamlet,node
-1685002048,Lavorêt,,Roveredo,,,hamlet,node
-1599623772,Lavorêt,,Roveredo in Piano,,,village,node
-2696780626,Lavorêt,,Roveredo,,,isolated_dwelling,node
 946073543,Lavorêt,Lavoreit,Roveredo,,,village,node
+1685002048,Lavorêt,,Roveredo,,,hamlet,node
+2696780626,Lavorêt,,Roveredo,,,isolated_dwelling,node
 2058277379,Lavorêt,,Lavoreit,,,isolated_dwelling,node
+1599623772,Lavorêt,,Roveredo in Piano,,,village,node
 2996685707,Le Cjaserute,,La Caseruta,,,locality,node
 954094396,Lenzon,,Lenzone,,,hamlet,node
 6283474897,Lescjas,,Lescjas,,,locality,node
@@ -1143,8 +1143,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 6312579107,Lûc Brusât,,Borgo Modena,,,isolated_dwelling,node
 8372314180,Lûc di Brùner,,Borgo Brunner / Lûc di Brùner,,,hamlet,node
 6283474942,Macutans,,Macutans,,,locality,node
-5867649376,Madone,Madona,Casali della Madonna,,,isolated_dwelling,node
 1447949915,Madone,,Madonna / Madone,,,village,node
+5867649376,Madone,Madona,Casali della Madonna,,,isolated_dwelling,node
 1299555437,Madone dal Boscat,,Madonna del Boscat,,,locality,node
 863031727,Madone dal Çuc,Madona dal Çuc,Madonna del Zucco / Madone dal Çuc,,,hamlet,node
 2121784629,Madone di Mont,,Castelmonte,Stara Gora,,hamlet,node
@@ -1179,8 +1179,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 995090507,Maniâe,,Maniaglia / Maniae,,,village,node
 66503468,Manzan,,Manzano,,,village,node
 773909446,Manzignel,,Manzinello,,,village,node
-553290669,Maran,,Marano Lagunare,,,village,way
 66503469,Maran,,Marano Lagunare,,,village,node
+553290669,Maran,,Marano Lagunare,,,village,way
 1599251972,Maranghet,,Maranghetto,,,hamlet,node
 795241489,Maranut,,Maranutto,,,hamlet,node
 783744570,Maranzanis,Maranzanas,Maranzanis,,,hamlet,node
@@ -1215,8 +1215,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 6283475042,Melèit,,Melèit,,,locality,node
 525985889,Menarûl,,Melarolo,,,village,node
 783445592,Mene,Mena,Mena,,,village,node
-525985886,Merlane,,Merlana,,,village,node
 1650359126,Merlane,,Località Merlana,,,hamlet,node
+525985886,Merlane,,Merlana,,,village,node
 1675826,Merne-Castagnevize,,Merna-Castagnevizza,,,municipality,relation
 492051616,Mernic,,Mernicco,Mirnik,,hamlet,node
 1714117358,Merêt di Cjapitul,,Mereto di Capitolo,,,village,node
@@ -1238,9 +1238,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1356581194,Misincinis,Misincines,Misincinis,,,hamlet,node
 3867714641,Modean,,Modeano,,,isolated_dwelling,node
 2331104026,Modolêt,,Modoletto,,,hamlet,node
-13037193152,Modolêts,,Carbonaia,,,hamlet,node
-13037193154,Modolêts,,Passo della Torre,,,locality,node
 13037193153,Modolêts,,Mure,,,locality,node
+13037193154,Modolêts,,Passo della Torre,,,locality,node
+13037193152,Modolêts,,Carbonaia,,,hamlet,node
 1111554500,Modolêts,,Modoles,,,hamlet,node
 13087474980,Modot,,Modotto,,,hamlet,node
 4332672787,Mol dal Cuarnissit,,Mol dal Cuarnissit,,,locality,node
@@ -1254,8 +1254,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66502762,Monfalcon,,Monfalcone,Tržič,,town,node
 783336967,Monfoscje,,Montefosca,Čàrni Vàrh,,village,node
 778694237,Monmaiôr,,Montemaggiore,Brezje,,village,node
-9250141023,Mont,,Mont,,,locality,node
 1165439293,Mont,,Monte,,,hamlet,node
+9250141023,Mont,,Mont,,,locality,node
 1528771506,Mont,,Monte,Monte,,hamlet,node
 7158296334,Mont Poiane,,Monte Poiana / Mont Poiane,,,locality,node
 945912900,Mont Sante di Lussari,,Monte Santo di Lussari,Svete Višarje,Luschariberg,hamlet,node
@@ -1291,8 +1291,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1297033837,Muine,Muina,Muina,,,hamlet,node
 927266998,Mulignûf,,Molin Nuovo / Mulignûf,,,hamlet,node
 871085739,Mulime,,Molimes,,,hamlet,node
-2062719709,Mulin,,Molino,,,isolated_dwelling,node
 5327071584,Mulin,,Molino,,,locality,node
+2062719709,Mulin,,Molino,,,isolated_dwelling,node
 13203466624,Mulin Braidis,,Molino Braidis,,,isolated_dwelling,node
 4011513635,Mulin Disore,,Località Molino di Sopra,,,isolated_dwelling,node
 3875037630,Mulin Disot,,Località Molino di Sotto,,,isolated_dwelling,node
@@ -1335,9 +1335,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66503406,Muçane,,Muzzana del Turgnano,,,village,node
 9050182806,Muçanele,,Muzzanella,,,locality,node
 66503048,Nabresine,,Aurisina,Nabrežina,Nabresina,town,node
-2448347052,Naiarêt,,Nogaredo,,,hamlet,node
 783744729,Naiarêt,,Noiaretto,,,hamlet,node
 1110613996,Naiarêt,Najareit,Najarèit,,,locality,node
+2448347052,Naiarêt,,Nogaredo,,,hamlet,node
 459385881,Naiarêt de Tor,,Nogaredo al Torre,,,village,node
 4332672891,Nalbin,,Nalbin,,,locality,node
 1444347139,Nalchide,Nalcheda,Alcheda / Nalchide,,,hamlet,node
@@ -1418,8 +1418,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 10991856694,Partidôr,,Partidor,,,suburb,node
 12484149143,Pas de Maurie,,Passo Mauria,,,hamlet,node
 3896370377,Pas di Pramuel,,Passo Pramollo,,Nassfeldpass,locality,node
-2646068432,Pasc,,Pasch,,,hamlet,node
 13134892197,Pasc,,Pasco,,,locality,node
+2646068432,Pasc,,Pasch,,,hamlet,node
 66502855,Pasian di Pordenon,,Pasiano di Pordenone,,,village,node
 66503427,Pasian di Prât,,Pasian di Prato,,,village,node
 773788230,Passarian,,Persereano,,,village,node
@@ -1468,8 +1468,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1603731655,Piscjarole,,Pescarola,,,hamlet,node
 498732266,Pissancjane,,Pescincanna,,,village,node
 1465019706,Pissignan,,Pissignano,,,hamlet,node
-2556120521,Pistugn,,Pistugn,,,locality,node
 6283474954,Pistugn,,Pistugn,,,locality,node
+2556120521,Pistugn,,Pistugn,,,locality,node
 1432647724,Pitagore,,Borgo Pitagora / Borc Pitagore,,,hamlet,node
 1333876652,Piçulcuel,,Piccol Colle,,,isolated_dwelling,node
 1300455222,Place Rome,,Piazza Roma,,,square,way
@@ -1503,8 +1503,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1556269978,Plans di Là,,Piani di Là,,,hamlet,node
 1540327066,Plans di Vâs,,Piani di Vas,,,locality,node
 418063788,Plasencis,Plasences,Plasencis,,,village,node
-1059307712,Plasse,,Piazza don Antonio De Senibus,,,square,way
 204852284,Plasse,,Piazza Perissini,,,square,way
+1059307712,Plasse,,Piazza don Antonio De Senibus,,,square,way
 2148303848,Plassute,,Plassute,,,locality,node
 1752565210,Platiscjis,,Platischis,Plestišča,,village,node
 11895894184,Plaçal Cjavriis,,Piazza Chiavris,,,square,node
@@ -1546,9 +1546,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1754614093,Postregne,,Postregna,Podsriednje,,hamlet,node
 783744855,Povolâr,,Povolaro,,,hamlet,node
 513792549,Poç,Pos,Pozzo,,,village,node
-2559931394,Poç,,Pozzo,,,village,node
 6283474936,Poç,,Poç,,,locality,node
 474375888,Poç,,Pozzo / Poç,,,village,node
+2559931394,Poç,,Pozzo,,,village,node
 835537515,Poçalis,Poçales,Pozzalis,,,village,node
 886441504,Prabunel,,Borgo Prabunello / Borc Prabunel,,,locality,node
 66503262,Pradaman,,Pradamano,,,village,node
@@ -1620,8 +1620,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1330847684,Punt da le Slence,,Ponte della Lenza,,,locality,node
 1330839044,Punt dal Louf,,Ponte del Louf,,,locality,node
 5775276151,Puntisel,,Pontisel,,,locality,node
-12013206607,Purcie,,Porcia,,,hamlet,node
 66503026,Purcie,,Porcia,,,town,node
+12013206607,Purcie,,Porcia,,,hamlet,node
 10219953261,Pure,,Pura,,,isolated_dwelling,node
 357330711,Puriessin,,Purgessimo,Prešnje,,village,node
 1673982184,Puscuel,,Poscolle,Zagrad,Hinterschloß,hamlet,node
@@ -1704,8 +1704,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 6283474899,Roncjecuâr,,Roncjecuâr,,,locality,node
 526773829,Roncjetis,,Ronchiettis,,,village,node
 786900529,Roncjis,Roncjes,Ronchis / Roncjis,,,village,node
-66503281,Roncjis,,Ronchis,,,village,node
 1495146615,Roncjis,,Ronchis,,,hamlet,node
+66503281,Roncjis,,Ronchis,,,village,node
 66502708,Roncjis di Monfalcon,,Ronchi dei Legionari,Ronke pri Tržiču,,town,node
 2232336946,Roncs,,Ronchi,,,isolated_dwelling,node
 6283474893,Roncuts,,Roncuts,,,locality,node
@@ -1726,11 +1726,11 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 9250138684,Runc di Cércen,,Runc di Cércen,,,locality,node
 9250138682,Runc di Sôro,,Runc di Sôro,,,locality,node
 12606825176,Runcis,,Runcis,,,hamlet,node
-2558277668,Runcje,,Runchia,,,isolated_dwelling,node
 783744578,Runcje,Runcja,Runchia,,,hamlet,node
+2558277668,Runcje,,Runchia,,,isolated_dwelling,node
 965437270,Runcjis,,Runcis / Runcjis,,,hamlet,node
-423753771,Rupe,,Rupa,Rupa,,village,node
 5279679789,Rupe,,Ruppa,,,locality,node
+423753771,Rupe,,Rupa,Rupa,,village,node
 1463809019,Rusclêt,,Ruscletto,,,hamlet,node
 2960887128,Russiz Disore,Russiz Disora,Russiz di Sopra / Russiz Disore,Zgornji Rušič,,isolated_dwelling,node
 506658152,Russiz Disot,,Russiz di Sotto / Russiz Disot,Dolenji Rušič,,hamlet,node
@@ -1757,8 +1757,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1299559222,Salariis,Salaries,Cazzaso Nuova / Salaries,,,hamlet,node
 1465051639,Sale,,Borgo Sala / Borc Sale,,,hamlet,node
 962929655,Salet,,Saletto,,,hamlet,node
-1556270003,Salet,,Saletto,Salet,,hamlet,node
 524659460,Salet,,Saletto,,,village,node
+1556270003,Salet,,Saletto,Salet,,hamlet,node
 1641691041,Salets,,Località Saleti,Salet,,hamlet,node
 1257713580,Salets,,Saletti,,,hamlet,node
 1388329767,Salin,,Salino,,,hamlet,node
@@ -1769,8 +1769,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1037727663,Salt,Sât,Salt,,,village,node
 13037193151,Salvine,,Salvina,,,locality,node
 198240817,Salârs,,Salars,,,hamlet,node
-1504261461,Samardencje,,Sammardenchia / Samardencje,,,hamlet,node
 735043103,Samardencje,,Sammardenchia,,,village,node
+1504261461,Samardencje,,Sammardenchia / Samardencje,,,hamlet,node
 2996685712,Samedons,,Sotmedons,,,locality,node
 1584980035,Samont,,Sottomonte / Samont,,,village,node
 2125707128,Samonç,,Borgo Sottomonte,,,hamlet,node
@@ -1779,28 +1779,28 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 4142317663,San Domeni,,San Domenico,,,quarter,node
 662571977,San Durì,,San Odorico al Tagliamento,,,village,node
 1482487560,San Filip,,San Filippo,,,hamlet,node
+1329719682,San Florean,,San Floreano,,,hamlet,node
 494788833,San Florean,,San Floriano,,,village,node
 1596769562,San Florean,San Frean,San Floriano,,,hamlet,node
-1329719682,San Florean,,San Floreano,,,hamlet,node
 66502768,San Florean dal Cuei,,San Floriano del Collio,Števerjan,,village,node
 863052984,San Francesc,,San Francesco / San Francesc,,,village,node
-1599252024,San Gaetan,,San Gaetano,,,hamlet,node
 9027889281,San Gaetan,,San Gaetano,,,hamlet,node
+1599252024,San Gaetan,,San Gaetano,,,hamlet,node
 1463874014,San Jacum,La Vile,San Giacomo,,,hamlet,node
 912312678,San Lenart,Salinart,San Leonardo Valcellina / Salinart,,,village,node
 66503531,San Lenart,,San Leonardo,Podutana,,village,node
 10733689722,San Lenart,,San Leonardo,,,isolated_dwelling,node
 452449468,San Leopold,,San Leopoldo Laglesie,Lipalja vas,Leopoldskirchen,hamlet,node
 1456166566,San Liseu,,Sant'Eliseo,,,hamlet,node
-912616935,San Lurinç,,San Lorenzo,,,village,node
 710449819,San Lurinç,Salurins,San Lorenzo,,,village,node
+912616935,San Lurinç,,San Lorenzo,,,village,node
 925222013,San Lurinç,Salorens,San Lorenzo / San Lurinç - Salorens,,,village,node
-5243375429,San Marc,,San Marco,,,locality,node
 418063182,San Marc,,San Marco,,,village,node
+5243375429,San Marc,,San Marco,,,locality,node
 8512157170,San Martin,,Colle di S.Martino,,,locality,node
+474375891,San Martin,,San Martino,,,village,node
 7569246685,San Martin,,San Martino / San Martin,,,village,node
 1888266152,San Martin,,San Martino,,,hamlet,node
-474375891,San Martin,,San Martino,,,village,node
 421309632,San Martin dal Cjars,,San Martino del Carso,Martinščina,,village,node
 66503009,San Martin dal Tiliment,,San Martino al Tagliamento,,,village,node
 835975112,San Martin di Cjampagne,San Martin,San Martino di Campagna / San Martin di Cjampagne,,,village,node
@@ -1817,13 +1817,13 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66502781,San Pieri dal Tiritori,,San Pier d'Isonzo,Špeter ob Soči,,village,node
 357346626,San Pieri di Cjaçà,,San Pietro di Chiazzacco,Tieje,,hamlet,node
 64778133,San Pieri in Cjadovri,,San Pietro di Cadore,,,village,node
-492044495,San Quarin,,San Quirino,Krminska gora,,hamlet,node
 66503012,San Quarin,,San Quirino / San Quarin,,,village,node
-2491231130,San Roc,,Case San Rocco,,,locality,node
+492044495,San Quarin,,San Quirino,Krminska gora,,hamlet,node
 4028970089,San Roc,,San Rocco / San Roc,,,hamlet,node
+2491231130,San Roc,,Case San Rocco,,,locality,node
 817871844,San Salvadôr,,San Salvatore,,,hamlet,node
-1224557140,San Scjefin,,Santo Stefano,,,hamlet,node
 622447263,San Scjefin,,Santo Stefano Udinese,,,village,node
+1224557140,San Scjefin,,Santo Stefano,,,hamlet,node
 64778228,San Scjefin in Cjadovri,,Santo Stefano di Cadore,,,village,node
 1465067629,San Stiefin,,Santo Stefano,,,hamlet,node
 64778778,San Stin,,San Stino di Livenza,,,town,node
@@ -1838,16 +1838,16 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66502909,San Zorç da la Richinvelde,San 'Sors,San Giorgio della Richinvelda,,,village,node
 66503483,San Zorç di Noiâr,,San Giorgio di Nogaro,,,village,node
 715824328,San Zorç di Resie,,San Giorgio,Bilä,,village,node
-469382103,San Zuan,San Dhan,San Giovanni / San Zuan - San Dhan,,,suburb,node
-494788799,San Zuan,,San Giovanni di Casarsa,,,village,node
 1584980019,San Zuan,,San Giovanni / San Zuan,,,hamlet,node
+494788799,San Zuan,,San Giovanni di Casarsa,,,village,node
+469382103,San Zuan,San Dhan,San Giovanni / San Zuan - San Dhan,,,suburb,node
 66503491,San Zuan dal Nadison,,San Giovanni al Natisone,,,village,node
 6485408133,San Zuan di Cuel,,San Giovanni in Colle,,,village,node
 1510292450,San Zuan di Livence,,San Giovanni di Livenza,,,village,node
 1188747755,Sanguarç,Sanguars,Sanguarzo,Šenčur,,village,node
 564715117,Sant Andree,,Sant'Andrea,,,island,node
-776027809,Sant Andrât,,Sant'Andrat del Cormor,,,village,node
 2598480154,Sant Andrât,,Sant'Andrea,Štandrež,St. Andrä,suburb,node
+776027809,Sant Andrât,,Sant'Andrat del Cormor,,,village,node
 1700738741,Sant Andrât dal Judri,,Sant'Andràt del Judrio,,,village,node
 1830502246,Sant Bernart,,San Bernardo,,,village,node
 5303272131,Sant Domeni,,San Domenico,,,isolated_dwelling,node
@@ -1855,8 +1855,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 312723603,Sant Foche,San Foca,San Foca / San Foche,,,village,node
 525842007,Sant Gjal,,San Gallo,,,hamlet,node
 4130300403,Sant Gotart,,San Gottardo / San Gotart,,,quarter,node
-2125656207,Sant Jacum,,San Giacomo / Sant Jacum,,,hamlet,node
 12282484038,Sant Jacum,,San Giacomo,,,hamlet,node
+2125656207,Sant Jacum,,San Giacomo / Sant Jacum,,,hamlet,node
 508391708,Sant Laurinç,,San Lorenzo,,,locality,node
 921902925,Sant Lurinç,San Lurinç,San Lorenzo,,,village,node
 66502785,Sant Lurinç dal Lusinç,San Lurinz,San Lorenzo Isontino,Šlovrenc,,village,node
@@ -1869,13 +1869,13 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 2232331819,Sant Sili,,San Zili,,,isolated_dwelling,node
 9078966329,Sant Tomâs,,San Tommaso,,,hamlet,node
 1813482009,Sant Ulderì,,Sant'Ulderico / Sant'Ulderì,,,hamlet,node
-1987352487,Sant Zorç,,San Giorgio,,,neighbourhood,node
 8326081677,Sant Zorç,,Plan di Ploçiut,,,hamlet,node
+1987352487,Sant Zorç,,San Giorgio,,,neighbourhood,node
 2218266417,Sant'Andree,,Sant'Andrea,,,hamlet,node
 1315551747,Sant'Antoni,,Sant'Antonio,,,isolated_dwelling,node
 534846317,Sante Alene,,Sant'Elena,,,isolated_dwelling,node
-2591324808,Sante Catarine,,Santa Caterina,,,hamlet,node
 1323357915,Sante Catarine,,Santa Caterina,Šenkatrija,Sankt Kathrein,hamlet,node
+2591324808,Sante Catarine,,Santa Caterina,,,hamlet,node
 1787068728,Sante Eline,,Sant'Elena,,,neighbourhood,node
 2165322469,Sante Foscje,,Santa Fosca / Sante Foscje,,,hamlet,node
 469426615,Sante Luzie,Santa Luthia,Santa Lucia,,,suburb,node
@@ -2006,8 +2006,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1694414347,Strassolt,,Strassoldo,,,village,node
 3834131217,Stravignan,,Stravignan,,,isolated_dwelling,node
 1594736081,Strazonare,Strazonara,Strazonara / Strazonare,,,isolated_dwelling,node
-2121782317,Stregne,,Stregna,Sriednje,,isolated_dwelling,node
 66503336,Stregne,,Stregna,Sriednje,,village,node
+2121782317,Stregne,,Stregna,Sriednje,,isolated_dwelling,node
 1716761199,Stremiz,,Stremiz,Garmovščica,,village,node
 1571710290,Strete di Fleòns,,Stretta di Fleons,,,locality,node
 1323357907,Studene Alte,,Frazione Studena Alta / Studene Alte,,,hamlet,node
@@ -2103,8 +2103,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 6283474383,Tese,,Tese,,,locality,node
 835975117,Tesis,,Tesis,,,village,node
 66503557,Teôr,,Teor,,,village,node
-1546994220,Tierç,,Terzo,,,village,node
 66503348,Tierç,Tiars,Terzo di Aquileia,,,village,node
+1546994220,Tierç,,Terzo,,,village,node
 4509508571,Tierç Bacin,Tiars Bacin,Terzo Bacino,,,hamlet,node
 2315738138,Tieç,,Tiezzo,,,village,node
 66503374,Tisane,Tisana,Latisana,,,town,node
@@ -2112,8 +2112,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 306549223,Tissan,,Tissano,,,village,node
 625582696,Titian,,Titiano,,,hamlet,node
 1343017082,Toan,,Togliano / Toan,,,village,node
-1027161849,Tombe,,Tomba,,,village,node
 735745234,Tombe,,Tomba,,,village,node
+1027161849,Tombe,,Tomba,,,village,node
 817873025,Tonçolan,,Tonzolano / Tonçolan,,,hamlet,node
 834446179,Top,,Toppo / Top,,,village,node
 2577261169,Topiç,,Topic,,,isolated_dwelling,node
@@ -2140,8 +2140,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66503566,Trep di Cjargne,,Treppo Carnico,,,village,node
 66503287,Tresesin,,Tricesimo / Tresesin,,,village,node
 1437956758,Tridis,,Tridis,,,hamlet,node
-66502648,Triest,,Trieste,Trst,Triest,city,node
 179292,Triest,,Trieste,Tržaška,Triest,county,relation
+66502648,Triest,,Trieste,Trst,Triest,city,node
 365979561,Trinc,,Trinco,Trinko,,hamlet,node
 1278315057,Triscjamps,,Trischiamps / Triscjamps,,,isolated_dwelling,node
 6283474956,Triui,,Triui,,,locality,node
@@ -2170,10 +2170,10 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1165484412,Utàn,,Uttano,,,hamlet,node
 769200455,Vacîl,Vassîl,Vacile,,,village,node
 66503042,Vaiont,,Vajont,,,village,node
-1278315028,Val,,Val di Lauco / Val,,,hamlet,node
-5272514368,Val,,Valle,,,locality,node
-2646014207,Val,,Valle,,,neighbourhood,node
 782565802,Val,,Valle,,,hamlet,node
+1278315028,Val,,Val di Lauco / Val,,,hamlet,node
+2646014207,Val,,Valle,,,neighbourhood,node
+5272514368,Val,,Valle,,,locality,node
 1996708462,Val di Mignecis,,Stavoli Mignezza,,,locality,node
 927266993,Val di Roiâl,,Valle,,,village,node
 504329299,Val di Sofumberc,Val,Valle di Soffumbergo,Podcirkuo,,hamlet,node
@@ -2222,10 +2222,10 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1027155394,Vilalte,,Villalta,,,village,node
 2018110614,Vilaverde,,Villaverde,,,hamlet,node
 66503300,Vildivar,,Varmo,,,village,node
+12953463301,Vile,,Villa,,,neighbourhood,node
+1329719678,Vile,,Avilla,,,hamlet,node
 1995054565,Vile,Vila,Vila,,,hamlet,node
 1504261478,Vile,,Villa,,,hamlet,node
-1329719678,Vile,,Avilla,,,hamlet,node
-12953463301,Vile,,Villa,,,neighbourhood,node
 1223678060,Vile,Vila,Villa,,,village,node
 749251932,Vile Primevere,,Villa Primavera,,,village,node
 1286098277,Vile Raspe,Vila Raspa,Villaraspa / Vile Raspe,,,hamlet,node
@@ -2238,21 +2238,21 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 786900525,Vile di Reant,,Reànt,,,hamlet,node
 749032763,Vilecjaze,Vilecjasse,Villacaccia,,,village,node
 1504261497,Vilefrede,,Villafredda,,,hamlet,node
-2646066510,Vilegnove,Vilanuova,Villanova,,,hamlet,node
+287058176,Vilegnove,,Villanova delle Grotte,Zavarh,,village,node
+299727776,Vilegnove,Vilagnova,Villanova di Farra / Vilagnova,,,hamlet,node
 5290615681,Vilegnove,Vilanuova,Villanova,,,quarter,node
 796694195,Vilegnove,,Villanova di San Daniele,,,village,node
+2646066510,Vilegnove,Vilanuova,Villanova,,,hamlet,node
 1700732158,Vilegnove,,Villanova,,,hamlet,node
-299727776,Vilegnove,Vilagnova,Villanova di Farra / Vilagnova,,,hamlet,node
-287058176,Vilegnove,,Villanova delle Grotte,Zavarh,,village,node
 1544007042,Vilegnove da la Cartere,,Villanova della Cartera,,,village,node
 292695754,Vilegnove dal Judri,,Villanova del Judrio,,,village,node
 1438389094,Vilegnove di Prate,,Villanova di Prata,,,village,node
 2218266431,Vilericolt,,Villaraccolta,,,isolated_dwelling,node
-309904491,Vilevuarbe,,Villaorba,,,hamlet,node
 1484968152,Vilevuarbe,,Villaorba,,,village,node
+309904491,Vilevuarbe,,Villaorba,,,hamlet,node
 1019720328,Vilignove,,Villanova,,,village,node
-5149477896,Vilote,Vilota,Villotta,,,village,node
 504634141,Vilote,Vilota,Villotta,,,village,node
+5149477896,Vilote,Vilota,Villotta,,,village,node
 5472865636,Vilote di Visinâl,,Villotta di Visinale,,,village,node
 1463874016,Viluce,,Villuzza,,,hamlet,node
 2535219450,Vilute,,Villutta,,,hamlet,node
@@ -2266,9 +2266,9 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 66503552,Visc,,Visco,,,village,node
 1704186046,Viscon,,Viscone,,,village,node
 747157842,Visepente,,Basagliapenta / Visepente,,,village,node
-12992087038,Visinâl,,Visinale,,,hamlet,node
 2349526375,Visinâl,Visnâl,Visinale del Judrio / Visinâl dal Judri,,,hamlet,node
 2561828555,Visinâl,,Visinale,,,village,node
+12992087038,Visinâl,,Visinale,,,hamlet,node
 1283887307,Visinâl,,Vicinale,,,village,node
 5829402622,Visinâl di Sore,,Visinale di Sopra / Visinâl di Sore,,,hamlet,node
 5829402623,Visinâl di Sot,,Visinale di Sotto / Visinâl di Sot,,,hamlet,node
@@ -2291,8 +2291,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1440147054,Vuerc,,Virco,,,village,node
 1460518468,Vuezis,Vuezos,Vuezzis / Vuezos,,,hamlet,node
 1799093101,Vulpins,,Volpins,,,hamlet,node
-1312361877,Vîc,,Borgo Vico,,,hamlet,node
 1331375144,Vîc,,Vico,,,hamlet,node
+1312361877,Vîc,,Borgo Vico,,,hamlet,node
 2049638335,Vît,,Vit,,,hamlet,node
 66502802,Vît,,Vito d'Asio / Vît,,,village,node
 4141047305,Zambons,,Borgo Zamboni,,,locality,node
@@ -2325,8 +2325,8 @@ id,name:fur,loc_name:fur,name:it,name:sl,name:de,place,kind
 1556270007,i Strets,,Stretti,,,hamlet,node
 1701221653,i Stâi di sore,,Povici di sopra,,,hamlet,node
 1701221662,i Stâi di sot,,Povici di sotto,,,village,node
-1556270015,i Tamarots,,Tamaroz,,,hamlet,node
 1337071247,i Tamarots,,Tamaroz,,,locality,node
+1556270015,i Tamarots,,Tamaroz,,,hamlet,node
 3896370371,il Bombâs,,Bombas,,Bombasch,isolated_dwelling,node
 1907489404,il Gorc,,Gorgo,,,village,node
 5477563004,il bûsin,,Busin,,,neighbourhood,node
