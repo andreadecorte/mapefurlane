@@ -348,8 +348,8 @@
 │  2672277856 │ locality          │ Bocadin nuovo / Novi bokadin                             │ node                                         │
 │  2672277857 │ locality          │ Bocadin vecchio / Stari bokadin                          │ node                                         │
 │  1443252209 │ hamlet            │ Bocca Callalta                                           │ node                                         │
-│  5767584931 │ locality          │ Bocca d'Anfora                                           │ node                                         │
 │   911182174 │ locality          │ Bocca d'Anfora                                           │ node                                         │
+│  5767584931 │ locality          │ Bocca d'Anfora                                           │ node                                         │
 │   910668784 │ locality          │ Bocca dei Tre Canali                                     │ node                                         │
 │   911018041 │ locality          │ Bocca di Coron                                           │ node                                         │
 │   911605301 │ locality          │ Bocca di Morgo                                           │ node                                         │
@@ -465,8 +465,8 @@
 │  2486492888 │ isolated_dwelling │ Borgo Camillotti                                         │ node                                         │
 │  1574532049 │ hamlet            │ Borgo Canalet                                            │ node                                         │
 │ 12282484043 │ locality          │ Borgo Casoni                                             │ node                                         │
-│  2505075918 │ isolated_dwelling │ Borgo Castello                                           │ node                                         │
 │ 12953443422 │ neighbourhood     │ Borgo Castello                                           │ node                                         │
+│  2505075918 │ isolated_dwelling │ Borgo Castello                                           │ node                                         │
 │  2613650056 │ locality          │ Borgo Cavedalis                                          │ node                                         │
 │  4141047320 │ locality          │ Borgo Cec                                                │ node                                         │
 │  1574532051 │ hamlet            │ Borgo Chiari                                             │ node                                         │
@@ -507,11 +507,11 @@
 │  1574532055 │ hamlet            │ Borgo Moneghe                                            │ node                                         │
 │ 12269627866 │ isolated_dwelling │ Borgo Mora                                               │ node                                         │
 │  1674904170 │ neighbourhood     │ Borgo Mussuts                                            │ node                                         │
-│  2160171782 │ hamlet            │ Borgo Nuovo                                              │ node                                         │
 │  3726821018 │ hamlet            │ Borgo Nuovo                                              │ node                                         │
 │ 12953463302 │ neighbourhood     │ Borgo Nuovo                                              │ node                                         │
-│  1574532074 │ hamlet            │ Borgo Palù                                               │ node                                         │
+│  2160171782 │ hamlet            │ Borgo Nuovo                                              │ node                                         │
 │ 12033563440 │ hamlet            │ Borgo Palù                                               │ node                                         │
+│  1574532074 │ hamlet            │ Borgo Palù                                               │ node                                         │
 │  4141047387 │ locality          │ Borgo Paulins                                            │ node                                         │
 │  4156291624 │ locality          │ Borgo Paulins Di Sora                                    │ node                                         │
 │  7324308290 │ village           │ Borgo Peressine                                          │ node                                         │
@@ -537,8 +537,8 @@
 │ 13205188384 │ neighbourhood     │ Borgo San Pietro                                         │ node                                         │
 │   302945212 │ suburb            │ Borgo San Sergio                                         │ node                                         │
 │ 12033563446 │ locality          │ Borgo Sant'Agnese                                        │ node                                         │
-│  3831842157 │ hamlet            │ Borgo Sant'Antonio                                       │ node                                         │
 │  9019089116 │ hamlet            │ Borgo Sant'Antonio                                       │ node                                         │
+│  3831842157 │ hamlet            │ Borgo Sant'Antonio                                       │ node                                         │
 │ 11107917564 │ locality          │ Borgo Sant'Eufemia                                       │ node                                         │
 │ 12438529241 │ isolated_dwelling │ Borgo Santa Lucia                                        │ node                                         │
 │  3012036859 │ locality          │ Borgo Santi Quirico e Giulitta                           │ node                                         │
@@ -601,8 +601,8 @@
 │  1461469169 │ hamlet            │ Boscat                                                   │ node                                         │
 │  1461469187 │ hamlet            │ Boscat                                                   │ node                                         │
 │  2338317531 │ locality          │ Boscat                                                   │ node                                         │
-│  2388661547 │ locality          │ Boscato                                                  │ node                                         │
 │ 11693844951 │ hamlet            │ Boscato                                                  │ node                                         │
+│  2388661547 │ locality          │ Boscato                                                  │ node                                         │
 │  5281856912 │ locality          │ Bosch Cuc                                                │ node                                         │
 │ 11891694357 │ locality          │ Bosch dal Beu                                            │ node                                         │
 │ 10743062079 │ locality          │ Boschetta                                                │ node                                         │
@@ -610,13 +610,13 @@
 │  1531195121 │ hamlet            │ Boschetto                                                │ node                                         │
 │ 12466640700 │ locality          │ Boscjìt                                                  │ node                                         │
 │ 13172905507 │ locality          │ Bosco                                                    │ node                                         │
-│ 12612822703 │ hamlet            │ Bosco                                                    │ node                                         │
 │ 13172905512 │ locality          │ Bosco                                                    │ node                                         │
+│ 12612822703 │ hamlet            │ Bosco                                                    │ node                                         │
 │   912111634 │ locality          │ Bosco                                                    │ node                                         │
 │  9750964874 │ locality          │ Bosco / Gozd Josef Ressel                                │ node                                         │
 │  5751406114 │ locality          │ Bosco Aiarnola                                           │ node                                         │
-│  5327129118 │ locality          │ Bosco Avanza                                             │ node                                         │
 │  3531703666 │ locality          │ Bosco Avanza                                             │ node                                         │
+│  5327129118 │ locality          │ Bosco Avanza                                             │ node                                         │
 │ 13433476860 │ locality          │ Bosco Bando                                              │ node                                         │
 │  5295732549 │ locality          │ Bosco Boscat                                             │ node                                         │
 │  5281846166 │ locality          │ Bosco Brudaia                                            │ node                                         │
@@ -642,9 +642,9 @@
 │  5327117277 │ locality          │ Bosco Di Mon                                             │ node                                         │
 │  5327117276 │ locality          │ Bosco Di Monut                                           │ node                                         │
 │  5327121673 │ locality          │ Bosco Duron                                              │ node                                         │
-│  3993577593 │ locality          │ Bosco Faeit                                              │ node                                         │
 │  5282065720 │ locality          │ Bosco Faeit                                              │ node                                         │
 │  5281846163 │ locality          │ Bosco Faeit                                              │ node                                         │
+│  3993577593 │ locality          │ Bosco Faeit                                              │ node                                         │
 │  5283497439 │ locality          │ Bosco Grande                                             │ node                                         │
 │  5295735586 │ locality          │ Bosco Griffon                                            │ node                                         │
 │  5281850536 │ locality          │ Bosco Iof                                                │ node                                         │
@@ -737,10 +737,10 @@
 │ 12074825946 │ locality          │ Bozna                                                    │ node                                         │
 │  4958420199 │ locality          │ Bracocionco                                              │ node                                         │
 │  4958420213 │ locality          │ Bracuzo                                                  │ node                                         │
-│  5035399624 │ locality          │ Braida                                                   │ node                                         │
 │  5282782058 │ locality          │ Braida                                                   │ node                                         │
-│  3051340934 │ locality          │ Braida                                                   │ node                                         │
 │ 11677707293 │ locality          │ Braida                                                   │ node                                         │
+│  5035399624 │ locality          │ Braida                                                   │ node                                         │
+│  3051340934 │ locality          │ Braida                                                   │ node                                         │
 │  5282782061 │ locality          │ Braida Bassa                                             │ node                                         │
 │    18176647 │ hamlet            │ Braida Bottari                                           │ relation                                     │
 │   912111609 │ locality          │ Braida Bottazzo                                          │ node                                         │
@@ -802,8 +802,8 @@
 │   791617028 │ locality          │ Brizza di Sotto / Spodnje Bardce                         │ node                                         │
 │  2479417264 │ isolated_dwelling │ Brocchiana / Bročjana                                    │ node                                         │
 │  4976739095 │ locality          │ Brodevin                                                 │ node                                         │
-│  1307512962 │ locality          │ Broili                                                   │ node                                         │
 │  3963999169 │ hamlet            │ Broili                                                   │ node                                         │
+│  1307512962 │ locality          │ Broili                                                   │ node                                         │
 │  5349694612 │ locality          │ Broilo                                                   │ node                                         │
 │  2351246890 │ hamlet            │ Broz                                                     │ node                                         │
 │  2411107029 │ locality          │ Brucjolose                                               │ node                                         │
@@ -817,8 +817,8 @@
 │ 11381664842 │ hamlet            │ Brusatotina                                              │ node                                         │
 │  4958419197 │ locality          │ Bruse d Avàrole                                          │ node                                         │
 │  5326191387 │ locality          │ Brustolada                                               │ node                                         │
-│  2638850603 │ locality          │ Brustolade                                               │ node                                         │
 │  5254939527 │ locality          │ Brustolade                                               │ node                                         │
+│  2638850603 │ locality          │ Brustolade                                               │ node                                         │
 │  5326191335 │ locality          │ Brustulade                                               │ node                                         │
 │ 12198865472 │ isolated_dwelling │ Bràida                                                   │ node                                         │
 │ 13259911079 │ locality          │ Brájde                                                   │ node                                         │
@@ -944,8 +944,8 @@
 │  3638649293 │ neighbourhood     │ Ca' delle Vallade                                        │ node                                         │
 │  1447850634 │ hamlet            │ Caberlotto                                               │ node                                         │
 │  1447904789 │ hamlet            │ Cadamure                                                 │ node                                         │
-│  5326191328 │ locality          │ Cadin                                                    │ node                                         │
 │  5001597493 │ locality          │ Cadin                                                    │ node                                         │
+│  5326191328 │ locality          │ Cadin                                                    │ node                                         │
 │  5364722161 │ locality          │ Cadin Del Pramaggiore                                    │ node                                         │
 │  5326191821 │ locality          │ Cadin de Magor                                           │ node                                         │
 │ 12948926514 │ locality          │ Cadin dei Elmi                                           │ node                                         │
@@ -969,8 +969,8 @@
 │  3357475754 │ hamlet            │ Caloniche di Sopra                                       │ node                                         │
 │  3357476741 │ hamlet            │ Caloniche di Sotto                                       │ node                                         │
 │  1437353953 │ hamlet            │ Calstorta                                                │ node                                         │
-│  1913781617 │ locality          │ Calvario                                                 │ node                                         │
 │  9531024671 │ locality          │ Calvario                                                 │ node                                         │
+│  1913781617 │ locality          │ Calvario                                                 │ node                                         │
 │  2590499749 │ hamlet            │ Calvecchia                                               │ node                                         │
 │  1569662673 │ hamlet            │ Camerin                                                  │ node                                         │
 │  5254703841 │ locality          │ Cameron                                                  │ node                                         │
@@ -1028,8 +1028,8 @@
 │ 13205188385 │ neighbourhood     │ Candia                                                   │ node                                         │
 │  2235487605 │ village           │ Candide                                                  │ node                                         │
 │  1439518556 │ hamlet            │ Candolè                                                  │ node                                         │
-│  2388748209 │ isolated_dwelling │ Canedo                                                   │ node                                         │
 │  1604094768 │ hamlet            │ Canedo                                                   │ node                                         │
+│  2388748209 │ isolated_dwelling │ Canedo                                                   │ node                                         │
 │   821274724 │ locality          │ Cantariga                                                │ node                                         │
 │ 11891716715 │ locality          │ Cantaront                                                │ node                                         │
 │  1447890987 │ hamlet            │ Canton                                                   │ node                                         │
@@ -1211,8 +1211,8 @@
 │  2491314982 │ locality          │ Casa dei Paludi                                          │ node                                         │
 │  3389166867 │ isolated_dwelling │ Casa del Bosco                                           │ node                                         │
 │  2592965876 │ locality          │ Casa del Frari                                           │ node                                         │
-│  2488163942 │ locality          │ Casa del Moro                                            │ node                                         │
 │ 12863355065 │ locality          │ Casa del Moro                                            │ node                                         │
+│  2488163942 │ locality          │ Casa del Moro                                            │ node                                         │
 │  2961376864 │ isolated_dwelling │ Casa del Pozzo                                           │ node                                         │
 │  9503480891 │ locality          │ Casa la Fagotta                                          │ node                                         │
 │  9268730412 │ hamlet            │ Casada                                                   │ node                                         │
@@ -1481,8 +1481,8 @@
 │  3291194933 │ locality          │ Casera Costa di Crignis                                  │ node                                         │
 │  2547378745 │ locality          │ Casera Crasulina                                         │ node                                         │
 │  9456391982 │ locality          │ Casera Cretz                                             │ node                                         │
-│  2507492777 │ locality          │ Casera Crostis                                           │ node                                         │
 │  2610660141 │ locality          │ Casera Crostis                                           │ node                                         │
+│  2507492777 │ locality          │ Casera Crostis                                           │ node                                         │
 │  2560166995 │ locality          │ Casera Cucco di sopra                                    │ node                                         │
 │  3280639383 │ locality          │ Casera Cuel                                              │ node                                         │
 │   506290314 │ locality          │ Casera Cuesta Robbia Bassa                               │ node                                         │
@@ -1685,8 +1685,8 @@
 │    65272227 │ isolated_dwelling │ Casone Chiasellis                                        │ way                                          │
 │ 11104122053 │ locality          │ Casone De Marchi                                         │ node                                         │
 │ 11104531131 │ locality          │ Casone Dovier                                            │ node                                         │
-│    65072388 │ islet             │ Casone Guzzon                                            │ way                                          │
 │ 11104556812 │ locality          │ Casone Guzzon                                            │ node                                         │
+│    65072388 │ islet             │ Casone Guzzon                                            │ way                                          │
 │ 11104079580 │ locality          │ Casone Longo                                             │ node                                         │
 │ 11104547199 │ locality          │ Casone Marchesan Cadin                                   │ node                                         │
 │ 11104218911 │ locality          │ Casone Marianini                                         │ node                                         │
@@ -1725,8 +1725,8 @@
 │  8206762493 │ isolated_dwelling │ Castelletto Cavarzerani                                  │ node                                         │
 │  4774769079 │ locality          │ Castelliere di Monte Carso / Gradišče Vrh Griže          │ node                                         │
 │  2100238959 │ locality          │ Castello                                                 │ node                                         │
-│  8359822862 │ hamlet            │ Castello                                                 │ node                                         │
 │   871081219 │ locality          │ Castello                                                 │ node                                         │
+│  8359822862 │ hamlet            │ Castello                                                 │ node                                         │
 │   561667801 │ village           │ Castello Roganzuolo                                      │ node                                         │
 │  1378989298 │ village           │ Castello di Brussa                                       │ node                                         │
 │  3887740469 │ hamlet            │ Castello di Cordignano (Ruderi)                          │ node                                         │
@@ -1737,8 +1737,8 @@
 │  2121784630 │ locality          │ Cauz / Kalc                                              │ node                                         │
 │  6377997547 │ hamlet            │ Cauzzada                                                 │ node                                         │
 │  9072918956 │ locality          │ Cauzzetta                                                │ node                                         │
-│  4859611082 │ locality          │ Cava                                                     │ node                                         │
 │ 11888977509 │ locality          │ Cava                                                     │ node                                         │
+│  4859611082 │ locality          │ Cava                                                     │ node                                         │
 │  1627584205 │ isolated_dwelling │ Cava                                                     │ node                                         │
 │  9322197109 │ locality          │ Cava del Campanil                                        │ node                                         │
 │  5220393540 │ locality          │ Cava del None                                            │ node                                         │
@@ -1855,15 +1855,15 @@
 │   863038442 │ isolated_dwelling │ Chiavines                                                │ node                                         │
 │  5315405901 │ locality          │ Chiavrui                                                 │ node                                         │
 │  3266958956 │ locality          │ Chiazzadeire                                             │ node                                         │
-│  4446265110 │ municipality      │ Chies d'Alpago                                           │ node                                         │
 │   471448739 │ village           │ Chies d'Alpago                                           │ node                                         │
+│  4446265110 │ municipality      │ Chies d'Alpago                                           │ node                                         │
 │  1447130330 │ hamlet            │ Chiesa Vecchia                                           │ node                                         │
 │  2266849626 │ village           │ Chiesanuova                                              │ node                                         │
 │  2576134972 │ isolated_dwelling │ Chiesiole                                                │ node                                         │
 │  3676271469 │ locality          │ Chisate                                                  │ node                                         │
 │  3949889516 │ locality          │ Chiusa / Ključ                                           │ node                                         │
-│  5480740187 │ locality          │ Ciadin                                                   │ node                                         │
 │  4958235189 │ locality          │ Ciadin                                                   │ node                                         │
+│  5480740187 │ locality          │ Ciadin                                                   │ node                                         │
 │  5480740175 │ locality          │ Ciadin de Cianpoduro                                     │ node                                         │
 │  5480740186 │ locality          │ Ciadin de Rigozo                                         │ node                                         │
 │  5216987203 │ locality          │ Ciadin di Scodavacca                                     │ node                                         │
@@ -1900,8 +1900,8 @@
 │  5254703843 │ locality          │ Ciarera                                                  │ node                                         │
 │  5393786818 │ locality          │ Ciareronda                                               │ node                                         │
 │ 11945853681 │ locality          │ Ciaresèla                                                │ node                                         │
-│  4958420188 │ locality          │ Ciarezei                                                 │ node                                         │
 │  5198757805 │ locality          │ Ciarezei                                                 │ node                                         │
+│  4958420188 │ locality          │ Ciarezei                                                 │ node                                         │
 │  9926440055 │ locality          │ Ciareàda                                                 │ node                                         │
 │  5220393541 │ locality          │ Ciarisela                                                │ node                                         │
 │  5191950985 │ locality          │ Ciaritago                                                │ node                                         │
@@ -2057,10 +2057,10 @@
 │  1110618425 │ locality          │ Clap das Cjariesis                                       │ node                                         │
 │  3265960059 │ locality          │ Clap dell'Orso                                           │ node                                         │
 │  3485146952 │ locality          │ Clap della Polenta                                       │ node                                         │
+│ 11662773903 │ locality          │ Clapat                                                   │ node                                         │
+│ 11677628055 │ locality          │ Clapat                                                   │ node                                         │
 │  5331212102 │ locality          │ Clapat                                                   │ node                                         │
 │  2021393896 │ locality          │ Clapat                                                   │ node                                         │
-│ 11677628055 │ locality          │ Clapat                                                   │ node                                         │
-│ 11662773903 │ locality          │ Clapat                                                   │ node                                         │
 │  4026376440 │ locality          │ Clapeit                                                  │ node                                         │
 │  5312619052 │ locality          │ Clapera                                                  │ node                                         │
 │  5360991969 │ locality          │ Clapet                                                   │ node                                         │
@@ -2068,8 +2068,8 @@
 │  5349133410 │ locality          │ Clapet                                                   │ node                                         │
 │  1110618193 │ locality          │ Clapon Lunc                                              │ node                                         │
 │  1110613786 │ locality          │ Clapon da Siore                                          │ node                                         │
-│  1110616519 │ locality          │ Clapon da Volp                                           │ node                                         │
 │  1110617754 │ locality          │ Clapon da Volp                                           │ node                                         │
+│  1110616519 │ locality          │ Clapon da Volp                                           │ node                                         │
 │  1110616093 │ locality          │ Clapon das Cjâris                                        │ node                                         │
 │  1110614301 │ locality          │ Clapon di Catôr                                          │ node                                         │
 │  1110615928 │ locality          │ Clapon di Sefôni                                         │ node                                         │
@@ -2117,8 +2117,8 @@
 │  2961326660 │ isolated_dwelling │ Codelli                                                  │ node                                         │
 │  3485146947 │ locality          │ Codem                                                    │ node                                         │
 │   471448748 │ hamlet            │ Codenzano                                                │ node                                         │
-│  5349873280 │ locality          │ Codes                                                    │ node                                         │
 │  5315407331 │ locality          │ Codes                                                    │ node                                         │
+│  5349873280 │ locality          │ Codes                                                    │ node                                         │
 │   286323330 │ village           │ Codissago                                                │ node                                         │
 │    64778686 │ village           │ Codognè                                                  │ node                                         │
 │  5279910582 │ locality          │ Codon Carega                                             │ node                                         │
@@ -2225,13 +2225,13 @@
 │   302949614 │ suburb            │ Cologna                                                  │ node                                         │
 │  5216987209 │ locality          │ Coloi                                                    │ node                                         │
 │  5216987208 │ locality          │ Coloi di sotto                                           │ node                                         │
-│  5274332523 │ locality          │ Colombera                                                │ node                                         │
 │  5393811856 │ locality          │ Colombera                                                │ node                                         │
+│  5274332523 │ locality          │ Colombera                                                │ node                                         │
 │  5332068394 │ locality          │ Colombera                                                │ node                                         │
 │  5376766636 │ locality          │ Colon                                                    │ node                                         │
+│  9379508695 │ locality          │ Colon                                                    │ node                                         │
 │  5290479905 │ locality          │ Colon                                                    │ node                                         │
 │  5305491187 │ locality          │ Colon                                                    │ node                                         │
-│  9379508695 │ locality          │ Colon                                                    │ node                                         │
 │   302953066 │ suburb            │ Coloncovez / Kolonkovec                                  │ node                                         │
 │  3738923243 │ locality          │ Colonia                                                  │ node                                         │
 │ 12612818365 │ locality          │ Colonia Elioterapica                                     │ node                                         │
@@ -2251,12 +2251,12 @@
 │  2339278262 │ isolated_dwelling │ Comugna                                                  │ node                                         │
 │ 12479138747 │ locality          │ Comugna                                                  │ node                                         │
 │  1545977116 │ hamlet            │ Comugna Larga                                            │ node                                         │
-│  1481107178 │ hamlet            │ Comugne                                                  │ node                                         │
-│  1616718179 │ hamlet            │ Comugne                                                  │ node                                         │
-│   912111629 │ locality          │ Comugne                                                  │ node                                         │
-│ 12529229961 │ locality          │ Comugne                                                  │ node                                         │
 │ 11662641376 │ locality          │ Comugne                                                  │ node                                         │
 │ 13037193150 │ locality          │ Comugne                                                  │ node                                         │
+│  1616718179 │ hamlet            │ Comugne                                                  │ node                                         │
+│  1481107178 │ hamlet            │ Comugne                                                  │ node                                         │
+│   912111629 │ locality          │ Comugne                                                  │ node                                         │
+│ 12529229961 │ locality          │ Comugne                                                  │ node                                         │
 │  5326191406 │ locality          │ Comugne di Rossetto                                      │ node                                         │
 │ 13267383096 │ isolated_dwelling │ Comugne di Sotto                                         │ node                                         │
 │  5306445916 │ locality          │ Comunale                                                 │ node                                         │
@@ -2267,9 +2267,9 @@
 │  1569205054 │ hamlet            │ Concie                                                   │ node                                         │
 │   305231136 │ village           │ Conconello / Ferlugi                                     │ node                                         │
 │ 12879669722 │ locality          │ Concordia                                                │ node                                         │
-│  4958235170 │ locality          │ Confin                                                   │ node                                         │
 │ 10212062894 │ locality          │ Confin                                                   │ node                                         │
 │  5191995972 │ locality          │ Confin                                                   │ node                                         │
+│  4958235170 │ locality          │ Confin                                                   │ node                                         │
 │ 12033563448 │ hamlet            │ Confine                                                  │ node                                         │
 │ 12299289492 │ hamlet            │ Confine Settimo                                          │ node                                         │
 │  3255473064 │ isolated_dwelling │ Conigo / Konično                                         │ node                                         │
@@ -2296,8 +2296,8 @@
 │    64778688 │ village           │ Cordignano                                               │ node                                         │
 │  5279873222 │ locality          │ Cordon del Baridel                                       │ node                                         │
 │ 12863355062 │ isolated_dwelling │ Corelle                                                  │ node                                         │
-│  9707773823 │ village           │ Cornadella                                               │ node                                         │
 │  7168745855 │ locality          │ Cornadella                                               │ node                                         │
+│  9707773823 │ village           │ Cornadella                                               │ node                                         │
 │  1487614590 │ hamlet            │ Cornarè                                                  │ node                                         │
 │  5306447952 │ locality          │ Corne                                                    │ node                                         │
 │  5220393543 │ locality          │ Cornei                                                   │ node                                         │
@@ -2310,8 +2310,8 @@
 │  3594063237 │ hamlet            │ Cornolade Alte                                           │ node                                         │
 │  3594063238 │ hamlet            │ Cornolade Basse                                          │ node                                         │
 │  4958235155 │ locality          │ Cornon                                                   │ node                                         │
-│  5349873292 │ locality          │ Corona                                                   │ node                                         │
 │   863039167 │ locality          │ Corona                                                   │ node                                         │
+│  5349873292 │ locality          │ Corona                                                   │ node                                         │
 │  3896603911 │ isolated_dwelling │ Coronis                                                  │ node                                         │
 │  9893673849 │ hamlet            │ Correda / Koreda                                         │ node                                         │
 │  8287909985 │ locality          │ Cortate                                                  │ node                                         │
@@ -2325,12 +2325,12 @@
 │  9463554421 │ isolated_dwelling │ Cosoi                                                    │ node                                         │
 │  8994173032 │ locality          │ Cospizza                                                 │ node                                         │
 │  8287955785 │ locality          │ Cossete                                                  │ node                                         │
-│ 11883665278 │ isolated_dwelling │ Costa                                                    │ node                                         │
-│  2914182452 │ isolated_dwelling │ Costa                                                    │ node                                         │
 │  7363450294 │ hamlet            │ Costa                                                    │ node                                         │
+│  2914182452 │ isolated_dwelling │ Costa                                                    │ node                                         │
+│  5255646449 │ locality          │ Costa                                                    │ node                                         │
+│ 11883665278 │ isolated_dwelling │ Costa                                                    │ node                                         │
 │  4958420153 │ locality          │ Costa                                                    │ node                                         │
 │  1574623199 │ neighbourhood     │ Costa                                                    │ node                                         │
-│  5255646449 │ locality          │ Costa                                                    │ node                                         │
 │   791617071 │ hamlet            │ Costa / Kuosta                                           │ node                                         │
 │  5255646431 │ locality          │ Costa Adies                                              │ node                                         │
 │ 13206435554 │ neighbourhood     │ Costa Alta                                               │ node                                         │
@@ -2356,9 +2356,9 @@
 │  4958235725 │ locality          │ Costa Longa                                              │ node                                         │
 │  5480740178 │ locality          │ Costa Longia                                             │ node                                         │
 │  4869386049 │ locality          │ Costa Lossiena                                           │ node                                         │
+│ 11669261175 │ locality          │ Costa Lunga                                              │ node                                         │
 │ 11663402136 │ locality          │ Costa Lunga                                              │ node                                         │
 │  3265300656 │ locality          │ Costa Lunga                                              │ node                                         │
-│ 11669261175 │ locality          │ Costa Lunga                                              │ node                                         │
 │ 11510985446 │ locality          │ Costa Marquart                                           │ node                                         │
 │ 11663329006 │ locality          │ Costa Maura                                              │ node                                         │
 │  4972507638 │ locality          │ Costa Mula                                               │ node                                         │
@@ -2407,14 +2407,14 @@
 │  4958235744 │ locality          │ Costa de i Barance                                       │ node                                         │
 │  4958420166 │ locality          │ Costa de i Cianpanì                                      │ node                                         │
 │  4958420190 │ locality          │ Costa de i Fornate                                       │ node                                         │
-│  4972439238 │ locality          │ Costa de i Pifanie                                       │ node                                         │
 │  4958235758 │ locality          │ Costa de i Pifanie                                       │ node                                         │
+│  4972439238 │ locality          │ Costa de i Pifanie                                       │ node                                         │
 │  4972507662 │ locality          │ Costa de i Sarote                                        │ node                                         │
 │  4958235174 │ locality          │ Costa de i Vediéi                                        │ node                                         │
 │  4958235185 │ locality          │ Costa de i Zelis                                         │ node                                         │
 │  5254703848 │ locality          │ Costa de iaule                                           │ node                                         │
-│  4958235755 │ locality          │ Costa de l Erba                                          │ node                                         │
 │  5198768081 │ locality          │ Costa de l Erba                                          │ node                                         │
+│  4958235755 │ locality          │ Costa de l Erba                                          │ node                                         │
 │  4958235760 │ locality          │ Costa de l Fuóu                                          │ node                                         │
 │  4958420203 │ locality          │ Costa de la Ciàupa                                       │ node                                         │
 │  4958135974 │ locality          │ Costa de le Fiube                                        │ node                                         │
@@ -2456,8 +2456,8 @@
 │  5346994598 │ locality          │ Covil                                                    │ node                                         │
 │  8287909973 │ locality          │ Covociut                                                 │ node                                         │
 │  3997103657 │ isolated_dwelling │ Cracil                                                   │ node                                         │
-│  2397492436 │ hamlet            │ Cragnutto                                                │ node                                         │
 │    18176646 │ hamlet            │ Cragnutto                                                │ relation                                     │
+│  2397492436 │ hamlet            │ Cragnutto                                                │ node                                         │
 │   354639914 │ hamlet            │ Crai / Kraj                                              │ node                                         │
 │  1110616367 │ locality          │ Craiaz                                                   │ node                                         │
 │  2503360468 │ locality          │ Cranzove / Kranjcove                                     │ node                                         │
@@ -2574,8 +2574,8 @@
 │  4958420214 │ locality          │ Cucagna                                                  │ node                                         │
 │  8287909974 │ locality          │ Cuciau                                                   │ node                                         │
 │  5331212092 │ locality          │ Cudicies                                                 │ node                                         │
-│  8287955885 │ locality          │ Cuei                                                     │ node                                         │
 │  8287955873 │ locality          │ Cuei                                                     │ node                                         │
+│  8287955885 │ locality          │ Cuei                                                     │ node                                         │
 │  4801549775 │ locality          │ Cuei di Fur (Rud.)                                       │ node                                         │
 │  8543459246 │ locality          │ Cuel                                                     │ node                                         │
 │  3819409786 │ locality          │ Cuel Fuart                                               │ node                                         │
@@ -2585,8 +2585,8 @@
 │ 13451038560 │ locality          │ Cuel Montarec                                            │ node                                         │
 │  3074676132 │ locality          │ Cuel Parussins                                           │ node                                         │
 │ 12750616549 │ locality          │ Cuel Sitiz                                               │ node                                         │
-│  4845872434 │ locality          │ Cuel Taront                                              │ node                                         │
 │  1110614848 │ locality          │ Cuel Taront                                              │ node                                         │
+│  4845872434 │ locality          │ Cuel Taront                                              │ node                                         │
 │  3655715305 │ locality          │ Cuel da Baite                                            │ node                                         │
 │  1110617824 │ locality          │ Cuel da Fave                                             │ node                                         │
 │  3932523297 │ locality          │ Cuel da Slire                                            │ node                                         │
@@ -2607,8 +2607,8 @@
 │ 11669975703 │ locality          │ Cuelat                                                   │ node                                         │
 │  2960550280 │ locality          │ Cuelsclusan                                              │ node                                         │
 │  1110618172 │ locality          │ Cuelàs                                                   │ node                                         │
-│  3341392530 │ locality          │ Cuesta                                                   │ node                                         │
 │ 12473266308 │ locality          │ Cuesta                                                   │ node                                         │
+│  3341392530 │ locality          │ Cuesta                                                   │ node                                         │
 │  5306445904 │ locality          │ Cuesta Bisa                                              │ node                                         │
 │  5312619051 │ locality          │ Cuesta Brusada                                           │ node                                         │
 │  2406419124 │ locality          │ Cuesta Disora                                            │ node                                         │
@@ -2715,8 +2715,8 @@
 │  5363476714 │ locality          │ Davor i Cuei                                             │ node                                         │
 │  5286605745 │ locality          │ Davour                                                   │ node                                         │
 │ 11758916915 │ locality          │ Davour Mulin                                             │ node                                         │
-│   871088415 │ isolated_dwelling │ Davour la Mont                                           │ node                                         │
 │ 12368456479 │ locality          │ Davour la Mont                                           │ node                                         │
+│   871088415 │ isolated_dwelling │ Davour la Mont                                           │ node                                         │
 │ 12474068262 │ locality          │ Davour la Palate                                         │ node                                         │
 │  4958419204 │ locality          │ Daò                                                      │ node                                         │
 │  1110616352 │ locality          │ Daûr Cuel dai Pins                                       │ node                                         │
@@ -2752,8 +2752,8 @@
 │  3896370373 │ locality          │ Dobie                                                    │ node                                         │
 │  5254703851 │ locality          │ Doere de sora                                            │ node                                         │
 │  5254703852 │ locality          │ Doere de sote                                            │ node                                         │
-│  2385288377 │ locality          │ Dogna                                                    │ node                                         │
 │  2808375501 │ hamlet            │ Dogna                                                    │ node                                         │
+│  2385288377 │ locality          │ Dogna                                                    │ node                                         │
 │  1489579969 │ locality          │ Dol                                                      │ node                                         │
 │ 13119420801 │ locality          │ Dol                                                      │ node                                         │
 │  2672317232 │ locality          │ Dol                                                      │ node                                         │
@@ -2761,13 +2761,13 @@
 │   353878433 │ hamlet            │ Dolegna / Dolenjane                                      │ node                                         │
 │  3687883506 │ isolated_dwelling │ Dolenje Ravne                                            │ node                                         │
 │  3770565044 │ locality          │ Dolenji Konac                                            │ node                                         │
-│  2671393081 │ locality          │ Dolenji konec                                            │ node                                         │
 │  2671900561 │ locality          │ Dolenji konec                                            │ node                                         │
+│  2671393081 │ locality          │ Dolenji konec                                            │ node                                         │
 │  2756130215 │ locality          │ Dolenjiva                                                │ node                                         │
-│   287058177 │ neighbourhood     │ Dolina                                                   │ node                                         │
-│  2648024432 │ locality          │ Dolina                                                   │ node                                         │
 │  1620313840 │ village           │ Dolina                                                   │ node                                         │
+│  2648024432 │ locality          │ Dolina                                                   │ node                                         │
 │  3034658700 │ locality          │ Dolina                                                   │ node                                         │
+│   287058177 │ neighbourhood     │ Dolina                                                   │ node                                         │
 │   353878819 │ hamlet            │ Dolina / Vodopivac                                       │ node                                         │
 │  6466628968 │ locality          │ Dolina Mameli                                            │ node                                         │
 │  5982734051 │ locality          │ Dolina Merine / Merinski dol                             │ node                                         │
@@ -2809,8 +2809,8 @@
 │  5279887003 │ locality          │ Dosso Fora                                               │ node                                         │
 │  8287955765 │ locality          │ Dote                                                     │ node                                         │
 │  2833970783 │ isolated_dwelling │ Dovàl                                                    │ node                                         │
-│  1620336253 │ hamlet            │ Draga                                                    │ node                                         │
 │  6427902966 │ locality          │ Draga                                                    │ node                                         │
+│  1620336253 │ hamlet            │ Draga                                                    │ node                                         │
 │  3614930348 │ hamlet            │ Drenchia Inferiore / Dolenja Dreka                       │ node                                         │
 │  3614930349 │ hamlet            │ Drenchia Superiore / Gorenai Dreka                       │ node                                         │
 │  3151224059 │ locality          │ Driegne                                                  │ node                                         │
@@ -2828,8 +2828,8 @@
 │  2672277835 │ locality          │ Duino Mare / Piciganišče                                 │ node                                         │
 │  2096768578 │ locality          │ Dula                                                     │ node                                         │
 │ 12074825943 │ locality          │ Dulni kal                                                │ node                                         │
-│  4958420122 │ locality          │ Dumele                                                   │ node                                         │
 │  5255646445 │ locality          │ Dumele                                                   │ node                                         │
+│  4958420122 │ locality          │ Dumele                                                   │ node                                         │
 │  3043354019 │ locality          │ Duola                                                    │ node                                         │
 │  5220393545 │ locality          │ Duran                                                    │ node                                         │
 │  9916760752 │ hamlet            │ Duranti                                                  │ node                                         │
@@ -2908,11 +2908,11 @@
 │  9300136444 │ locality          │ Faêt                                                     │ node                                         │
 │  2422472369 │ locality          │ Faûl                                                     │ node                                         │
 │  3463664816 │ locality          │ Fedarola                                                 │ node                                         │
-│  4958419190 │ locality          │ Fedarola                                                 │ node                                         │
-│  4958235199 │ locality          │ Fedarola                                                 │ node                                         │
 │ 10772920730 │ locality          │ Fedarola                                                 │ node                                         │
-│  9310346238 │ hamlet            │ Federa                                                   │ node                                         │
+│  4958235199 │ locality          │ Fedarola                                                 │ node                                         │
+│  4958419190 │ locality          │ Fedarola                                                 │ node                                         │
 │  9660681390 │ locality          │ Federa                                                   │ node                                         │
+│  9310346238 │ hamlet            │ Federa                                                   │ node                                         │
 │  5198757810 │ locality          │ Federa Vecia                                             │ node                                         │
 │ 12857813418 │ locality          │ Federa alta                                              │ node                                         │
 │  9410305131 │ locality          │ Fedère                                                   │ node                                         │
@@ -3048,11 +3048,11 @@
 │  1110614950 │ locality          │ Fontane dal Cuel dai Salens                              │ node                                         │
 │  1110618225 │ locality          │ Fontane di Cuel dal Signôr                               │ node                                         │
 │  1110615652 │ locality          │ Fontane di Trasseit                                      │ node                                         │
-│  4958419217 │ locality          │ Fontanele                                                │ node                                         │
 │  5255646442 │ locality          │ Fontanele                                                │ node                                         │
+│  4958419217 │ locality          │ Fontanele                                                │ node                                         │
 │  3642794893 │ village           │ Fontanella                                               │ node                                         │
-│    64778635 │ village           │ Fontanelle                                               │ node                                         │
 │  5243356826 │ locality          │ Fontanelle                                               │ node                                         │
+│    64778635 │ village           │ Fontanelle                                               │ node                                         │
 │  1584459595 │ hamlet            │ Fontanelle Chiesa                                        │ node                                         │
 │  3472025966 │ locality          │ Fontanelle di Fuori                                      │ node                                         │
 │  1431684810 │ hamlet            │ Fontanellette                                            │ node                                         │
@@ -3067,8 +3067,8 @@
 │  3282053067 │ locality          │ Forame                                                   │ node                                         │
 │ 11136033297 │ locality          │ Forame                                                   │ node                                         │
 │  1265304659 │ hamlet            │ Foran                                                    │ node                                         │
-│  5327073353 │ locality          │ Foran                                                    │ node                                         │
 │  8155322012 │ locality          │ Foran                                                    │ node                                         │
+│  5327073353 │ locality          │ Foran                                                    │ node                                         │
 │  1110618719 │ locality          │ Foran da Lope                                            │ node                                         │
 │  1110617686 │ locality          │ Foran da Moede                                           │ node                                         │
 │  1110616114 │ locality          │ Foran dai Las                                            │ node                                         │
@@ -3096,8 +3096,8 @@
 │  5349873267 │ locality          │ Forchiazza                                               │ node                                         │
 │  5332068405 │ locality          │ Forchie d'Archela                                        │ node                                         │
 │  3463664821 │ locality          │ Forcia                                                   │ node                                         │
-│  4958419196 │ locality          │ Forcia                                                   │ node                                         │
 │ 10777899541 │ locality          │ Forcia                                                   │ node                                         │
+│  4958419196 │ locality          │ Forcia                                                   │ node                                         │
 │  5326191361 │ locality          │ Forcia Bassa                                             │ node                                         │
 │ 13451365845 │ locality          │ Forciatas                                                │ node                                         │
 │ 12426344697 │ locality          │ Forcja                                                   │ node                                         │
@@ -3160,18 +3160,18 @@
 │  5326191340 │ locality          │ Fratta de Ala                                            │ node                                         │
 │  1428847190 │ hamlet            │ Fratta di Oderzo                                         │ node                                         │
 │  3112688929 │ locality          │ Fratte                                                   │ node                                         │
-│  1448136593 │ village           │ Fratte                                                   │ node                                         │
 │  2584116527 │ village           │ Fratte                                                   │ node                                         │
-│  1119837698 │ locality          │ Fratte                                                   │ node                                         │
+│  1448136593 │ village           │ Fratte                                                   │ node                                         │
 │ 11508302777 │ locality          │ Fratte                                                   │ node                                         │
+│  1119837698 │ locality          │ Fratte                                                   │ node                                         │
 │  5315407337 │ locality          │ Frattes                                                  │ node                                         │
 │  1342146163 │ neighbourhood     │ Frattis                                                  │ node                                         │
 │ 11508291475 │ locality          │ Frattuce                                                 │ node                                         │
 │  1110615875 │ locality          │ Fratuce                                                  │ node                                         │
 │  4958420202 │ locality          │ Fraìna                                                   │ node                                         │
 │   912111640 │ locality          │ Fredis                                                   │ node                                         │
-│ 12282484073 │ hamlet            │ Fregona                                                  │ node                                         │
 │   658191463 │ village           │ Fregona                                                  │ node                                         │
+│ 12282484073 │ hamlet            │ Fregona                                                  │ node                                         │
 │  1875487128 │ locality          │ Freilichtmuseum - Museo all'aperto                       │ node                                         │
 │  5216866572 │ locality          │ Freine                                                   │ node                                         │
 │  5349873289 │ locality          │ Frincese                                                 │ node                                         │
@@ -3216,8 +3216,8 @@
 │ 12033563445 │ hamlet            │ Galletto                                                 │ node                                         │
 │  5286605751 │ locality          │ Gallina                                                  │ node                                         │
 │ 11959097968 │ locality          │ Gallinazza                                               │ node                                         │
-│ 11560072708 │ locality          │ Gambero                                                  │ node                                         │
 │  2613657121 │ locality          │ Gambero                                                  │ node                                         │
+│ 11560072708 │ locality          │ Gambero                                                  │ node                                         │
 │  5274332524 │ locality          │ Gandin                                                   │ node                                         │
 │  8590217486 │ locality          │ Ganzbisa                                                 │ node                                         │
 │  5346994603 │ locality          │ Gardiz                                                   │ node                                         │
@@ -3237,11 +3237,11 @@
 │  6321771505 │ locality          │ Gesimis                                                  │ node                                         │
 │   863053249 │ locality          │ Ghet                                                     │ node                                         │
 │  5306445919 │ locality          │ Ghiastri                                                 │ node                                         │
-│  4775156785 │ locality          │ Ghirlo                                                   │ node                                         │
 │  5255644919 │ locality          │ Ghirlo                                                   │ node                                         │
+│  4775156785 │ locality          │ Ghirlo                                                   │ node                                         │
 │  3727433827 │ locality          │ Giaf                                                     │ node                                         │
-│  5306447951 │ locality          │ Giaf                                                     │ node                                         │
 │  5307090522 │ locality          │ Giaf                                                     │ node                                         │
+│  5306447951 │ locality          │ Giaf                                                     │ node                                         │
 │  5331212107 │ locality          │ Gialf                                                    │ node                                         │
 │  2084778710 │ hamlet            │ Gialinars                                                │ node                                         │
 │  1468395949 │ hamlet            │ Gialloz                                                  │ node                                         │
@@ -3254,8 +3254,8 @@
 │  1667282970 │ locality          │ Giaron                                                   │ node                                         │
 │  2938971328 │ locality          │ Giarrette                                                │ node                                         │
 │   299743363 │ hamlet            │ Giasbana / Jazbine                                       │ node                                         │
-│  5216866573 │ locality          │ Giau Scuro                                               │ node                                         │
 │  5198768083 │ locality          │ Giau Scuro                                               │ node                                         │
+│  5216866573 │ locality          │ Giau Scuro                                               │ node                                         │
 │  5198768084 │ locality          │ Giau Strento                                             │ node                                         │
 │  5216906483 │ locality          │ Giau de Filippo                                          │ node                                         │
 │  5235269933 │ locality          │ Giau dei Scatui                                          │ node                                         │
@@ -3277,8 +3277,8 @@
 │  1769510650 │ neighbourhood     │ Glera                                                    │ node                                         │
 │ 11891716723 │ locality          │ Glerarie                                                 │ node                                         │
 │  1110616239 │ locality          │ Glereais                                                 │ node                                         │
-│ 12666416329 │ locality          │ Gleries                                                  │ node                                         │
 │  5360991971 │ locality          │ Gleries                                                  │ node                                         │
+│ 12666416329 │ locality          │ Gleries                                                  │ node                                         │
 │  2061894292 │ hamlet            │ Gleris                                                   │ node                                         │
 │  1110615040 │ locality          │ Gleris a Bas                                             │ node                                         │
 │   895597098 │ suburb            │ Gleseute                                                 │ node                                         │
@@ -3303,8 +3303,8 @@
 │  1609024463 │ locality          │ Gola dei Camosci / Gamswurzgraben                        │ node                                         │
 │  6037339043 │ locality          │ Golars                                                   │ node                                         │
 │   575270576 │ locality          │ Goli rob                                                 │ way                                          │
-│  2672317231 │ locality          │ Goljak                                                   │ node                                         │
 │  7243031481 │ locality          │ Goljak                                                   │ node                                         │
+│  2672317231 │ locality          │ Goljak                                                   │ node                                         │
 │  2960812472 │ village           │ Golo Brdo                                                │ node                                         │
 │  2113106809 │ isolated_dwelling │ Golob                                                    │ node                                         │
 │  8141018163 │ locality          │ Golometto                                                │ node                                         │
@@ -3314,10 +3314,10 @@
 │  8985708578 │ locality          │ Gordini                                                  │ node                                         │
 │   783336946 │ hamlet            │ Goregnavas / Gorenja Vas                                 │ node                                         │
 │  3687883374 │ isolated_dwelling │ Gorenje Ravne                                            │ node                                         │
-│  2671393080 │ locality          │ Gorenji konec                                            │ node                                         │
 │  2671900572 │ locality          │ Gorenji konec                                            │ node                                         │
-│  1481406594 │ hamlet            │ Gorgo                                                    │ node                                         │
+│  2671393080 │ locality          │ Gorenji konec                                            │ node                                         │
 │  5279873223 │ locality          │ Gorgo                                                    │ node                                         │
+│  1481406594 │ hamlet            │ Gorgo                                                    │ node                                         │
 │    25198463 │ island            │ Gorgo                                                    │ way                                          │
 │   634481323 │ village           │ Gorgo al Monticano                                       │ node                                         │
 │  5279895857 │ locality          │ Gorgo dei ladri                                          │ node                                         │
@@ -3457,8 +3457,8 @@
 │  1110617722 │ locality          │ I Cos                                                    │ node                                         │
 │  5347982513 │ locality          │ I Cris                                                   │ node                                         │
 │  5255646439 │ locality          │ I Cròntui                                                │ node                                         │
-│ 11508301194 │ locality          │ I Cuei                                                   │ node                                         │
 │ 11704137792 │ locality          │ I Cuei                                                   │ node                                         │
+│ 11508301194 │ locality          │ I Cuei                                                   │ node                                         │
 │  1110616498 │ locality          │ I Fornatùs                                               │ node                                         │
 │  5216906484 │ locality          │ I Forziei                                                │ node                                         │
 │  7285515390 │ locality          │ I Glereài                                                │ node                                         │
@@ -3531,12 +3531,12 @@
 │  1110618443 │ locality          │ Il Cret Lunc                                             │ node                                         │
 │  2079598848 │ locality          │ Il Cret dai Pes                                          │ node                                         │
 │  1110614093 │ locality          │ Il Cret di Joç                                           │ node                                         │
-│  5286605737 │ locality          │ Il Crist                                                 │ node                                         │
 │  5290479884 │ locality          │ Il Crist                                                 │ node                                         │
+│  5286605737 │ locality          │ Il Crist                                                 │ node                                         │
 │  5282782063 │ locality          │ Il Cristo                                                │ node                                         │
 │  3007044534 │ locality          │ Il Cristo                                                │ node                                         │
-│  1110616773 │ locality          │ Il Cuel                                                  │ node                                         │
 │ 12473180063 │ locality          │ Il Cuel                                                  │ node                                         │
+│  1110616773 │ locality          │ Il Cuel                                                  │ node                                         │
 │  1110615970 │ locality          │ Il Cuelut                                                │ node                                         │
 │  1110619063 │ locality          │ Il Forcjt da Foramate                                    │ node                                         │
 │  1110617396 │ locality          │ Il Gioculut                                              │ node                                         │
@@ -3600,8 +3600,8 @@
 │     6504160 │ island            │ Isola di Sant'Andrea                                     │ relation                                     │
 │    58414333 │ islet             │ Isola di Volpera                                         │ way                                          │
 │   492506735 │ islet             │ Isola madonnina del Pescatore                            │ way                                          │
-│    66196636 │ islet             │ Isole della Gran Chiusa                                  │ way                                          │
 │    66120726 │ islet             │ Isole della Gran Chiusa                                  │ way                                          │
+│    66196636 │ islet             │ Isole della Gran Chiusa                                  │ way                                          │
 │  2111225597 │ hamlet            │ Isoletta                                                 │ node                                         │
 │   788163065 │ islet             │ Isoletta Clanfadór                                       │ way                                          │
 │   506729970 │ hamlet            │ Issari / Hišarji                                         │ node                                         │
@@ -3615,8 +3615,8 @@
 │  7666465698 │ locality          │ Jarona alta                                              │ node                                         │
 │  8818122274 │ locality          │ Jarona bassa                                             │ node                                         │
 │  9895350566 │ locality          │ Jars                                                     │ node                                         │
-│ 11830244080 │ locality          │ Jeplenca                                                 │ node                                         │
 │  2672810136 │ locality          │ Jeplenca                                                 │ node                                         │
+│ 11830244080 │ locality          │ Jeplenca                                                 │ node                                         │
 │  1335042377 │ locality          │ Jeserza                                                  │ node                                         │
 │  5779264313 │ hamlet            │ Jevšček                                                  │ node                                         │
 │ 10186466157 │ locality          │ Jof Marin                                                │ node                                         │
@@ -3675,8 +3675,8 @@
 │  2672301004 │ locality          │ Križpot                                                  │ node                                         │
 │  5682449282 │ locality          │ Krlišče                                                  │ node                                         │
 │ 13259911073 │ locality          │ Kráče                                                    │ node                                         │
-│  8689058065 │ locality          │ Kržada                                                   │ node                                         │
 │ 12074825937 │ locality          │ Kržada                                                   │ node                                         │
+│  8689058065 │ locality          │ Kržada                                                   │ node                                         │
 │  2671900573 │ locality          │ Kržada                                                   │ node                                         │
 │  1590797150 │ locality          │ Kuglic                                                   │ node                                         │
 │  5210511552 │ locality          │ Kuluna                                                   │ node                                         │
@@ -3704,8 +3704,8 @@
 │  1691721629 │ locality          │ La Brusada                                               │ node                                         │
 │  2472305141 │ locality          │ La Buca - Im schwarzen Loch                              │ node                                         │
 │   863036911 │ isolated_dwelling │ La Busa                                                  │ node                                         │
-│  1580095756 │ locality          │ La Busate                                                │ node                                         │
 │  2413631115 │ locality          │ La Busate                                                │ node                                         │
+│  1580095756 │ locality          │ La Busate                                                │ node                                         │
 │  1110616961 │ locality          │ La Buse                                                  │ node                                         │
 │  1813482012 │ hamlet            │ La Buse dai Veris                                        │ node                                         │
 │  1110616104 │ locality          │ La Bûse dai Lavas                                        │ node                                         │
@@ -3758,9 +3758,9 @@
 │  5312619058 │ locality          │ La Frascola                                              │ node                                         │
 │  4850223000 │ isolated_dwelling │ La Frassina                                              │ node                                         │
 │  1110617494 │ locality          │ La Frate dai Talians                                     │ node                                         │
+│  2522588259 │ locality          │ La Fratta                                                │ node                                         │
 │  5312022017 │ locality          │ La Fratta                                                │ node                                         │
 │  5305491184 │ locality          │ La Fratta                                                │ node                                         │
-│  2522588259 │ locality          │ La Fratta                                                │ node                                         │
 │  5376766680 │ locality          │ La Frugnita                                              │ node                                         │
 │  1110616037 │ locality          │ La Gjave                                                 │ node                                         │
 │  1110614154 │ locality          │ La Grassure da Bombasine                                 │ node                                         │
@@ -3781,10 +3781,10 @@
 │  1110618381 │ locality          │ La Miele                                                 │ node                                         │
 │  1110616718 │ locality          │ La Mirie da Cjâre Garse                                  │ node                                         │
 │ 11374933488 │ hamlet            │ La Mondina | Case Nuove                                  │ node                                         │
-│  5360991968 │ locality          │ La Mont                                                  │ node                                         │
 │  5282782059 │ locality          │ La Mont                                                  │ node                                         │
-│ 11545582301 │ locality          │ La Mont                                                  │ node                                         │
+│  5360991968 │ locality          │ La Mont                                                  │ node                                         │
 │  5309243822 │ locality          │ La Mont                                                  │ node                                         │
+│ 11545582301 │ locality          │ La Mont                                                  │ node                                         │
 │  5290479909 │ locality          │ La Montata                                               │ node                                         │
 │  8748762202 │ locality          │ La Motta                                                 │ node                                         │
 │  2420671777 │ hamlet            │ La Muriate                                               │ node                                         │
@@ -3844,13 +3844,13 @@
 │  1110617045 │ locality          │ La Tofe                                                  │ node                                         │
 │ 12863355092 │ locality          │ La Trinità                                               │ node                                         │
 │  1110616492 │ locality          │ La Uele                                                  │ node                                         │
-│  3846445061 │ isolated_dwelling │ La Val                                                   │ node                                         │
-│ 13451038546 │ locality          │ La Val                                                   │ node                                         │
-│  1804850436 │ isolated_dwelling │ La Val                                                   │ node                                         │
-│  1110615588 │ locality          │ La Val                                                   │ node                                         │
-│  2014079702 │ locality          │ La Val                                                   │ node                                         │
 │  5315407329 │ locality          │ La Val                                                   │ node                                         │
+│ 13451038546 │ locality          │ La Val                                                   │ node                                         │
+│  2014079702 │ locality          │ La Val                                                   │ node                                         │
+│  1804850436 │ isolated_dwelling │ La Val                                                   │ node                                         │
+│  3846445061 │ isolated_dwelling │ La Val                                                   │ node                                         │
 │ 12407320454 │ neighbourhood     │ La Val                                                   │ node                                         │
+│  1110615588 │ locality          │ La Val                                                   │ node                                         │
 │  8589132945 │ locality          │ La Valisella                                             │ node                                         │
 │  5274332538 │ locality          │ La Vallada                                               │ node                                         │
 │  5216987212 │ locality          │ La Valona                                                │ node                                         │
@@ -3928,8 +3928,8 @@
 │  2077227706 │ locality          │ Lanišče                                                  │ node                                         │
 │  5290479893 │ locality          │ Larcs                                                    │ node                                         │
 │  5376766668 │ locality          │ Lardei                                                   │ node                                         │
-│  2638850665 │ locality          │ Lareseit                                                 │ node                                         │
 │  5312619343 │ locality          │ Lareseit                                                 │ node                                         │
+│  2638850665 │ locality          │ Lareseit                                                 │ node                                         │
 │  5254939534 │ locality          │ Larezès                                                  │ node                                         │
 │  1914686756 │ locality          │ Larghet                                                  │ node                                         │
 │ 11792936870 │ locality          │ Larghetto Grande                                         │ node                                         │
@@ -3966,9 +3966,9 @@
 │  4859638782 │ locality          │ Lavaronis                                                │ node                                         │
 │  9669980832 │ locality          │ Lavazzè                                                  │ node                                         │
 │  5331212101 │ hamlet            │ Laves                                                    │ node                                         │
-│ 11081809136 │ locality          │ Lavina                                                   │ node                                         │
-│   471448859 │ hamlet            │ Lavina                                                   │ node                                         │
 │ 10777673263 │ locality          │ Lavina                                                   │ node                                         │
+│   471448859 │ hamlet            │ Lavina                                                   │ node                                         │
+│ 11081809136 │ locality          │ Lavina                                                   │ node                                         │
 │  6656619681 │ locality          │ Lavina Grande                                            │ node                                         │
 │  5216906488 │ locality          │ Lavina dei Croane                                        │ node                                         │
 │  5216866576 │ locality          │ Lavina del Frate                                         │ node                                         │
@@ -4316,8 +4316,8 @@
 │   354633439 │ hamlet            │ Loch / Log                                               │ node                                         │
 │  1505640843 │ locality          │ Lodintörl                                                │ node                                         │
 │ 11945845952 │ locality          │ Loera                                                    │ node                                         │
-│ 11615651538 │ locality          │ Log                                                      │ node                                         │
 │  1620336296 │ village           │ Log                                                      │ node                                         │
+│ 11615651538 │ locality          │ Log                                                      │ node                                         │
 │  2672301085 │ locality          │ Lohti                                                    │ node                                         │
 │  2672277842 │ locality          │ Lokva                                                    │ node                                         │
 │  6806092304 │ locality          │ Lokvica                                                  │ node                                         │
@@ -4654,8 +4654,8 @@
 │  2606843161 │ isolated_dwelling │ Minutan                                                  │ node                                         │
 │  9463554395 │ isolated_dwelling │ Mions                                                    │ node                                         │
 │   574445012 │ village           │ Miramare / Miramar                                       │ node                                         │
-│  5331212112 │ locality          │ Miria                                                    │ node                                         │
 │  9503480988 │ locality          │ Miria                                                    │ node                                         │
+│  5331212112 │ locality          │ Miria                                                    │ node                                         │
 │  1110614143 │ locality          │ Mirie                                                    │ node                                         │
 │ 11665553905 │ locality          │ Miries                                                   │ node                                         │
 │ 12662954661 │ isolated_dwelling │ Miris'Cis                                                │ node                                         │
@@ -4694,8 +4694,8 @@
 │    64778614 │ village           │ Monastier di Treviso                                     │ node                                         │
 │ 12863355099 │ locality          │ Mondina                                                  │ node                                         │
 │ 11652420145 │ locality          │ Monsente                                                 │ node                                         │
-│   871088373 │ hamlet            │ Mont                                                     │ node                                         │
 │  3896506669 │ neighbourhood     │ Mont                                                     │ node                                         │
+│   871088373 │ hamlet            │ Mont                                                     │ node                                         │
 │ 13442917956 │ locality          │ Mont Tarond                                              │ node                                         │
 │  7285505564 │ locality          │ Mont a bas                                               │ node                                         │
 │  1110617927 │ locality          │ Mont dal Clap                                            │ node                                         │
@@ -4723,9 +4723,9 @@
 │  1621649403 │ village           │ Monte d’Oro / Mont                                       │ node                                         │
 │  8309569966 │ neighbourhood     │ Montebello                                               │ node                                         │
 │  5254703865 │ locality          │ Montede                                                  │ node                                         │
-│  5332068399 │ locality          │ Montelonga                                               │ node                                         │
-│  5332068401 │ locality          │ Montelonga                                               │ node                                         │
 │  5332068402 │ locality          │ Montelonga                                               │ node                                         │
+│  5332068401 │ locality          │ Montelonga                                               │ node                                         │
+│  5332068399 │ locality          │ Montelonga                                               │ node                                         │
 │   356762551 │ hamlet            │ Montemaggiore / Matajur                                  │ node                                         │
 │  9322248230 │ suburb            │ Montesanto / Svetogorska četrt                           │ node                                         │
 │  5315405912 │ locality          │ Monti de li Anlmes                                       │ node                                         │
@@ -4762,8 +4762,8 @@
 │  5279873224 │ locality          │ Mula de Destesa                                          │ node                                         │
 │  5279927515 │ locality          │ Mula della neve                                          │ node                                         │
 │ 13162205873 │ locality          │ Mula delle Finanse                                       │ node                                         │
-│ 11508301196 │ locality          │ Mulimes                                                  │ node                                         │
 │ 11662402693 │ locality          │ Mulimes                                                  │ node                                         │
+│ 11508301196 │ locality          │ Mulimes                                                  │ node                                         │
 │  3932523305 │ locality          │ Mulin dal Pagno                                          │ node                                         │
 │  4699693539 │ locality          │ Mulin di Braida                                          │ node                                         │
 │  6473133974 │ locality          │ Mulin di Fabio                                           │ node                                         │
@@ -4855,8 +4855,8 @@
 │ 13041037852 │ locality          │ Nella Torr                                               │ node                                         │
 │  2634052385 │ isolated_dwelling │ Nembolucia                                               │ node                                         │
 │  5191950992 │ locality          │ Neme                                                     │ node                                         │
-│  8441068862 │ locality          │ Neries                                                   │ node                                         │
 │  8155370489 │ locality          │ Neries                                                   │ node                                         │
+│  8441068862 │ locality          │ Neries                                                   │ node                                         │
 │ 10743078741 │ locality          │ Neris                                                    │ node                                         │
 │  5035399207 │ neighbourhood     │ Nezz Braida                                              │ node                                         │
 │  4972507639 │ locality          │ Niantecrode                                              │ node                                         │
@@ -4904,17 +4904,17 @@
 │   353879711 │ hamlet            │ Obranche / Obranke                                       │ node                                         │
 │    64778699 │ town              │ Oderzo                                                   │ node                                         │
 │  2672315014 │ locality          │ Odkop                                                    │ node                                         │
-│  2672301102 │ locality          │ Ograda                                                   │ node                                         │
 │  2672277853 │ locality          │ Ograda                                                   │ node                                         │
 │  2672277858 │ locality          │ Ograda                                                   │ node                                         │
-│ 11830249960 │ locality          │ Ograde                                                   │ node                                         │
+│  2672301102 │ locality          │ Ograda                                                   │ node                                         │
 │  2672277859 │ locality          │ Ograde                                                   │ node                                         │
+│ 11830249960 │ locality          │ Ograde                                                   │ node                                         │
 │  3334258593 │ locality          │ Ojstrava                                                 │ node                                         │
 │  2672301042 │ locality          │ Oključ                                                   │ node                                         │
 │  8778820715 │ locality          │ Okroglik                                                 │ node                                         │
 │  2121770394 │ isolated_dwelling │ Okroglo                                                  │ node                                         │
-│  2672315011 │ locality          │ Oljke                                                    │ node                                         │
 │ 11499577130 │ locality          │ Oljke                                                    │ node                                         │
+│  2672315011 │ locality          │ Oljke                                                    │ node                                         │
 │  5274332537 │ locality          │ Olmedo                                                   │ node                                         │
 │  3358556576 │ village           │ Olmi                                                     │ node                                         │
 │  5243356837 │ locality          │ Olta scura                                               │ node                                         │
@@ -4966,8 +4966,8 @@
 │  5035399210 │ locality          │ Oubarn Pichl                                             │ node                                         │
 │ 11362723550 │ locality          │ Ovčja stran                                              │ node                                         │
 │  3215679783 │ locality          │ Ovčjak                                                   │ node                                         │
-│  2671900567 │ locality          │ Ozidnica                                                 │ node                                         │
 │  2672301002 │ locality          │ Ozidnica                                                 │ node                                         │
+│  2671900567 │ locality          │ Ozidnica                                                 │ node                                         │
 │   365978984 │ hamlet            │ Oznebrida / Ocnebardo                                    │ node                                         │
 │  5149209993 │ locality          │ P'r pilju                                                │ node                                         │
 │ 13368051845 │ locality          │ P. Vacje                                                 │ node                                         │
@@ -5003,8 +5003,8 @@
 │  4958419211 │ locality          │ Pala Bandida                                             │ node                                         │
 │  5294559731 │ locality          │ Pala Barzana                                             │ node                                         │
 │  3669258071 │ locality          │ Pala Brusade                                             │ node                                         │
-│  5326191407 │ locality          │ Pala Giavei                                              │ node                                         │
 │  5319107020 │ locality          │ Pala Giavei                                              │ node                                         │
+│  5326191407 │ locality          │ Pala Giavei                                              │ node                                         │
 │   663178785 │ locality          │ Pala Giaveit                                             │ node                                         │
 │  5326191405 │ locality          │ Pala Giuliana                                            │ node                                         │
 │  4958420148 │ locality          │ Pala Granda                                              │ node                                         │
@@ -5044,8 +5044,8 @@
 │  1110617796 │ locality          │ Palate                                                   │ node                                         │
 │  5290479860 │ locality          │ Palate                                                   │ node                                         │
 │  5290479862 │ locality          │ Palate                                                   │ node                                         │
-│ 10143145334 │ hamlet            │ Palazzetto                                               │ node                                         │
 │  4149867509 │ hamlet            │ Palazzetto                                               │ node                                         │
+│ 10143145334 │ hamlet            │ Palazzetto                                               │ node                                         │
 │ 12033563443 │ hamlet            │ Palazzine                                                │ node                                         │
 │  2610864852 │ locality          │ Palazzine di Sopra                                       │ node                                         │
 │  2603528388 │ hamlet            │ Palazzine di Sotto                                       │ node                                         │
@@ -5054,8 +5054,8 @@
 │   506729977 │ hamlet            │ Palchisce / Palkišče                                     │ node                                         │
 │   403609866 │ locality          │ Palcoda                                                  │ node                                         │
 │  2592965910 │ locality          │ Palcoda di Sotto                                         │ node                                         │
-│  3932523306 │ locality          │ Pale                                                     │ node                                         │
 │  8155365581 │ locality          │ Pale                                                     │ node                                         │
+│  3932523306 │ locality          │ Pale                                                     │ node                                         │
 │  4171842447 │ locality          │ Pale Buine                                               │ node                                         │
 │  5326191372 │ locality          │ Pale Chinese                                             │ node                                         │
 │  1110617020 │ locality          │ Pale Furmiarie                                           │ node                                         │
@@ -5114,8 +5114,8 @@
 │ 12456229362 │ locality          │ Pales                                                    │ node                                         │
 │  5349873279 │ locality          │ Pales                                                    │ node                                         │
 │ 12466585495 │ locality          │ Pales                                                    │ node                                         │
-│  5330181713 │ locality          │ Palis                                                    │ node                                         │
 │  2996685718 │ locality          │ Palis                                                    │ node                                         │
+│  5330181713 │ locality          │ Palis                                                    │ node                                         │
 │  1110616125 │ locality          │ Palis                                                    │ node                                         │
 │  2672317234 │ locality          │ Palkišče                                                 │ node                                         │
 │ 13451038548 │ locality          │ Pallotte                                                 │ node                                         │
@@ -5139,8 +5139,8 @@
 │ 13451038557 │ locality          │ Palude das Fontanas                                      │ node                                         │
 │  3266788193 │ locality          │ Palude di Sablici                                        │ node                                         │
 │ 12884492422 │ hamlet            │ Paludetto                                                │ node                                         │
-│ 12028195692 │ isolated_dwelling │ Paludi                                                   │ node                                         │
 │   471448925 │ hamlet            │ Paludi                                                   │ node                                         │
+│ 12028195692 │ isolated_dwelling │ Paludi                                                   │ node                                         │
 │   819790144 │ locality          │ Paludo della Carogna                                     │ node                                         │
 │  1975304224 │ locality          │ Paludon                                                  │ node                                         │
 │   471448962 │ hamlet            │ Palughetto                                               │ node                                         │
@@ -5163,8 +5163,8 @@
 │  4958235208 │ locality          │ Palù Zoldan                                              │ node                                         │
 │  5254703869 │ locality          │ Palù de muz                                              │ node                                         │
 │  2339315561 │ locality          │ Palùt                                                    │ node                                         │
-│  2148770645 │ locality          │ Palût                                                    │ node                                         │
 │  8287909966 │ locality          │ Palût                                                    │ node                                         │
+│  2148770645 │ locality          │ Palût                                                    │ node                                         │
 │  8287955820 │ locality          │ Palût dai Passins                                        │ node                                         │
 │  8287955887 │ locality          │ Palût de Vile                                            │ node                                         │
 │  8287955891 │ locality          │ Palût des Torbes                                         │ node                                         │
@@ -5199,15 +5199,15 @@
 │ 11728352223 │ locality          │ Pas dal neri                                             │ node                                         │
 │  6298843327 │ locality          │ Pas del Creton                                           │ node                                         │
 │  2556120522 │ locality          │ Pasc di sopra                                            │ node                                         │
-│  2376793854 │ isolated_dwelling │ Pascat                                                   │ node                                         │
 │  8287909967 │ locality          │ Pascat                                                   │ node                                         │
+│  2376793854 │ isolated_dwelling │ Pascat                                                   │ node                                         │
 │ 13461214979 │ locality          │ Pascati / Pascàs                                         │ node                                         │
 │ 13172905505 │ locality          │ Pasco di Bressa                                          │ node                                         │
 │ 11432734061 │ locality          │ Pascoladice                                              │ node                                         │
 │  2982236802 │ locality          │ Pascon                                                   │ node                                         │
 │  8287909987 │ locality          │ Pascs                                                    │ node                                         │
-│  5477552597 │ neighbourhood     │ Pascut                                                   │ node                                         │
 │  5103682090 │ locality          │ Pascut                                                   │ node                                         │
+│  5477552597 │ neighbourhood     │ Pascut                                                   │ node                                         │
 │   873845065 │ village           │ Passarella                                               │ node                                         │
 │  5393800860 │ locality          │ Passarotto                                               │ node                                         │
 │  5330181704 │ locality          │ Passas                                                   │ node                                         │
@@ -5239,9 +5239,9 @@
 │   791617038 │ locality          │ Pechinie / Pečnije                                       │ node                                         │
 │  3615098536 │ neighbourhood     │ Pechinie di Sopra                                        │ node                                         │
 │  3615098537 │ neighbourhood     │ Pechinie di Sotto                                        │ node                                         │
+│  5312619045 │ locality          │ Pecol                                                    │ node                                         │
 │  3669258072 │ locality          │ Pecol                                                    │ node                                         │
 │ 11508297409 │ locality          │ Pecol                                                    │ node                                         │
-│  5312619045 │ locality          │ Pecol                                                    │ node                                         │
 │  1110616869 │ locality          │ Pecol Brusât                                             │ node                                         │
 │  1110616282 │ locality          │ Pecol Sclet                                              │ node                                         │
 │  1110616420 │ locality          │ Pecol da Fontane                                         │ node                                         │
@@ -5359,8 +5359,8 @@
 │  9028123441 │ locality          │ Pian de Namos                                            │ node                                         │
 │  4958419182 │ locality          │ Pian de Pagognei                                         │ node                                         │
 │  5216906491 │ locality          │ Pian de Polone de Tina                                   │ node                                         │
-│  5216987214 │ locality          │ Pian de Revis                                            │ node                                         │
 │  4958419215 │ locality          │ Pian de Revis                                            │ node                                         │
+│  5216987214 │ locality          │ Pian de Revis                                            │ node                                         │
 │  5235179368 │ locality          │ Pian de Roula                                            │ node                                         │
 │  5376766631 │ locality          │ Pian de Saina                                            │ node                                         │
 │  4958235742 │ locality          │ Pian de Salassè                                          │ node                                         │
@@ -5782,8 +5782,8 @@
 │  3655273662 │ locality          │ Pontile Belvedere                                        │ node                                         │
 │  8390536046 │ neighbourhood     │ Ponziana                                                 │ node                                         │
 │  4976739096 │ locality          │ Poravine                                                 │ node                                         │
-│  5349873264 │ locality          │ Porteal                                                  │ node                                         │
 │  2503249182 │ isolated_dwelling │ Porteal                                                  │ node                                         │
+│  5349873264 │ locality          │ Porteal                                                  │ node                                         │
 │  5540291971 │ locality          │ Portelline de Ruditia                                    │ node                                         │
 │  3655258248 │ locality          │ Porticciolo di Santa Croce / Kriški pristan              │ node                                         │
 │  1296145963 │ isolated_dwelling │ Porto Antico Village                                     │ way                                          │
@@ -5845,8 +5845,8 @@
 │  5506431838 │ locality          │ Pra de l Orse                                            │ node                                         │
 │  5749579541 │ locality          │ Pra de la Monte                                          │ node                                         │
 │  2842628470 │ locality          │ Pra del Biser                                            │ node                                         │
-│  5216866590 │ locality          │ Pra del Mando                                            │ node                                         │
 │  5216866591 │ locality          │ Pra del Mando                                            │ node                                         │
+│  5216866590 │ locality          │ Pra del Mando                                            │ node                                         │
 │  5326191384 │ locality          │ Pra del Turc                                             │ node                                         │
 │  5185966143 │ locality          │ Pra della Monte                                          │ node                                         │
 │  5330181712 │ locality          │ Pra delle Comugne                                        │ node                                         │
@@ -5866,26 +5866,26 @@
 │  3817595000 │ locality          │ Pradas                                                   │ node                                         │
 │  2641388652 │ locality          │ Pradas di Sopra                                          │ node                                         │
 │  2641388653 │ locality          │ Pradas di Sotto                                          │ node                                         │
-│ 13063452874 │ locality          │ Pradat                                                   │ node                                         │
 │  1981102398 │ isolated_dwelling │ Pradat                                                   │ node                                         │
+│ 13063452874 │ locality          │ Pradat                                                   │ node                                         │
 │  4958235184 │ locality          │ Pradel                                                   │ node                                         │
 │  4976739079 │ locality          │ Pradele                                                  │ node                                         │
-│ 11891716722 │ locality          │ Prades                                                   │ node                                         │
 │  5315405897 │ locality          │ Prades                                                   │ node                                         │
+│ 11891716722 │ locality          │ Prades                                                   │ node                                         │
 │   913241442 │ locality          │ Prades                                                   │ node                                         │
 │  5255644907 │ locality          │ Pradeto                                                  │ node                                         │
 │  5751407130 │ locality          │ Pradetto                                                 │ node                                         │
 │  3833971449 │ locality          │ Pradileva                                                │ node                                         │
 │  9300136452 │ locality          │ Pradis                                                   │ node                                         │
+│  2394020403 │ locality          │ Pradis                                                   │ node                                         │
 │  5327073354 │ locality          │ Pradis                                                   │ node                                         │
 │ 12874036026 │ hamlet            │ Pradis                                                   │ node                                         │
-│  2394020403 │ locality          │ Pradis                                                   │ node                                         │
 │ 12638288517 │ isolated_dwelling │ Pradival                                                 │ node                                         │
 │  5282782069 │ locality          │ Pradola                                                  │ node                                         │
 │ 12052842815 │ hamlet            │ Pradolfo                                                 │ node                                         │
-│  4875519992 │ locality          │ Pradolin                                                 │ node                                         │
-│ 13134896306 │ locality          │ Pradolin                                                 │ node                                         │
 │ 13135738642 │ locality          │ Pradolin                                                 │ node                                         │
+│ 13134896306 │ locality          │ Pradolin                                                 │ node                                         │
+│  4875519992 │ locality          │ Pradolin                                                 │ node                                         │
 │  2218266410 │ hamlet            │ Pradolino                                                │ node                                         │
 │ 10772920729 │ locality          │ Praduccia                                                │ node                                         │
 │ 11508480963 │ locality          │ Pradulin                                                 │ node                                         │
@@ -5894,8 +5894,8 @@
 │  5326191356 │ locality          │ Pradut                                                   │ node                                         │
 │  5254703876 │ locality          │ Praduto                                                  │ node                                         │
 │ 10217338369 │ locality          │ Pralonghi                                                │ node                                         │
-│  4149867510 │ hamlet            │ Pralongo                                                 │ node                                         │
 │  5254703877 │ locality          │ Pralongo                                                 │ node                                         │
+│  4149867510 │ hamlet            │ Pralongo                                                 │ node                                         │
 │ 11081782530 │ locality          │ Pralungo                                                 │ node                                         │
 │  5255644905 │ locality          │ Pramossei                                                │ node                                         │
 │  4958419218 │ locality          │ Prapian                                                  │ node                                         │
@@ -5991,8 +5991,8 @@
 │  7358399875 │ hamlet            │ Primo Averto                                             │ node                                         │
 │  2672277862 │ locality          │ Pristava                                                 │ node                                         │
 │  2441514888 │ isolated_dwelling │ Privilegio                                               │ node                                         │
-│  5279876997 │ locality          │ Pro dei Alberassi                                        │ node                                         │
 │  5279876998 │ locality          │ Pro dei Alberassi                                        │ node                                         │
+│  5279876997 │ locality          │ Pro dei Alberassi                                        │ node                                         │
 │  5279881722 │ locality          │ Pro' de la Cuna Dolse                                    │ node                                         │
 │  4958135994 │ locality          │ Proazèi                                                  │ node                                         │
 │ 13037239966 │ locality          │ Promisco                                                 │ node                                         │
@@ -6098,12 +6098,12 @@
 │   302953334 │ suburb            │ Raute / Rovte                                            │ node                                         │
 │   151584099 │ island            │ Ravaiarina                                               │ way                                          │
 │  2441353685 │ hamlet            │ Raveis                                                   │ node                                         │
-│  2672315017 │ locality          │ Ravne                                                    │ node                                         │
 │  2671393088 │ locality          │ Ravne                                                    │ node                                         │
+│  2672315017 │ locality          │ Ravne                                                    │ node                                         │
 │  5682449281 │ locality          │ Razor                                                    │ node                                         │
 │  1426228529 │ quarter           │ Reane                                                    │ node                                         │
-│  2671900563 │ locality          │ Reber                                                    │ node                                         │
 │  2672320341 │ locality          │ Reber                                                    │ node                                         │
+│  2671900563 │ locality          │ Reber                                                    │ node                                         │
 │  1531651930 │ hamlet            │ Redigole                                                 │ node                                         │
 │  3997103662 │ locality          │ Redona                                                   │ node                                         │
 │ 13448369851 │ locality          │ Remis                                                    │ node                                         │
@@ -6125,8 +6125,8 @@
 │  8328211005 │ neighbourhood     │ Riborgo                                                  │ node                                         │
 │  1686436420 │ neighbourhood     │ Riccardo di Giusto                                       │ node                                         │
 │  1540327068 │ hamlet            │ Riciol                                                   │ node                                         │
-│  5393787123 │ locality          │ Rigole                                                   │ node                                         │
 │  1438379791 │ hamlet            │ Rigole                                                   │ node                                         │
+│  5393787123 │ locality          │ Rigole                                                   │ node                                         │
 │  4976739081 │ locality          │ Rimadan                                                  │ node                                         │
 │  5255659378 │ locality          │ Rin de Mera                                              │ node                                         │
 │ 10773926765 │ locality          │ Rin del Barco                                            │ node                                         │
@@ -6162,11 +6162,11 @@
 │  1110617331 │ locality          │ Riul Çaf                                                 │ node                                         │
 │  4972483510 │ locality          │ Riva                                                     │ node                                         │
 │  5326191408 │ locality          │ Riva Granda                                              │ node                                         │
-│ 13327959420 │ locality          │ Riva Lunga                                               │ node                                         │
 │  9013404896 │ locality          │ Riva Lunga                                               │ node                                         │
+│ 13327959420 │ locality          │ Riva Lunga                                               │ node                                         │
 │  5376766664 │ locality          │ Riva da Sacco                                            │ node                                         │
-│  4972507629 │ locality          │ Riva de Sior Piero                                       │ node                                         │
 │  4958420130 │ locality          │ Riva de Sior Piero                                       │ node                                         │
+│  4972507629 │ locality          │ Riva de Sior Piero                                       │ node                                         │
 │  4958235761 │ locality          │ Riva de l Gèsso                                          │ node                                         │
 │  4976739093 │ locality          │ Riva de la Calònega                                      │ node                                         │
 │  4972439247 │ locality          │ Riva de la Giaza                                         │ node                                         │
@@ -6228,8 +6228,8 @@
 │  8287909972 │ locality          │ Roncas                                                   │ node                                         │
 │  5376766669 │ locality          │ Roncat                                                   │ node                                         │
 │  5191995982 │ locality          │ Ronce                                                    │ node                                         │
-│ 11891694364 │ locality          │ Ronch                                                    │ node                                         │
 │  5315407336 │ locality          │ Ronch                                                    │ node                                         │
+│ 11891694364 │ locality          │ Ronch                                                    │ node                                         │
 │  2646053012 │ hamlet            │ Ronche                                                   │ node                                         │
 │  4128688359 │ village           │ Ronche                                                   │ node                                         │
 │  3896603913 │ isolated_dwelling │ Roncheschin                                              │ node                                         │
@@ -6248,8 +6248,8 @@
 │ 11391709627 │ hamlet            │ Roncis                                                   │ node                                         │
 │  5644899117 │ isolated_dwelling │ Roncjes                                                  │ node                                         │
 │   528161156 │ locality          │ Roncjis                                                  │ node                                         │
-│ 10821743042 │ locality          │ Ronco                                                    │ node                                         │
 │  4958420158 │ locality          │ Ronco                                                    │ node                                         │
+│ 10821743042 │ locality          │ Ronco                                                    │ node                                         │
 │  9598398731 │ locality          │ Ronco Fadin                                              │ node                                         │
 │ 12484149144 │ isolated_dwelling │ Ronco Gial                                               │ node                                         │
 │  3463664836 │ locality          │ Ronco Pilon                                              │ node                                         │
@@ -6257,13 +6257,13 @@
 │  4958419219 │ locality          │ Ronco del Verzo                                          │ node                                         │
 │  5243356842 │ locality          │ Ronco di san Leonardo                                    │ node                                         │
 │  5243356843 │ locality          │ Ronco grande                                             │ node                                         │
-│  5243356844 │ locality          │ Roncole                                                  │ node                                         │
 │ 11945860691 │ locality          │ Roncole                                                  │ node                                         │
+│  5243356844 │ locality          │ Roncole                                                  │ node                                         │
 │  1628133060 │ locality          │ Roncolon                                                 │ node                                         │
 │  5326191365 │ locality          │ Roncon                                                   │ node                                         │
+│ 11673034549 │ locality          │ Roncs                                                    │ node                                         │
 │  5326191377 │ locality          │ Roncs                                                    │ node                                         │
 │  7285505571 │ locality          │ Roncs                                                    │ node                                         │
-│ 11673034549 │ locality          │ Roncs                                                    │ node                                         │
 │  1110613904 │ locality          │ Roncs di Culau                                           │ node                                         │
 │  8155387735 │ locality          │ Roncus                                                   │ node                                         │
 │  5243356845 │ locality          │ Roncuto                                                  │ node                                         │
@@ -6277,8 +6277,8 @@
 │  5290479883 │ locality          │ Ropa                                                     │ node                                         │
 │  3384606974 │ locality          │ Ropat                                                    │ node                                         │
 │  5312619049 │ locality          │ Roppa                                                    │ node                                         │
-│  5346995445 │ locality          │ Roppe                                                    │ node                                         │
 │  5326191382 │ locality          │ Roppe                                                    │ node                                         │
+│  5346995445 │ locality          │ Roppe                                                    │ node                                         │
 │  1447461334 │ hamlet            │ Roppe                                                    │ node                                         │
 │   447913638 │ locality          │ Rorei                                                    │ node                                         │
 │  5272514364 │ locality          │ Roris                                                    │ node                                         │
@@ -6288,8 +6288,8 @@
 │  2599764378 │ locality          │ Roste                                                    │ node                                         │
 │   819790081 │ hamlet            │ Rotta Primero                                            │ node                                         │
 │ 11891694352 │ locality          │ Rouluz                                                   │ node                                         │
-│  2671900559 │ locality          │ Rouna                                                    │ node                                         │
 │  5149217732 │ locality          │ Rouna                                                    │ node                                         │
+│  2671900559 │ locality          │ Rouna                                                    │ node                                         │
 │  5191995983 │ locality          │ Rous                                                     │ node                                         │
 │  5357445880 │ locality          │ Rous de fora                                             │ node                                         │
 │  5357445881 │ locality          │ Rous de inte                                             │ node                                         │
@@ -6317,8 +6317,8 @@
 │  5349873268 │ locality          │ Ruis                                                     │ node                                         │
 │  5480740198 │ locality          │ Rumiada                                                  │ node                                         │
 │  9250141021 │ locality          │ Runc di Plaço                                            │ node                                         │
-│  2672301108 │ locality          │ Rupa                                                     │ node                                         │
 │  3043342880 │ locality          │ Rupa                                                     │ node                                         │
+│  2672301108 │ locality          │ Rupa                                                     │ node                                         │
 │  1110618298 │ locality          │ Rupe                                                     │ node                                         │
 │  2671900560 │ locality          │ Rupica                                                   │ node                                         │
 │   297654035 │ village           │ Rupinpiccolo / Repnič                                    │ node                                         │
@@ -6414,8 +6414,8 @@
 │  5216987216 │ locality          │ San Francesco                                            │ node                                         │
 │  6585990005 │ locality          │ San Francesco                                            │ node                                         │
 │ 12198929214 │ hamlet            │ San Gaetano                                              │ node                                         │
-│ 13002687709 │ isolated_dwelling │ San Giacomo                                              │ node                                         │
 │ 12033563449 │ isolated_dwelling │ San Giacomo                                              │ node                                         │
+│ 13002687709 │ isolated_dwelling │ San Giacomo                                              │ node                                         │
 │   302946140 │ suburb            │ San Giacomo / Sveti Jakob                                │ node                                         │
 │  1444743611 │ hamlet            │ San Giacomo di Musestrelle                               │ node                                         │
 │  1427084020 │ village           │ San Giacomo di Veglia                                    │ node                                         │
@@ -6431,25 +6431,25 @@
 │    65967427 │ islet             │ San Giuliano                                             │ way                                          │
 │ 12013206706 │ isolated_dwelling │ San Giuliano                                             │ node                                         │
 │   291995271 │ village           │ San Giuseppe della Chiusa / Ricmanje                     │ node                                         │
-│  4128688360 │ suburb            │ San Giusto                                               │ node                                         │
 │   331400197 │ hamlet            │ San Giusto                                               │ node                                         │
+│  4128688360 │ suburb            │ San Giusto                                               │ node                                         │
 │  5290615682 │ quarter           │ San Gregorio                                             │ node                                         │
 │ 12844392710 │ village           │ San Liberale                                             │ node                                         │
 │  1620336317 │ hamlet            │ San Lorenzo / Jezero                                     │ node                                         │
 │  5841704267 │ suburb            │ San Luigi                                                │ node                                         │
 │ 10990077739 │ hamlet            │ San Marco                                                │ node                                         │
 │  3687785058 │ locality          │ San Marco                                                │ node                                         │
-│  3358557451 │ hamlet            │ San Martino                                              │ node                                         │
 │  5918321589 │ locality          │ San Martino                                              │ node                                         │
 │  1487504873 │ hamlet            │ San Martino                                              │ node                                         │
+│  3358557451 │ hamlet            │ San Martino                                              │ node                                         │
 │  1574481522 │ hamlet            │ San Martino                                              │ node                                         │
 │   471449014 │ village           │ San Martino d'Alpago                                     │ node                                         │
 │ 11545601683 │ locality          │ San Michel                                               │ node                                         │
 │  1447889214 │ hamlet            │ San Michele                                              │ node                                         │
 │  6167795043 │ village           │ San Michele                                              │ node                                         │
 │  1447241769 │ village           │ San Michele di Piave                                     │ node                                         │
-│ 12476403101 │ isolated_dwelling │ San Nicolò                                               │ node                                         │
 │  1437379603 │ hamlet            │ San Nicolò                                               │ node                                         │
+│ 12476403101 │ isolated_dwelling │ San Nicolò                                               │ node                                         │
 │    64778134 │ village           │ San Nicolò di Comelico                                   │ node                                         │
 │  4128688361 │ hamlet            │ San Odorico                                              │ node                                         │
 │  1300766208 │ locality          │ San Paolo                                                │ node                                         │
@@ -6465,15 +6465,15 @@
 │  5274332536 │ locality          │ San Rocco                                                │ node                                         │
 │  2914182903 │ neighbourhood     │ San Rocco                                                │ node                                         │
 │ 10991856696 │ quarter           │ San Rocco                                                │ node                                         │
-│  3641381593 │ village           │ San Rocco                                                │ node                                         │
 │  3896370379 │ locality          │ San Rocco                                                │ node                                         │
+│  3641381593 │ village           │ San Rocco                                                │ node                                         │
 │  7457647704 │ neighbourhood     │ San Sabba                                                │ node                                         │
 │  8349061542 │ hamlet            │ San Silvestro                                            │ node                                         │
 │  2649636112 │ neighbourhood     │ San Tommaso                                              │ node                                         │
 │ 12863355041 │ locality          │ San Valentino                                            │ node                                         │
 │    64778665 │ village           │ San Vendemiano                                           │ node                                         │
-│  7577663993 │ village           │ San Vito                                                 │ node                                         │
 │   302946139 │ suburb            │ San Vito                                                 │ node                                         │
+│  7577663993 │ village           │ San Vito                                                 │ node                                         │
 │   354641906 │ hamlet            │ San Volfango / Svet Štuoblank                            │ node                                         │
 │   506688366 │ hamlet            │ San Zanut                                                │ node                                         │
 │ 11508291473 │ locality          │ San Zuàn                                                 │ node                                         │
@@ -6490,9 +6490,9 @@
 │  1443252202 │ village           │ Sant'Andrea di Barbarana                                 │ node                                         │
 │   415547913 │ hamlet            │ Sant'Anna                                                │ node                                         │
 │ 11744994211 │ suburb            │ Sant'Anna / Sveta Ana                                    │ node                                         │
-│  3188086855 │ locality          │ Sant'Antonio                                             │ node                                         │
-│  9438931983 │ neighbourhood     │ Sant'Antonio                                             │ node                                         │
 │  6439724718 │ locality          │ Sant'Antonio                                             │ node                                         │
+│  9438931983 │ neighbourhood     │ Sant'Antonio                                             │ node                                         │
+│  3188086855 │ locality          │ Sant'Antonio                                             │ node                                         │
 │  9531024665 │ locality          │ Sant'Antonio Tiriton                                     │ node                                         │
 │   291995442 │ village           │ Sant'Antonio in Bosco / Boršt                            │ node                                         │
 │  1507539363 │ hamlet            │ Sant'Elena                                               │ node                                         │
@@ -6530,8 +6530,8 @@
 │  1024738263 │ suburb            │ Savalons                                                 │ node                                         │
 │   912111628 │ locality          │ Savalons                                                 │ node                                         │
 │  5393811861 │ locality          │ Savaro                                                   │ node                                         │
-│  2059800744 │ hamlet            │ Saverie                                                  │ node                                         │
 │  3833991458 │ neighbourhood     │ Saverie                                                  │ node                                         │
+│  2059800744 │ hamlet            │ Saverie                                                  │ node                                         │
 │  3423397985 │ neighbourhood     │ Savogna di sotto                                         │ node                                         │
 │  3896603915 │ locality          │ Sbombarde                                                │ node                                         │
 │  2599764380 │ isolated_dwelling │ Sbont                                                    │ node                                         │
@@ -6591,9 +6591,9 @@
 │  1960986535 │ locality          │ Selis                                                    │ node                                         │
 │  4843857693 │ locality          │ Sella di Cuel Cjalastri                                  │ node                                         │
 │  5216906493 │ locality          │ Selle di Agudo                                           │ node                                         │
+│ 10777910892 │ locality          │ Selva                                                    │ node                                         │
 │ 10821743041 │ locality          │ Selva                                                    │ node                                         │
 │   912111633 │ locality          │ Selva                                                    │ node                                         │
-│ 10777910892 │ locality          │ Selva                                                    │ node                                         │
 │  6567545081 │ locality          │ Selva Grande                                             │ node                                         │
 │  2592965913 │ locality          │ Selva Plana                                              │ node                                         │
 │  4958135972 │ locality          │ Selva Pìzola                                             │ node                                         │
@@ -6609,10 +6609,10 @@
 │ 11545601680 │ locality          │ Selve                                                    │ node                                         │
 │  7285505572 │ locality          │ Selve                                                    │ node                                         │
 │  8287909980 │ locality          │ Selve di Boezio                                          │ node                                         │
-│  2437193896 │ locality          │ Selves                                                   │ node                                         │
 │  5315407328 │ locality          │ Selves                                                   │ node                                         │
-│  2410477615 │ hamlet            │ Selvis                                                   │ node                                         │
+│  2437193896 │ locality          │ Selves                                                   │ node                                         │
 │ 13134892198 │ locality          │ Selvis                                                   │ node                                         │
+│  2410477615 │ hamlet            │ Selvis                                                   │ node                                         │
 │  7807295703 │ hamlet            │ Senzielli                                                │ node                                         │
 │   836480506 │ hamlet            │ Senzielli                                                │ way                                          │
 │ 12863355059 │ isolated_dwelling │ Sepolcreto                                               │ node                                         │
@@ -6623,8 +6623,8 @@
 │  3016146201 │ locality          │ Serraglio                                                │ node                                         │
 │  8768452252 │ locality          │ Serrato                                                  │ node                                         │
 │   302950107 │ suburb            │ Servola / Škedenj                                        │ node                                         │
-│  8435613479 │ locality          │ Sesereit                                                 │ node                                         │
 │  8155434176 │ locality          │ Sesereit                                                 │ node                                         │
+│  8435613479 │ locality          │ Sesereit                                                 │ node                                         │
 │   323936910 │ hamlet            │ Sette Sorelle                                            │ node                                         │
 │  1438385549 │ hamlet            │ Settimo                                                  │ node                                         │
 │   371582495 │ isolated_dwelling │ Seuza / Seucè                                            │ node                                         │
@@ -6684,8 +6684,8 @@
 │  1300707032 │ locality          │ Socort                                                   │ node                                         │
 │  4958420170 │ locality          │ Socosta                                                  │ node                                         │
 │  3522215559 │ hamlet            │ Soffratta                                                │ node                                         │
-│ 11545601687 │ locality          │ Sofrate                                                  │ node                                         │
 │  5255646451 │ locality          │ Sofrate                                                  │ node                                         │
+│ 11545601687 │ locality          │ Sofrate                                                  │ node                                         │
 │  2672301057 │ locality          │ Solco di Moschenizze / Pološko                           │ node                                         │
 │  2649636111 │ hamlet            │ Soleschiano                                              │ node                                         │
 │  5243356848 │ locality          │ Solevare                                                 │ node                                         │
@@ -7215,9 +7215,9 @@
 │  2612597640 │ locality          │ Strilla                                                  │ node                                         │
 │ 10765514638 │ hamlet            │ Stropillo                                                │ node                                         │
 │   871086471 │ isolated_dwelling │ Strus                                                    │ node                                         │
+│  5315405850 │ locality          │ Stua                                                     │ node                                         │
 │  9450404080 │ locality          │ Stua                                                     │ node                                         │
 │  3827159256 │ locality          │ Stua                                                     │ node                                         │
-│  5315405850 │ locality          │ Stua                                                     │ node                                         │
 │  5312619048 │ locality          │ Stua Vecchia                                             │ node                                         │
 │  2671393084 │ locality          │ Studenc                                                  │ node                                         │
 │ 13048119827 │ neighbourhood     │ Studenec / Studenitz                                     │ node                                         │
@@ -7266,8 +7266,8 @@
 │  5272514367 │ locality          │ Suriba                                                   │ node                                         │
 │ 10743078742 │ locality          │ Suris                                                    │ node                                         │
 │  3051340949 │ locality          │ Surri                                                    │ node                                         │
-│  5315405913 │ locality          │ Susaibes                                                 │ node                                         │
 │  5315405917 │ locality          │ Susaibes                                                 │ node                                         │
+│  5315405913 │ locality          │ Susaibes                                                 │ node                                         │
 │   365978234 │ hamlet            │ Sverinaz / Zverinac                                      │ node                                         │
 │ 13259911083 │ locality          │ Sveti Əntún                                              │ node                                         │
 │  1110616912 │ locality          │ Svintule                                                 │ node                                         │
@@ -7317,8 +7317,8 @@
 │  5279881721 │ locality          │ Taja Granda                                              │ node                                         │
 │  5286605738 │ locality          │ Tal                                                      │ node                                         │
 │  2646056016 │ neighbourhood     │ Talponedo                                                │ node                                         │
-│   477332037 │ village           │ Tamai                                                    │ node                                         │
 │ 10777899534 │ locality          │ Tamai                                                    │ node                                         │
+│   477332037 │ village           │ Tamai                                                    │ node                                         │
 │  5319107221 │ locality          │ Tamais                                                   │ node                                         │
 │  5346994604 │ locality          │ Tamar                                                    │ node                                         │
 │ 11508301185 │ locality          │ Tamar                                                    │ node                                         │
@@ -7326,11 +7326,11 @@
 │  9463554429 │ locality          │ Tamar Brusat                                             │ node                                         │
 │  5286605742 │ locality          │ Tamarat                                                  │ node                                         │
 │  2376794840 │ locality          │ Tamariona                                                │ node                                         │
-│  2958364936 │ isolated_dwelling │ Tamarì                                                   │ node                                         │
 │  4958420180 │ locality          │ Tamarì                                                   │ node                                         │
+│  2958364936 │ isolated_dwelling │ Tamarì                                                   │ node                                         │
 │  5255646430 │ locality          │ Tambar                                                   │ node                                         │
-│    64778235 │ village           │ Tambre                                                   │ node                                         │
 │  5220393555 │ locality          │ Tambre                                                   │ node                                         │
+│    64778235 │ village           │ Tambre                                                   │ node                                         │
 │  1770422809 │ hamlet            │ Tambruz                                                  │ node                                         │
 │  5412252786 │ locality          │ Tamer de Berna                                           │ node                                         │
 │  5312619340 │ locality          │ Tamer de la Crous                                        │ node                                         │
@@ -7368,10 +7368,10 @@
 │  2610695476 │ hamlet            │ Tavella                                                  │ node                                         │
 │  5331212099 │ locality          │ Taviela                                                  │ node                                         │
 │  2619999272 │ isolated_dwelling │ Taviela                                                  │ node                                         │
-│  9895346800 │ locality          │ Taviele                                                  │ node                                         │
 │ 12666416330 │ locality          │ Taviele                                                  │ node                                         │
-│  4875519988 │ locality          │ Taviele                                                  │ node                                         │
 │   932739167 │ suburb            │ Taviele                                                  │ node                                         │
+│  4875519988 │ locality          │ Taviele                                                  │ node                                         │
+│  9895346800 │ locality          │ Taviele                                                  │ node                                         │
 │  1468416941 │ hamlet            │ Taviella                                                 │ node                                         │
 │  5254703883 │ locality          │ Teaz                                                     │ node                                         │
 │  5306445910 │ locality          │ Teglara                                                  │ node                                         │
@@ -7543,14 +7543,14 @@
 │  1481115065 │ village           │ Vado                                                     │ node                                         │
 │   863045477 │ hamlet            │ Vaganins                                                 │ node                                         │
 │  1335534321 │ locality          │ Vagna                                                    │ node                                         │
-│  2322511799 │ isolated_dwelling │ Val                                                      │ node                                         │
 │  5357497680 │ locality          │ Val                                                      │ node                                         │
-│  1958073681 │ neighbourhood     │ Val                                                      │ node                                         │
-│ 13172905514 │ locality          │ Val                                                      │ node                                         │
-│  8155340307 │ locality          │ Val                                                      │ node                                         │
-│ 11508340082 │ locality          │ Val                                                      │ node                                         │
 │ 11669960042 │ locality          │ Val                                                      │ node                                         │
+│  2322511799 │ isolated_dwelling │ Val                                                      │ node                                         │
 │  5255646429 │ locality          │ Val                                                      │ node                                         │
+│  8155340307 │ locality          │ Val                                                      │ node                                         │
+│ 13172905514 │ locality          │ Val                                                      │ node                                         │
+│  1958073681 │ neighbourhood     │ Val                                                      │ node                                         │
+│ 11508340082 │ locality          │ Val                                                      │ node                                         │
 │  5216866594 │ locality          │ Val Barbes                                               │ node                                         │
 │ 10777620068 │ locality          │ Val Bona                                                 │ node                                         │
 │  4450511199 │ locality          │ Val Brisa                                                │ node                                         │
@@ -7686,8 +7686,8 @@
 │ 13461214977 │ locality          │ Valdoria                                                 │ node                                         │
 │  5254703889 │ locality          │ Vale                                                     │ node                                         │
 │  2072787523 │ isolated_dwelling │ Valent                                                   │ node                                         │
-│  3997102863 │ isolated_dwelling │ Valentins                                                │ node                                         │
 │   863052355 │ hamlet            │ Valentins                                                │ node                                         │
+│  3997102863 │ isolated_dwelling │ Valentins                                                │ node                                         │
 │   911605386 │ locality          │ Valerian                                                 │ node                                         │
 │ 13461214978 │ locality          │ Valeriana                                                │ node                                         │
 │  4845816854 │ locality          │ Valerie                                                  │ node                                         │
@@ -7802,8 +7802,8 @@
 │ 10772920738 │ locality          │ Vandelli                                                 │ node                                         │
 │ 10777980639 │ locality          │ Vandelli della Malizia                                   │ node                                         │
 │ 13278353496 │ hamlet            │ Vanelis                                                  │ node                                         │
-│  3112323807 │ locality          │ Vanisella                                                │ node                                         │
 │  3641381693 │ hamlet            │ Vanisella                                                │ node                                         │
+│  3112323807 │ locality          │ Vanisella                                                │ node                                         │
 │ 11954263430 │ locality          │ Vantasa                                                  │ node                                         │
 │  4958420156 │ locality          │ Vara Granda                                              │ node                                         │
 │  4958420160 │ locality          │ Vara Pìzola                                              │ node                                         │
@@ -7816,8 +7816,8 @@
 │  8287955816 │ locality          │ Variane                                                  │ node                                         │
 │ 13172905523 │ locality          │ Variano                                                  │ node                                         │
 │  1110616440 │ locality          │ Variûl                                                   │ node                                         │
-│  3074707043 │ locality          │ Varleit                                                  │ node                                         │
 │  3669258073 │ locality          │ Varleit                                                  │ node                                         │
+│  3074707043 │ locality          │ Varleit                                                  │ node                                         │
 │  5346995441 │ locality          │ Varma                                                    │ node                                         │
 │  4958419193 │ locality          │ Varsure                                                  │ node                                         │
 │ 13172905510 │ locality          │ Varuschiel                                               │ node                                         │
@@ -7836,8 +7836,8 @@
 │  2682349065 │ locality          │ Velika dolina                                            │ node                                         │
 │  2672301070 │ locality          │ Velike njive                                             │ node                                         │
 │  4417477587 │ locality          │ Veliki dol                                               │ node                                         │
-│   575270523 │ locality          │ Veliki žleb                                              │ way                                          │
 │  2682349064 │ locality          │ Veliki žleb                                              │ node                                         │
+│   575270523 │ locality          │ Veliki žleb                                              │ way                                          │
 │  5225363720 │ locality          │ Veliko Bardo                                             │ node                                         │
 │ 13259911078 │ locality          │ Veljəušče                                                │ node                                         │
 │  8287955823 │ locality          │ Venchiareit                                              │ node                                         │
@@ -7855,8 +7855,8 @@
 │  5282687798 │ locality          │ Via Tramontina                                           │ node                                         │
 │ 13172905508 │ locality          │ Via del Bosco                                            │ node                                         │
 │  4958420142 │ locality          │ Vialona                                                  │ node                                         │
-│ 11891694363 │ locality          │ Viate                                                    │ node                                         │
 │ 12003649697 │ hamlet            │ Viate                                                    │ node                                         │
+│ 11891694363 │ locality          │ Viate                                                    │ node                                         │
 │ 12003649696 │ hamlet            │ Viatte                                                   │ node                                         │
 │   471449107 │ hamlet            │ Vich                                                     │ node                                         │
 │  4897194446 │ locality          │ Vidiseit                                                 │ node                                         │
@@ -7880,8 +7880,8 @@
 │  1799101528 │ hamlet            │ Vilin                                                    │ node                                         │
 │  1110614097 │ locality          │ Vilis                                                    │ node                                         │
 │ 12662954655 │ hamlet            │ Villa                                                    │ node                                         │
-│ 12469087804 │ hamlet            │ Villa                                                    │ node                                         │
 │   471448816 │ hamlet            │ Villa                                                    │ node                                         │
+│ 12469087804 │ hamlet            │ Villa                                                    │ node                                         │
 │  6770618676 │ hamlet            │ Villa Belvedere                                          │ node                                         │
 │  8280789616 │ neighbourhood     │ Villa Carsia                                             │ node                                         │
 │ 12282484070 │ isolated_dwelling │ Villa Cattaneo                                           │ node                                         │
@@ -7927,8 +7927,8 @@
 │  7161432015 │ allotments        │ Villagio A Mare                                          │ node                                         │
 │ 10798114724 │ locality          │ Villagranda                                              │ node                                         │
 │ 12115208062 │ quarter           │ Villagrande                                              │ node                                         │
-│   498466902 │ hamlet            │ Villanova                                                │ node                                         │
 │   929122610 │ hamlet            │ Villanova                                                │ node                                         │
+│   498466902 │ hamlet            │ Villanova                                                │ node                                         │
 │   390507613 │ village           │ Villanova Sant'Antonio                                   │ node                                         │
 │   390507614 │ village           │ Villanova Santa Margherita                               │ node                                         │
 │  5274280162 │ isolated_dwelling │ Villanova di Corva                                       │ node                                         │
@@ -8089,8 +8089,8 @@
 │  9895346801 │ locality          │ i Cucs                                                   │ node                                         │
 │  4958420131 │ locality          │ i Landre                                                 │ node                                         │
 │  4958419212 │ locality          │ i Lavinà                                                 │ node                                         │
-│  4958135995 │ locality          │ i Penize                                                 │ node                                         │
 │  4958235759 │ locality          │ i Penize                                                 │ node                                         │
+│  4958135995 │ locality          │ i Penize                                                 │ node                                         │
 │  4976739105 │ locality          │ i Piei                                                   │ node                                         │
 │  4958235736 │ locality          │ i Pioi                                                   │ node                                         │
 │  5216906485 │ locality          │ i Pulpiti                                                │ node                                         │
@@ -8111,8 +8111,8 @@
 │  4972439251 │ locality          │ la Cazuta                                                │ node                                         │
 │ 12040221343 │ locality          │ la Chiusa                                                │ node                                         │
 │  4972507635 │ locality          │ la Ciusa                                                 │ node                                         │
-│  4972483513 │ locality          │ la Cros                                                  │ node                                         │
 │  4972483504 │ locality          │ la Cros                                                  │ node                                         │
+│  4972483513 │ locality          │ la Cros                                                  │ node                                         │
 │  4972483516 │ locality          │ la Diga                                                  │ node                                         │
 │  4972439224 │ locality          │ la Forzeluta                                             │ node                                         │
 │  4976739068 │ locality          │ la Madoneta                                              │ node                                         │
@@ -8201,8 +8201,8 @@
 │  3215675436 │ locality          │ Žakljevec                                                │ node                                         │
 │  2311198647 │ locality          │ Žegen                                                    │ node                                         │
 │  4810650350 │ locality          │ Žekenc                                                   │ node                                         │
-│  2671900569 │ locality          │ Žleb                                                     │ node                                         │
 │  2682349058 │ locality          │ Žleb                                                     │ node                                         │
+│  2671900569 │ locality          │ Žleb                                                     │ node                                         │
 │  2672315002 │ locality          │ Žleb pod Grižnikom                                       │ node                                         │
 ├─────────────┴───────────────────┴──────────────────────────────────────────────────────────┴──────────────────────────────────────────────┤
 │ 8202 rows                                                                                                                       4 columns │
