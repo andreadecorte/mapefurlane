@@ -6,12 +6,12 @@
 	<meta name="description" content="Une mape libare dute in marilenghe. Basade su OpenStreetMap cui toponims par furlan standard e te variante locâl" />
     <title>Mape furlane</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <script src='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js'></script>
-    <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
-	<script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script>
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.16.0/dist/maplibre-gl.css' />
+    <script src='https://unpkg.com/maplibre-gl@5.16.0/dist/maplibre-gl.js'></script>
+	<script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.9.4/dist/maplibre-gl-geocoder.js"></script>
 	<link
 	rel="stylesheet"
-	href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css"
+	href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.9.4/dist/maplibre-gl-geocoder.css"
 	type="text/css"
 	/>
 
@@ -47,16 +47,29 @@
 <body>
     <div id='map'></div>
     <script>
+		const friulianLocale = {
+			'AttributionControl.ToggleAttribution': 'Mostre l\'atribuzion',
+			'FullscreenControl.Enter': 'Vierç a plen visôr',
+			'FullscreenControl.Exit': 'Jes de modalitât a plen visôr',
+			'NavigationControl.ZoomIn': 'Incrès il zoom',
+		    'NavigationControl.ZoomOut': 'Sbasse il zoom'
+    	};
         var map = new maplibregl.Map({
             container: 'map',
             style: 'friul.json',
             center: [13.23, 46.06],
 			maxBounds: [12.2443,45.5427,13.9561,46.6718],
-            zoom: 8
+            zoom: 8,
+			locale: friulianLocale,
+			hash: true,
+			attributionControl: false
         });
-        map.addControl(new maplibregl.NavigationControl());
+        map.addControl(new maplibregl.NavigationControl({
+			showCompass: false
+		}));
 		map.addControl(new maplibregl.AttributionControl({
-			customAttribution: '© <a href="https://openmaptiles.org">OpenMapTiles</a> © <a href="https://www.openstreetmap.org/copyright">Colaboradôrs di OpenStreetMap</a> | <a href="https://github.com/andreadecorte/mapefurlane/blob/main/docs/informazions.md">FAQ là di GitHub</a> | Dâts: 0'
+			compact: true,
+			customAttribution: '© <a href="https://openmaptiles.org">OpenMapTiles</a> © <a href="https://www.openstreetmap.org/copyright">Colaboradôrs di OpenStreetMap</a> | <a href="https://github.com/andreadecorte/mapefurlane/blob/main/docs/informazions.md" target="_blank">FAQ</a> | <a href="https://andreadecorte.github.io/mapefurlane/" target="_blank">Liste toponims</a> | Dâts: 0'
 		}));
 		map.addControl(new maplibregl.FullscreenControl({container: document.querySelector('body')}));
 		map.addControl(new maplibregl.ScaleControl({}));
