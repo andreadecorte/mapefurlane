@@ -35,7 +35,7 @@ jobs:
       - name: Upload changed files to test path - try1
         id: uploadPR1
         if: github.event_name == 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         continue-on-error: true
         with:
           server: ${{ secrets.ftp_server }}
@@ -59,7 +59,7 @@ jobs:
         shell: bash
       - name: Upload changed files to test path - try2
         if: github.event_name == 'pull_request' && steps.uploadPR1.outcome == 'failure'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -79,7 +79,7 @@ jobs:
       - name: Upload changed files to standard path - try1
         id: uploadProd1
         if: github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         continue-on-error: true
         with:
           server: ${{ secrets.ftp_server }}
@@ -103,7 +103,7 @@ jobs:
         shell: bash
       - name: Upload changed files to standard path - try2
         if: github.event_name == 'push' && steps.uploadProd1.outcome == 'failure'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -156,7 +156,7 @@ jobs:
           file_pattern: 'static/stats/'
       - name: Upload changed files to test path
         if: github.event_name == 'pull_request'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
@@ -169,7 +169,7 @@ jobs:
             **/!(friul.mbtiles)
       - name: Upload changed files to standard path
         if: github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.ftp_server }}
           protocol: "ftps"
